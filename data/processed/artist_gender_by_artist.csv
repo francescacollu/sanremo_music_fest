@@ -1,0 +1,482 @@
+artist_id,artist_name,gender,notes,source_row
+1,883,M,,2
+2,A Great Big World feat. Christina Aguilera,Mixed,,3
+11,AKA 7even,M,,4
+3,Achille Lauro,M,,5
+4,Actarus,Mixed,,6
+5,Adele,F,,7
+6,Adriano Celentano,M,,8
+7,Aeham Ahmad,,,9
+8,Afterhours,,,10
+9,Aiello,M,,11
+10,Aitana,,,12
+12,Al Bano,M,,13
+13,Alan Sorrenti,M,,14
+16,Alberto Urso,M,,15
+18,Alessandra Amoroso,F,,16
+19,Alessio Bernabei,M,,17
+20,Alex Baroni,M,,18
+21,Alex Britti,M,,19
+22,Alfa,M,,20
+23,Alicia Keys,F,,21
+24,Alunni del Sole,,,22
+25,Amara,F,,23
+26,Amedeo Minghi,M,,24
+27,Ana Mena,F,,25
+28,Anastasio,M,,26
+29,Andrea Bocelli,M,,27
+30,Andy dei Bluvertigo,M,,28
+31,Angelina Mango,F,,29
+32,Anna Oxa,F,,30
+33,Anna Tatangelo,F,,31
+34,Annalisa,F,,32
+35,Antonello Venditti,M,,33
+36,Aretha Franklin,F,,34
+37,Ariete,F,,35
+38,Arisa,F,,36
+39,Articolo 31,M,,37
+41,BabelNova Orchestra,,,38
+42,Bambole di pezza,F,,39
+43,Baustelle,Mixed,,40
+45,Benji & Fede,M,,41
+47,Bianca Atzei,F,,42
+49,BigMama,F,,43
+51,Bluvertigo,M,,44
+52,Bnkr44,,,45
+53,Bobo Rondelli,M,,46
+54,Boomdabash,,,47
+55,Bresh,M,,48
+56,Britney Spears,F,,49
+57,Brunori Sas,M,,50
+58,Bugo,M,,51
+59,C.S.I.,,,52
+67,CCCP - Fedeli alla linea,,,53
+60,Calcutta,M,,54
+61,Calibro 35,,,55
+62,Canova,,,56
+63,Carla Bruni,F,,57
+64,Carmen Consoli,F,,58
+65,Casadilego,,,59
+66,Caterina Caselli,F,,60
+68,Cesare Cremonini,M,,61
+69,Chiara,F,,62
+70,Chiello,,,63
+71,"Christian ""Tozzo"" Montanarella",,,64
+72,Christina Aguilera et al.,,,65
+73,Clara,F,,66
+74,Claudia Mori,F,,67
+75,Claudio Santamaria,M,,68
+76,Clementino,M,,69
+78,Colapesce Dimartino,M,,70
+79,Colla Zio,,,71
+81,Coma Cose,Mixed,,72
+82,Coma_Cose,Mixed,,73
+84,Coro Voci Nere,,,74
+83,Coro del Teatro Regio di Parma,,,75
+86,Cristiano De André,M,,76
+87,Cristina D'Avena,F,,77
+90,Daniele Silvestri,M,,78
+91,Danilo Rea,M,,79
+92,Dardust,,,80
+93,Dargen D'Amico,M,,81
+94,David Bowie,M,,82
+95,Dear Jack,,,83
+98,Dik Dik,,,84
+100,Diodato,M,,85
+102,Ditonellapiaga,F,,86
+103,Dolcenera,F,,87
+104,Domenico Modugno,M,,88
+105,Don Backy,,,89
+107,Donatella Rettore,F,,90
+108,Dori Ghezzi,F,,91
+109,Eddie Brock,,,92
+111,Edoardo Bennato,M,,93
+112,Eduardo De Crescenzo,M,,94
+113,Eiffel 65,M,,95
+114,Elena D'Amario,F,,96
+115,Elettra Lamborghini,F,,97
+117,Elisa,F,,98
+118,Elodie,F,,99
+119,Elton John,M,,100
+121,Emma,F,,101
+122,Enrico Nigiotti,M,,102
+123,Enrico Ruggeri,M,,103
+124,Enzo Jannacci,M,,104
+125,Ermal Meta,M,,105
+126,Eros Ramazzotti,M,,106
+128,Eurythmics,,,107
+129,Extraliscio con Davide Toffolo,,,108
+132,Fabrizio De André,M,,109
+133,Fabrizio Moro,M,,110
+134,Fasma,,,111
+136,Fausto Leali,M,,112
+137,Federico Poggipollini,M,,113
+138,Fedez,M,,114
+140,Fiorella Mannoia,F,,115
+141,Frah Quintale,M,,116
+143,Francesca Fagnani,F,,117
+144,Francesca Michielin,F,,118
+145,Francesco De Gregori,M,,119
+146,Francesco Gabbani,M,,120
+147,Francesco Guccini,M,,121
+149,Francesco Nuti,M,,122
+151,Francesco Renga,M,,123
+152,Francesco Versace,M,,124
+153,Franco Battiato,M,,125
+154,Franco Califano,M,,126
+155,Frank Sinatra,M,,127
+156,Fred De Palma,M,,128
+157,Fulminacci,M,,129
+159,Gabriella Ferri,F,,130
+160,Gaia,F,,131
+162,"Galeffi, Fudasca & Band",,,132
+163,Gazzelle,M,,133
+166,Geolier,M,,134
+168,Ghali,M,,135
+169,Ghemon,M,,136
+170,Gianluca Grignani,M,,137
+171,Gianmaria,M,,138
+172,Gianna Nannini,F,,139
+173,Gianni Morandi,M,,140
+174,Gigi D'Agostino,M,,141
+175,Gigi D'Alessio,,,142
+178,Gino Paoli,M,,143
+179,Gio Evan,M,,144
+180,Giordana Angi,F,,145
+181,Giorgia,F,,146
+182,Giorgio Faletti,M,,147
+184,Giovanni Truppi,M,,148
+185,Giuni Russo,F,,149
+186,Giusy Ferreri,F,,150
+194,I Cugini di Campagna,M,,151
+193,I cantanti di The Voice Senior,,,152
+195,I musicisti,M,,153
+199,Il Tre,,,154
+200,Il Volo,M,,155
+201,Iljard Shaba,,,156
+202,Irama,M,,157
+203,Irene Cara,F,,158
+204,Irene Fornaciari,F,,159
+205,Irene Grandi,F,,160
+206,Iva Zanicchi,F,,161
+207,Ivana Spagna,F,,162
+208,Izi,,,163
+209,J-Ax,M,,164
+211,Jalisse,Mixed,,165
+212,Jimmy Fontana,M,,166
+213,Joan Thiele,F,,167
+214,Johnson Righeira,M,,168
+215,Jovanotti,M,,169
+216,Julio Iglesias,M,,170
+217,Junior Cally,,,171
+218,Jvke,,,172
+219,Kingdom Choir,,,173
+228,LDA,M,,174
+221,La Rappresentante di Lista,Mixed,,175
+222,La Sad,M,,176
+224,Lara Fabian,F,,177
+225,Las Ketchup,F,,178
+227,Lazza,M,,179
+229,Le Deva,,,180
+231,Le Vibrazioni,M,,181
+232,Leo Gassmann,M,,182
+233,Leonard Cohen,M,,183
+234,Levante,M,,184
+235,Ligera County Fam.,,,185
+236,Little Tony,M,,186
+237,Lo Stato Sociale,M,,187
+238,Lodovica Comello,F,,188
+239,Loredana Bertè,F,,189
+240,Lorella Cuccarini,F,,190
+241,Lorenzo Fragola,M,,191
+242,Lous and the Yakuza,,,192
+243,Luca Carboni,M,,193
+244,Luchè,,,194
+245,Lucio Battisti,M,,195
+246,Lucio Corsi,M,,196
+247,Lucio Dalla,M,,197
+248,Luigi Tenco,M,,198
+249,Lùnapop,M,,199
+250,Madame,F,,200
+252,Mahmood,M,,201
+253,Malika Ayane,F,,202
+256,Mango,M,,203
+257,Maninni,,,204
+259,Manuel Agnelli,M,,205
+260,Mara Sattei,F,,206
+261,Marcella Bella,F,,207
+262,Marco Masini,M,,208
+263,Marco Mengoni,M,,209
+269,Massimo Ranieri,M,,210
+270,Matia Bazar,Mixed,,211
+271,Matteo Romano,M,,212
+273,Mauro Pagani,M,,213
+274,Max Gazzè,M,,214
+275,Mecna,M,,215
+276,Merk & Kremont,,,216
+277,Mia Martini,F,,217
+278,Michele Bravi,M,,218
+279,Michele Zarrillo,M,,219
+280,Miguel Bosé,M,,220
+281,Milva,F,,221
+282,Mina,F,,222
+283,Mitzi Green,,,223
+284,Modà,M,,224
+285,Moreno,M,,225
+287,Mr. Rain,M,,226
+288,Myss Keta,F,,227
+289,Måneskin,Mixed,,228
+290,Nada,F,,229
+291,Napoli Mandolin Orchestra,,,230
+292,Nayt,,,231
+293,Neffa,M,,232
+294,Negramaro,M,,233
+295,Nek,N,,234
+296,Neri per Caso,M,,235
+297,Nesli,M,,236
+298,Nik Kershaw,,,237
+299,Nilla Pizzi,F,,238
+300,Nina Zilli,F,,239
+301,Nino Ferrer,M,,240
+302,Noemi,F,,241
+303,Nomadi,M,,242
+304,Ofenbach,,,243
+305,Ofenbach feat. Norma Jean Martine,,,244
+306,Olly,M,,245
+307,Orietta Berti,F,,246
+308,Ornella Vanoni,F,,247
+310,Pacifico,M,,248
+311,Paola & Chiara,F,,249
+312,Paola Turci,F,,250
+313,Paolo Jannacci,M,,251
+314,Paolo Vallesi,M,,252
+315,Patty Pravo,F,,253
+316,Paul McCartney,M,,254
+317,Peter Pichler,M,,255
+318,Pierangelo Bertoli,M,,256
+319,Piero Pelù,M,,257
+320,Pinguini Tattici Nucleari,M,,258
+321,Pino D'Angiò,M,,259
+322,Pino Daniele,M,,260
+323,Pooh,M,,261
+325,Premiata Forneria Marconi,M,,262
+326,Pupo,M,,263
+327,Quartetto Cetra,,,264
+328,Quartetto d'archi dell'Orchestra di Roma,,,265
+329,Queen,M,,266
+330,Raf,M,,267
+331,Raffaella Carrà,F,,268
+332,Rancore,,,269
+333,Random,,,270
+334,Raoul Casadei,M,,271
+335,Raphael Gualazzi,M,,272
+336,Ratchopper,,,273
+337,Ray Charles,M,,274
+339,Renato Carosone,M,,275
+340,Renato Zero,M,,276
+341,Renzo Rubino,M,,277
+343,Riccardo Cocciante,M,,278
+347,Righeira,M,,279
+348,Riki,M,,280
+349,Rino Gaetano,M,,281
+350,Rita Marcotulli,F,,282
+351,Rita Pavone,F,,283
+352,Rkomi,M,,284
+353,Roberto Vecchioni,M,,285
+354,Rocco Hunt,M,,286
+355,Rocco Tanica,M,,287
+357,Ron,M,,288
+358,Rosa Chemical,M,,289
+359,Rose Villain,F,,290
+362,Sal Da Vinci,M,,291
+363,Salmo,M,,292
+364,Samuel,M,,293
+365,Samuele Bersani,M,,294
+366,Samurai Jay,,,295
+367,Sangiovanni,M,,296
+368,Santi Francesi,,,297
+369,Sarah Toscano,F,,298
+370,Saverio Cigarini,M,,299
+371,Saverio Lanza,M,,300
+372,Sayf,M,,301
+373,Serena Brancale,F,,302
+374,Sergio Endrigo,M,,303
+375,Sergio Sylvestre,M,,304
+376,Sethu,,,305
+378,Shari,M,,306
+379,Simon & Garfunkel,M,,307
+380,Simona Molinari,F,,308
+381,Simone Cristicchi,M,,309
+383,Skin,F,,310
+384,Solis String Quartet,,,311
+385,Sophie and the Giants con Peppe Vessicchio,Mixed,,312
+386,Sottotono,M,,313
+387,Soul System,,,314
+388,Stadio,M,,315
+389,Stef Burns,,,316
+390,Stjepan Hauser,,,317
+391,Sud Sound System,,,318
+392,Sílvia Pérez Cruz,F,,319
+394,Tananai,M,,320
+395,Tenores di Bitti,M,,321
+396,The Beatles,M,,322
+397,The Bluebeaters,,,323
+398,The Guess Who,,,324
+399,The Kolors,M,,325
+400,The Ronettes,,,326
+401,Timofej Andrijashenko,,,327
+403,Tiziano Ferro,M,,328
+404,Tommaso Paradiso,M,,329
+407,TonyPitony,M,,330
+408,Topo Gigio,M,,331
+409,Toquinho,,,332
+411,Tosca,F,,333
+412,Toto Cutugno,M,,334
+413,Tozzi-Morandi-Ruggeri,M,,335
+414,Tredici Pietro,M,,336
+415,Tricarico,M,,337
+416,Tullio De Piscopo,M,,338
+417,Twin Violins,,,339
+418,Ultimo,M,,340
+419,Umberto Tozzi,M,,341
+421,Valerio Scanu,M,,342
+422,Vasco Rossi,M,,343
+423,Vegas Jones,,,344
+424,Venerus,,,345
+425,Viito,,,346
+426,Vinicio Capossela con Mauro Pagani,M,,347
+427,Walter Murphy,,,348
+428,Will,,,349
+429,Willie Peyote,M,,350
+430,Yuman,,,351
+431,Zero Assoluto,M,,352
+432,Zucchero,M,,353
+433,Zucchero Fornaciari,M,,354
+12,Al Bano,,,355
+356,Romina Power,,,355
+15,Alberto Radius,,,356
+254,Mamakass,,,356
+17,Aleandro Baldi,,,357
+142,Francesca Alotta,,,357
+18,Alessandra Amoroso,,,358
+54,Boomdabash,,,358
+21,Alex Britti,,,359
+266,Mario Biondi,,,359
+44,Belén Rodríguez,,,360
+360,Roy Paci,,,360
+48,Biggio,,,361
+255,Mandelli,,,361
+58,Bugo,,,362
+286,Morgan,,,362
+77,Cochi,,,363
+338,Renato,,,363
+85,Cosmo,,,364
+264,Margherita Vicario,,,364
+177,Ginevra,,,364
+90,Daniele Silvestri,,,365
+251,Magical Mistery Band,,,365
+92,Dardust,,,366
+221,La Rappresentante di Lista,,,366
+99,Dimartino,,,367
+344,Riccardo Sinigallia,,,367
+102,Ditonellapiaga,,,368
+342,Rettore,,,368
+104,Domenico Modugno,,,369
+176,Gigliola Cinquetti,,,369
+106,Don Joe,,,370
+46,Biagio Antonacci,,,370
+111,Edoardo Bennato,,,371
+198,il Quartetto Flegreo,,,371
+110,Edoardo,,,372
+127,Eugenio Bennato,,,372
+116,Elio,,,373
+230,le Storie Tese,,,373
+117,Elisa,,,374
+181,Giorgia,,,374
+118,Elodie,,,375
+3,Achille Lauro,,,375
+120,Emanuela Fanelli,,,376
+150,Francesco Pannofino,,,376
+121,Emma,,,377
+226,Laura Marzadori,,,377
+125,Ermal Meta,,,378
+133,Fabrizio Moro,,,378
+135,Fausto Cigliano,,,379
+165,Gene Pitney,,,379
+138,Fedez,,,380
+268,Masini,,,380
+144,Francesca Michielin,,,381
+138,Fedez,,,381
+144,Francesca Michielin,,,382
+265,Maria Antonietta,,,382
+148,Francesco Mandelli,,,383
+89,Daniele Moretto,,,383
+161,Gaia - La Niña,,,384
+382,Sissi,,,384
+164,Gemelli DiVersi,,,385
+287,Mr. Rain,,,385
+164,Gemelli DiVersi,,,386
+220,la nazionale di ginnastica ritmica,,,386
+167,Geolier feat. Lazza,,,387
+393,Takagi & Ketra,,,387
+173,Gianni Morandi,,,388
+247,Lucio Dalla,,,388
+183,Giovanni Caccamo,,,389
+96,Deborah Iurato,,,389
+187,Goran Bregović,,,390
+223,la Wedding & Funeral Band,,,390
+188,Grazia Di Michele,,,391
+272,Mauro Coruzzi,,,391
+189,Gregory Porter,,,392
+97,Delia,,,392
+190,Guè,,,393
+244,Luchè,,,393
+175,Gigi D'Alessio,,,393
+190,Guè,,,394
+267,Marracash,,,394
+191,Highsnob,,,395
+192,Hu,,,395
+207,Ivana Spagna,,,396
+197,il Coro di voci bianche del Teatro Regio di Torino,,,396
+210,Jack Savoretti,,,397
+139,Filippo Timi,,,397
+228,LDA,,,398
+11,AKA 7even,,,398
+221,La Rappresentante di Lista,,,399
+196,il coro Artemia,,,399
+252,Mahmood,,,400
+50,Blanco,,,400
+258,Mannoia,,,401
+158,Gabbani,,,401
+265,Maria Antonietta,,,402
+80,Colombre,,,402
+282,Mina,,,403
+14,Alberto Lupo,,,403
+293,Neffa,,,404
+386,Sottotono,,,404
+302,Noemi,,,405
+406,Tony Effe,,,405
+308,Ornella Vanoni,,,406
+178,Gino Paoli,,,406
+309,P. Vallesi,,,407
+88,Cugini di Campagna,,,407
+326,Pupo,,,408
+131,Fabrizio Bosso,,,408
+343,Riccardo Cocciante,,,409
+239,Loredana Bertè,,,409
+345,Ricchi,,,410
+324,Poveri,,,410
+346,Ricky Portera,,,411
+130,Fabio Liberatori,,,411
+352,Rkomi,,,412
+144,Francesca Michielin,,,412
+361,S. Cristicchi,,,413
+40,B. Antonacci,,,413
+377,Shablo con Guè Joshua,,,414
+410,Tormento,,,414
+402,Tiromancino,,,415
+102,Ditonellapiaga,,,415
+405,Tony Del Monaco,,,416
+101,Dionne Warwick,,,416
+420,Valerio Lundini,,,417
+360,Roy Paci,,,417

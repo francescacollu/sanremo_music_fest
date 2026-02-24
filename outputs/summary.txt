@@ -1,0 +1,136 @@
+Sanremo cover night – analysis summary
+==================================================
+
+Top 10 songs by degree centrality (bipartite contestant-song):
+  Un'emozione da poco (0.0066)
+  Mi sono innamorato di te (0.0066)
+  E la vita la vita (0.0044)
+  Io che amo solo te (0.0044)
+  Vivere (0.0044)
+  A mano a mano (0.0044)
+  Il mio canto libero (0.0044)
+  Io vivrò (senza te) (0.0044)
+  America (0.0044)
+  Quando finisce un amore (0.0044)
+
+Top 10 original artists by degree centrality:
+  Lucio Battisti (0.0257)
+  Adriano Celentano (0.0200)
+  Fabrizio De André (0.0200)
+  Luigi Tenco (0.0171)
+  Ornella Vanoni (0.0171)
+  Lucio Dalla (0.0171)
+  Riccardo Cocciante (0.0143)
+  Gianna Nannini (0.0143)
+  Caterina Caselli (0.0114)
+  Vasco Rossi (0.0114)
+
+Top 15 guest/contestant by degree:
+  Arisa (0.0222)
+  Malika Ayane (0.0148)
+  Fiorella Mannoia (0.0148)
+  Annalisa (0.0148)
+  The Kolors (0.0148)
+  Neffa (0.0111)
+  Michele Zarrillo (0.0111)
+  Levante (0.0111)
+  Le Vibrazioni (0.0111)
+  Fulminacci (0.0111)
+  Francesco Renga (0.0111)
+  Gaia (0.0111)
+  Ermal Meta (0.0111)
+  Sangiovanni (0.0111)
+  Irama (0.0111)
+
+Top 15 co-occurrence pairs (same edition):
+  Adriano Celentano / Ornella Vanoni (weight=4)
+  Adriano Celentano / Franco Battiato (weight=4)
+  Ornella Vanoni / Lucio Dalla (weight=4)
+  Gianna Nannini / Fabrizio De André (weight=4)
+  Lucio Dalla / Fabrizio De André (weight=4)
+  Lucio Dalla / Riccardo Cocciante (weight=4)
+  Lucio Dalla / Lucio Battisti (weight=4)
+  Fabrizio De André / Riccardo Cocciante (weight=4)
+  Fabrizio De André / Lucio Battisti (weight=4)
+  Pino Daniele / Lucio Battisti (weight=4)
+  Adriano Celentano / Sergio Endrigo (weight=3)
+  Adriano Celentano / Vasco Rossi (weight=3)
+  Adriano Celentano / Caterina Caselli (weight=3)
+  Adriano Celentano / Zucchero (weight=3)
+  Adriano Celentano / Anna Oxa (weight=3)
+
+Winners vs canon:
+  Winning songs: ['Se telefonando', 'La sera dei miracoli', 'Amara terra mia', 'Piazza Grande', 'Caruso', 'Medley', 'Let It Be', 'Strade (Medley)', 'Skyfall']
+  Overlap with top 30 most covered songs: []
+  Winning original artists: ['Mina', 'Lucio Dalla', 'Domenico Modugno', 'Lucio Dalla', 'Lucio Dalla', '[Morandi, Jovanotti]', 'The Beatles', '[Guè, Luchè, Geolier]', 'Adele']
+  Overlap with top 30 most covered artists: ['Mina', 'Lucio Dalla', 'Domenico Modugno', 'Lucio Dalla', 'Lucio Dalla']
+
+Medleys vs canon (top 30):
+  Canon songs appearing in medleys: ['A mano a mano', 'Angelo', 'Adesso tu', "L'italiano", 'Ragazzo fortunato', 'Il mondo', 'La canzone del sole', 'Portami via', 'Nessuno mi può giudicare', 'Penso positivo', 'Gianna', 'Sarà perché ti amo', 'Salirò', 'Meravigliosa creatura']
+  Canon artists appearing in medleys: ['Jovanotti', '[Ricchi, Poveri]', 'Loredana Bertè', 'Fabrizio Moro', 'Vasco Rossi', 'Edoardo Bennato', 'Caterina Caselli', 'Articolo 31', 'Zucchero', 'Eros Ramazzotti', 'Riccardo Cocciante', 'Gianni Morandi', 'Paola & Chiara', 'Daniele Silvestri', 'Lucio Battisti', 'Gianna Nannini']
+
+Ego networks for selected iconic artists (co-occurring originals):
+  Lucio Battisti:
+    - Lucio Dalla (weight=4)
+    - Fabrizio De André (weight=4)
+    - Pino Daniele (weight=4)
+    - Loredana Bertè (weight=3)
+    - Riccardo Cocciante (weight=3)
+    - Luigi Tenco (weight=3)
+    - Domenico Modugno (weight=2)
+    - Gianna Nannini (weight=2)
+    - Gianni Morandi (weight=2)
+    - Patty Pravo (weight=2)
+  Lucio Dalla:
+    - Fabrizio De André (weight=4)
+    - Riccardo Cocciante (weight=4)
+    - Lucio Battisti (weight=4)
+    - Ornella Vanoni (weight=4)
+    - Gianna Nannini (weight=3)
+    - Pino Daniele (weight=3)
+    - Adriano Celentano (weight=3)
+    - Luigi Tenco (weight=3)
+    - Domenico Modugno (weight=2)
+    - Loredana Bertè (weight=2)
+  Fabrizio De André:
+    - Gianna Nannini (weight=4)
+    - Lucio Dalla (weight=4)
+    - Riccardo Cocciante (weight=4)
+    - Lucio Battisti (weight=4)
+    - Loredana Bertè (weight=3)
+    - Pino Daniele (weight=3)
+    - Luigi Tenco (weight=3)
+    - Gianluca Grignani (weight=3)
+    - Domenico Modugno (weight=2)
+    - Gianni Morandi (weight=2)
+
+Self-covers and self-tributes:
+  Total self-covers detected: 27
+  Years with at least one self-cover: [2016, 2022, 2023, 2024]
+
+Medley performances: 23
+Songs per medley (year, contestant, n_songs):
+ year                        contestant  n_songs
+ 2020         Pinguini Tattici Nucleari        8
+ 2021    Extraliscio con Davide Toffolo        3
+ 2021                            Ghemon        4
+ 2021      [Francesca Michielin, Fedez]        5
+ 2022                          Ana Mena        3
+ 2022                    Gianni Morandi        4
+ 2022                             Rkomi        3
+ 2023                       Articolo 31        9
+ 2023                      Leo Gassmann        3
+ 2023                    Paola & Chiara        4
+ 2023                             Shari        2
+ 2023                            Ultimo        3
+ 2024                Alessandra Amoroso        3
+ 2024                              Emma        3
+ 2024                     Fred De Palma        3
+ 2024                           Geolier        3
+ 2024                             Ghali        3
+ 2024                            Il Tre        3
+ 2024                         Renga Nek        4
+ 2024                      Rose Villain        3
+ 2024                        The Kolors        3
+ 2025           [Elodie, Achille Lauro]        2
+ 2025 [Shablo con Guè Joshua, Tormento]        2
