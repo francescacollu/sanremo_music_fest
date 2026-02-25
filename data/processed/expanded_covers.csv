@@ -3,7 +3,7 @@ year,edition,contestant,song,original_artist,song_year,song_year_parsed,guest_ar
 2015,LXV,Irene Grandi,Se perdo te,Patty Pravo,1967,1967,Saverio Lanza
 2015,LXV,Moreno,Una carezza in un pugno,Adriano Celentano,1968,1968,-
 2015,LXV,Anna Tatangelo,Dio come ti amo,"[Domenico Modugno, Gigliola Cinquetti]",1966,1966,-
-2015,LXV,"[Biggio, Mandelli]",E la vita la vita,"[Cochi, Renato]",1974,1974,-
+2015,LXV,"[Biggio, Mandelli]",E la vita la vita,Cochi e Renato,1974,1974,-
 2015,LXV,Chiara,Il volto della vita,Caterina Caselli,1968,1968,-
 2015,LXV,Nesli,Mare mare,Luca Carboni,1992,1992,-
 2015,LXV,Nek,Se telefonando,Mina,1966,1966,-
@@ -27,7 +27,7 @@ year,edition,contestant,song,original_artist,song_year,song_year_parsed,guest_ar
 2016,LXVI,Alessio Bernabei,A mano a mano,Riccardo Cocciante,1977,1977,Benji & Fede
 2016,LXVI,Dolcenera,Amore disperato,Nada,1983,1983,-
 2016,LXVI,Clementino,Don Raffaè,Fabrizio De André,1990,1990,-
-2016,LXVI,"[Elio, le Storie Tese]",Il quinto ripensamento,Walter Murphy,1976,1976,Rocco Tanica
+2016,LXVI,Elio e le Storie Tese,Il quinto ripensamento,Walter Murphy,1976,1976,Rocco Tanica
 2016,LXVI,Arisa,Cuore,Rita Pavone,1963,1963,-
 2016,LXVI,Rocco Hunt,Tu vuò fà l'americano,Renato Carosone,1956,1956,-
 2016,LXVI,Francesca Michielin,Il mio canto libero,Lucio Battisti,1972,1972,-
@@ -128,7 +128,7 @@ year,edition,contestant,song,original_artist,song_year,song_year_parsed,guest_ar
 2023,LXXIII,Elodie,American Woman,The Guess Who,1970,1970,BigMama
 2023,LXXIII,Olly,La notte vola,Lorella Cuccarini,1989,1989,Lorella Cuccarini
 2023,LXXIII,Lazza,La fine,Nesli,2009,2009,"[Emma, Laura Marzadori]"
-2023,LXXIII,Tananai,Vorrei cantare come Biagio / Sognami,"[S. Cristicchi, B. Antonacci]",2005-2007,2005,"[Don Joe, Biagio Antonacci]"
+2023,LXXIII,Tananai,Vorrei cantare come Biagio / Sognami,"[S. Cristicchi, Biagio Antonacci]",2005-2007,2005,"[Don Joe, Biagio Antonacci]"
 2023,LXXIII,Gianluca Grignani,Destinazione Paradiso,Gianluca Grignani,1995,1995,Arisa
 2023,LXXIII,Giorgia,Luce (tramonti a nord est) / Di sole e d'azzurro,"[Elisa, Giorgia]",2001,2001,Elisa
 2023,LXXIII,Colapesce Dimartino,Azzurro,Adriano Celentano,1968,1968,Carla Bruni
@@ -137,7 +137,7 @@ year,edition,contestant,song,original_artist,song_year,song_year_parsed,guest_ar
 2023,LXXIII,Gianmaria,Quello che non c'è,Afterhours,2002,2002,Manuel Agnelli
 2023,LXXIII,Mr. Rain,Qualcosa di grande,Lùnapop,2000,2000,Fasma
 2023,LXXIII,Madame,Via del Campo,Fabrizio De André,1967,1967,Izi
-2023,LXXIII,Coma_Cose,Sarà perché ti amo,"[Ricchi, Poveri]",1981,1981,Baustelle
+2023,LXXIII,Coma Cose,Sarà perché ti amo,Ricchi e Poveri,1981,1981,Baustelle
 2023,LXXIII,Rosa Chemical,America,Gianna Nannini,1979,1979,Rose Villain
 2023,LXXIII,Modà,Vieni da me,Le Vibrazioni,2003,2003,Le Vibrazioni
 2023,LXXIII,Levante,Vivere,Vasco Rossi,1993,1993,Renzo Rubino
@@ -154,7 +154,7 @@ year,edition,contestant,song,original_artist,song_year,song_year_parsed,guest_ar
 2024,LXXIV,Irama,Quando finisce un amore,Riccardo Cocciante,1974,1974,Riccardo Cocciante
 2024,LXXIV,Fiorella Mannoia,Che sia benedetta / Occidentali's Karma,"[Mannoia, Gabbani]",2017,2017,Francesco Gabbani
 2024,LXXIV,Santi Francesi,Hallelujah,Leonard Cohen,1984,1984,Skin
-2024,LXXIV,"[Ricchi, Poveri]",Sarà perché ti amo / Mamma Maria,"[Ricchi, Poveri]",1981-1982,1981,Paola & Chiara
+2024,LXXIV,Ricchi e Poveri,Sarà perché ti amo / Mamma Maria,Ricchi e Poveri,1981-1982,1981,Paola & Chiara
 2024,LXXIV,Clara,Il cerchio della vita,Ivana Spagna,1995,1995,"[Ivana Spagna, il Coro di voci bianche del Teatro Regio di Torino]"
 2024,LXXIV,Loredana Bertè,Ragazzo mio,Luigi Tenco,1964,1964,Venerus
 2024,LXXIV,Angelina Mango,La rondine,Mango,2002,2002,Quartetto d'archi dell'Orchestra di Roma
@@ -183,7 +183,7 @@ year,edition,contestant,song,original_artist,song_year,song_year_parsed,guest_ar
 2025,LXXV,Giorgia,Skyfall,Adele,2012,2012,Annalisa
 2025,LXXV,Simone Cristicchi,La cura,Franco Battiato,1996,1996,Amara
 2025,LXXV,Sarah Toscano,Overdrive,Ofenbach feat. Norma Jean Martine,2023,2023,Ofenbach
-2025,LXXV,Coma_Cose,L'estate sta finendo,Righeira,1985,1985,Johnson Righeira
+2025,LXXV,Coma Cose,L'estate sta finendo,Righeira,1985,1985,Johnson Righeira
 2025,LXXV,Joan Thiele,Che cosa c'è,Gino Paoli,1964,1964,Frah Quintale
 2025,LXXV,Olly,Il pescatore,Fabrizio De André,1970,1970,"[Goran Bregović, la Wedding & Funeral Band]"
 2025,LXXV,"[Elodie, Achille Lauro]",A mano a mano / Folle città,"[Riccardo Cocciante, Loredana Bertè]",1978/1979,,-
@@ -205,7 +205,7 @@ year,edition,contestant,song,original_artist,song_year,song_year_parsed,guest_ar
 2026,LXXVI,"[Fedez, Masini]",Meravigliosa creatura,Gianna Nannini,1995,1995,Stjepan Hauser
 2026,LXXVI,Francesco Renga,"Ragazzo solo, ragazza sola",David Bowie,1970,1970,Giusy Ferreri
 2026,LXXVI,Fulminacci,Parole parole,"[Mina, Alberto Lupo]",1972,1972,Francesca Fagnani
-2026,LXXVI,J-Ax,E la vita la vita,"[Cochi, Renato]",1974,1974,Ligera County Fam.
+2026,LXXVI,J-Ax,E la vita la vita,Cochi e Renato,1974,1974,Ligera County Fam.
 2026,LXXVI,"[LDA, AKA 7even]",Andamento lento,Tullio De Piscopo,1988,1988,Tullio De Piscopo
 2026,LXXVI,Leo Gassmann,Era già tutto previsto,Riccardo Cocciante,1975,1975,Aiello
 2026,LXXVI,Levante,I maschi,Gianna Nannini,1987,1987,Gaia
@@ -226,7 +226,7 @@ year,edition,contestant,song,original_artist,song_year,song_year_parsed,guest_ar
 2020,LXX,Pinguini Tattici Nucleari,Papaveri e papere,Nilla Pizzi,,,-
 2020,LXX,Pinguini Tattici Nucleari,Nessuno mi può giudicare,Caterina Caselli,,,-
 2020,LXX,Pinguini Tattici Nucleari,Gianna,Rino Gaetano,,,-
-2020,LXX,Pinguini Tattici Nucleari,Sarà perché ti amo,"[Ricchi, Poveri]",,,-
+2020,LXX,Pinguini Tattici Nucleari,Sarà perché ti amo,Ricchi e Poveri,,,-
 2020,LXX,Pinguini Tattici Nucleari,Una musica può fare,Max Gazzè,,,-
 2020,LXX,Pinguini Tattici Nucleari,Salirò,Daniele Silvestri,,,-
 2020,LXX,Pinguini Tattici Nucleari,Sono solo parole,Noemi,,,-

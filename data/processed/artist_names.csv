@@ -38,397 +38,393 @@ artist_id,artist_name
 37,Ariete
 38,Arisa
 39,Articolo 31
-40,B. Antonacci
-41,BabelNova Orchestra
-42,Bambole di pezza
-43,Baustelle
-44,Belén Rodríguez
-45,Benji & Fede
-46,Biagio Antonacci
-47,Bianca Atzei
-48,Biggio
-49,BigMama
-50,Blanco
-51,Bluvertigo
-52,Bnkr44
-53,Bobo Rondelli
-54,Boomdabash
-55,Bresh
-56,Britney Spears
-57,Brunori Sas
-58,Bugo
-59,C.S.I.
-60,Calcutta
-61,Calibro 35
-62,Canova
-63,Carla Bruni
-64,Carmen Consoli
-65,Casadilego
-66,Caterina Caselli
-67,CCCP - Fedeli alla linea
-68,Cesare Cremonini
-69,Chiara
-70,Chiello
-71,"Christian ""Tozzo"" Montanarella"
-72,Christina Aguilera et al.
-73,Clara
-74,Claudia Mori
-75,Claudio Santamaria
-76,Clementino
-77,Cochi
-78,Colapesce Dimartino
-79,Colla Zio
-80,Colombre
-81,Coma Cose
-82,Coma_Cose
-83,Coro del Teatro Regio di Parma
-84,Coro Voci Nere
-85,Cosmo
-86,Cristiano De André
-87,Cristina D'Avena
-88,Cugini di Campagna
-89,Daniele Moretto
-90,Daniele Silvestri
-91,Danilo Rea
-92,Dardust
-93,Dargen D'Amico
-94,David Bowie
-95,Dear Jack
-96,Deborah Iurato
-97,Delia
-98,Dik Dik
-99,Dimartino
-100,Diodato
-101,Dionne Warwick
-102,Ditonellapiaga
-103,Dolcenera
-104,Domenico Modugno
-105,Don Backy
-106,Don Joe
-107,Donatella Rettore
-108,Dori Ghezzi
-109,Eddie Brock
-110,Edoardo
-111,Edoardo Bennato
-112,Eduardo De Crescenzo
-113,Eiffel 65
-114,Elena D'Amario
-115,Elettra Lamborghini
-116,Elio
-117,Elisa
-118,Elodie
-119,Elton John
-120,Emanuela Fanelli
-121,Emma
-122,Enrico Nigiotti
-123,Enrico Ruggeri
-124,Enzo Jannacci
-125,Ermal Meta
-126,Eros Ramazzotti
-127,Eugenio Bennato
-128,Eurythmics
-129,Extraliscio con Davide Toffolo
-130,Fabio Liberatori
-131,Fabrizio Bosso
-132,Fabrizio De André
-133,Fabrizio Moro
-134,Fasma
-135,Fausto Cigliano
-136,Fausto Leali
-137,Federico Poggipollini
-138,Fedez
-139,Filippo Timi
-140,Fiorella Mannoia
-141,Frah Quintale
-142,Francesca Alotta
-143,Francesca Fagnani
-144,Francesca Michielin
-145,Francesco De Gregori
-146,Francesco Gabbani
-147,Francesco Guccini
-148,Francesco Mandelli
-149,Francesco Nuti
-150,Francesco Pannofino
-151,Francesco Renga
-152,Francesco Versace
-153,Franco Battiato
-154,Franco Califano
-155,Frank Sinatra
-156,Fred De Palma
-157,Fulminacci
-158,Gabbani
-159,Gabriella Ferri
-160,Gaia
-161,Gaia - La Niña
-162,"Galeffi, Fudasca & Band"
-163,Gazzelle
-164,Gemelli DiVersi
-165,Gene Pitney
-166,Geolier
-167,Geolier feat. Lazza
-168,Ghali
-169,Ghemon
-170,Gianluca Grignani
-171,Gianmaria
-172,Gianna Nannini
-173,Gianni Morandi
-174,Gigi D'Agostino
-175,Gigi D'Alessio
-176,Gigliola Cinquetti
-177,Ginevra
-178,Gino Paoli
-179,Gio Evan
-180,Giordana Angi
-181,Giorgia
-182,Giorgio Faletti
-183,Giovanni Caccamo
-184,Giovanni Truppi
-185,Giuni Russo
-186,Giusy Ferreri
-187,Goran Bregović
-188,Grazia Di Michele
-189,Gregory Porter
-190,Guè
-191,Highsnob
-192,Hu
-193,I cantanti di The Voice Senior
-194,I Cugini di Campagna
-195,I musicisti
-196,il coro Artemia
-197,il Coro di voci bianche del Teatro Regio di Torino
-198,il Quartetto Flegreo
-199,Il Tre
-200,Il Volo
-201,Iljard Shaba
-202,Irama
-203,Irene Cara
-204,Irene Fornaciari
-205,Irene Grandi
-206,Iva Zanicchi
-207,Ivana Spagna
-208,Izi
-209,J-Ax
-210,Jack Savoretti
-211,Jalisse
-212,Jimmy Fontana
-213,Joan Thiele
-214,Johnson Righeira
-215,Jovanotti
-216,Julio Iglesias
-217,Junior Cally
-218,Jvke
-219,Kingdom Choir
-220,la nazionale di ginnastica ritmica
-221,La Rappresentante di Lista
-222,La Sad
-223,la Wedding & Funeral Band
-224,Lara Fabian
-225,Las Ketchup
-226,Laura Marzadori
-227,Lazza
-228,LDA
-229,Le Deva
-230,le Storie Tese
-231,Le Vibrazioni
-232,Leo Gassmann
-233,Leonard Cohen
-234,Levante
-235,Ligera County Fam.
-236,Little Tony
-237,Lo Stato Sociale
-238,Lodovica Comello
-239,Loredana Bertè
-240,Lorella Cuccarini
-241,Lorenzo Fragola
-242,Lous and the Yakuza
-243,Luca Carboni
-244,Luchè
-245,Lucio Battisti
-246,Lucio Corsi
-247,Lucio Dalla
-248,Luigi Tenco
-249,Lùnapop
-250,Madame
-251,Magical Mistery Band
-252,Mahmood
-253,Malika Ayane
-254,Mamakass
-255,Mandelli
-256,Mango
-257,Maninni
-258,Mannoia
-259,Manuel Agnelli
-260,Mara Sattei
-261,Marcella Bella
-262,Marco Masini
-263,Marco Mengoni
-264,Margherita Vicario
-265,Maria Antonietta
-266,Mario Biondi
-267,Marracash
-268,Masini
-269,Massimo Ranieri
-270,Matia Bazar
-271,Matteo Romano
-272,Mauro Coruzzi
-273,Mauro Pagani
-274,Max Gazzè
-275,Mecna
-276,Merk & Kremont
-277,Mia Martini
-278,Michele Bravi
-279,Michele Zarrillo
-280,Miguel Bosé
-281,Milva
-282,Mina
-283,Mitzi Green
-284,Modà
-285,Moreno
-286,Morgan
-287,Mr. Rain
-288,Myss Keta
-289,Måneskin
-290,Nada
-291,Napoli Mandolin Orchestra
-292,Nayt
-293,Neffa
-294,Negramaro
-295,Nek
-296,Neri per Caso
-297,Nesli
-298,Nik Kershaw
-299,Nilla Pizzi
-300,Nina Zilli
-301,Nino Ferrer
-302,Noemi
-303,Nomadi
-304,Ofenbach
-305,Ofenbach feat. Norma Jean Martine
-306,Olly
-307,Orietta Berti
-308,Ornella Vanoni
-309,P. Vallesi
-310,Pacifico
-311,Paola & Chiara
-312,Paola Turci
-313,Paolo Jannacci
-314,Paolo Vallesi
-315,Patty Pravo
-316,Paul McCartney
-317,Peter Pichler
-318,Pierangelo Bertoli
-319,Piero Pelù
-320,Pinguini Tattici Nucleari
-321,Pino D'Angiò
-322,Pino Daniele
-323,Pooh
-324,Poveri
-325,Premiata Forneria Marconi
-326,Pupo
-327,Quartetto Cetra
-328,Quartetto d'archi dell'Orchestra di Roma
-329,Queen
-330,Raf
-331,Raffaella Carrà
-332,Rancore
-333,Random
-334,Raoul Casadei
-335,Raphael Gualazzi
-336,Ratchopper
-337,Ray Charles
-338,Renato
-339,Renato Carosone
-340,Renato Zero
-341,Renzo Rubino
-342,Rettore
-343,Riccardo Cocciante
-344,Riccardo Sinigallia
-345,Ricchi
-346,Ricky Portera
-347,Righeira
-348,Riki
-349,Rino Gaetano
-350,Rita Marcotulli
-351,Rita Pavone
-352,Rkomi
-353,Roberto Vecchioni
-354,Rocco Hunt
-355,Rocco Tanica
-356,Romina Power
-357,Ron
-358,Rosa Chemical
-359,Rose Villain
-360,Roy Paci
-361,S. Cristicchi
-362,Sal Da Vinci
-363,Salmo
-364,Samuel
-365,Samuele Bersani
-366,Samurai Jay
-367,Sangiovanni
-368,Santi Francesi
-369,Sarah Toscano
-370,Saverio Cigarini
-371,Saverio Lanza
-372,Sayf
-373,Serena Brancale
-374,Sergio Endrigo
-375,Sergio Sylvestre
-376,Sethu
-377,Shablo con Guè Joshua
-378,Shari
-379,Simon & Garfunkel
-380,Simona Molinari
-381,Simone Cristicchi
-382,Sissi
-383,Skin
-384,Solis String Quartet
-385,Sophie and the Giants con Peppe Vessicchio
-386,Sottotono
-387,Soul System
-388,Stadio
-389,Stef Burns
-390,Stjepan Hauser
-391,Sud Sound System
-392,Sílvia Pérez Cruz
-393,Takagi & Ketra
-394,Tananai
-395,Tenores di Bitti
-396,The Beatles
-397,The Bluebeaters
-398,The Guess Who
-399,The Kolors
-400,The Ronettes
-401,Timofej Andrijashenko
-402,Tiromancino
-403,Tiziano Ferro
-404,Tommaso Paradiso
-405,Tony Del Monaco
-406,Tony Effe
-407,TonyPitony
-408,Topo Gigio
-409,Toquinho
-410,Tormento
-411,Tosca
-412,Toto Cutugno
-413,Tozzi-Morandi-Ruggeri
-414,Tredici Pietro
-415,Tricarico
-416,Tullio De Piscopo
-417,Twin Violins
-418,Ultimo
-419,Umberto Tozzi
-420,Valerio Lundini
-421,Valerio Scanu
-422,Vasco Rossi
-423,Vegas Jones
-424,Venerus
-425,Viito
-426,Vinicio Capossela con Mauro Pagani
-427,Walter Murphy
-428,Will
-429,Willie Peyote
-430,Yuman
-431,Zero Assoluto
-432,Zucchero
-433,Zucchero Fornaciari
+40,BabelNova Orchestra
+41,Bambole di pezza
+42,Baustelle
+43,Belén Rodríguez
+44,Benji & Fede
+45,Biagio Antonacci
+46,Bianca Atzei
+47,Biggio
+48,BigMama
+49,Blanco
+50,Bluvertigo
+51,Bnkr44
+52,Bobo Rondelli
+53,Boomdabash
+54,Bresh
+55,Britney Spears
+56,Brunori Sas
+57,Bugo
+58,C.S.I.
+59,Calcutta
+60,Calibro 35
+61,Canova
+62,Carla Bruni
+63,Carmen Consoli
+64,Casadilego
+65,Caterina Caselli
+66,CCCP - Fedeli alla linea
+67,Cesare Cremonini
+68,Chiara
+69,Chiello
+70,"Christian ""Tozzo"" Montanarella"
+71,Christina Aguilera et al.
+72,Clara
+73,Claudia Mori
+74,Claudio Santamaria
+75,Clementino
+76,Cochi e Renato
+77,Colapesce Dimartino
+78,Colla Zio
+79,Colombre
+80,Coma Cose
+81,Coro del Teatro Regio di Parma
+82,Coro Voci Nere
+83,Cosmo
+84,Cristiano De André
+85,Cristina D'Avena
+86,Cugini di Campagna
+87,Daniele Moretto
+88,Daniele Silvestri
+89,Danilo Rea
+90,Dardust
+91,Dargen D'Amico
+92,David Bowie
+93,Dear Jack
+94,Deborah Iurato
+95,Delia
+96,Dik Dik
+97,Dimartino
+98,Diodato
+99,Dionne Warwick
+100,Ditonellapiaga
+101,Dolcenera
+102,Domenico Modugno
+103,Don Backy
+104,Don Joe
+105,Donatella Rettore
+106,Dori Ghezzi
+107,Eddie Brock
+108,Edoardo
+109,Edoardo Bennato
+110,Eduardo De Crescenzo
+111,Eiffel 65
+112,Elena D'Amario
+113,Elettra Lamborghini
+114,Elio e le Storie Tese
+115,Elisa
+116,Elodie
+117,Elton John
+118,Emanuela Fanelli
+119,Emma
+120,Enrico Nigiotti
+121,Enrico Ruggeri
+122,Enzo Jannacci
+123,Ermal Meta
+124,Eros Ramazzotti
+125,Eugenio Bennato
+126,Eurythmics
+127,Extraliscio con Davide Toffolo
+128,Fabio Liberatori
+129,Fabrizio Bosso
+130,Fabrizio De André
+131,Fabrizio Moro
+132,Fasma
+133,Fausto Cigliano
+134,Fausto Leali
+135,Federico Poggipollini
+136,Fedez
+137,Filippo Timi
+138,Fiorella Mannoia
+139,Frah Quintale
+140,Francesca Alotta
+141,Francesca Fagnani
+142,Francesca Michielin
+143,Francesco De Gregori
+144,Francesco Gabbani
+145,Francesco Guccini
+146,Francesco Mandelli
+147,Francesco Nuti
+148,Francesco Pannofino
+149,Francesco Renga
+150,Francesco Versace
+151,Franco Battiato
+152,Franco Califano
+153,Frank Sinatra
+154,Fred De Palma
+155,Fulminacci
+156,Gabbani
+157,Gabriella Ferri
+158,Gaia
+159,Gaia - La Niña
+160,"Galeffi, Fudasca & Band"
+161,Gazzelle
+162,Gemelli DiVersi
+163,Gene Pitney
+164,Geolier
+165,Geolier feat. Lazza
+166,Ghali
+167,Ghemon
+168,Gianluca Grignani
+169,Gianmaria
+170,Gianna Nannini
+171,Gianni Morandi
+172,Gigi D'Agostino
+173,Gigi D'Alessio
+174,Gigliola Cinquetti
+175,Ginevra
+176,Gino Paoli
+177,Gio Evan
+178,Giordana Angi
+179,Giorgia
+180,Giorgio Faletti
+181,Giovanni Caccamo
+182,Giovanni Truppi
+183,Giuni Russo
+184,Giusy Ferreri
+185,Goran Bregović
+186,Grazia Di Michele
+187,Gregory Porter
+188,Guè
+189,Highsnob
+190,Hu
+191,I cantanti di The Voice Senior
+192,I Cugini di Campagna
+193,I musicisti
+194,il coro Artemia
+195,il Coro di voci bianche del Teatro Regio di Torino
+196,il Quartetto Flegreo
+197,Il Tre
+198,Il Volo
+199,Iljard Shaba
+200,Irama
+201,Irene Cara
+202,Irene Fornaciari
+203,Irene Grandi
+204,Iva Zanicchi
+205,Ivana Spagna
+206,Izi
+207,J-Ax
+208,Jack Savoretti
+209,Jalisse
+210,Jimmy Fontana
+211,Joan Thiele
+212,Johnson Righeira
+213,Jovanotti
+214,Julio Iglesias
+215,Junior Cally
+216,Jvke
+217,Kingdom Choir
+218,la nazionale di ginnastica ritmica
+219,La Rappresentante di Lista
+220,La Sad
+221,la Wedding & Funeral Band
+222,Lara Fabian
+223,Las Ketchup
+224,Laura Marzadori
+225,Lazza
+226,LDA
+227,Le Deva
+228,Le Vibrazioni
+229,Leo Gassmann
+230,Leonard Cohen
+231,Levante
+232,Ligera County Fam.
+233,Little Tony
+234,Lo Stato Sociale
+235,Lodovica Comello
+236,Loredana Bertè
+237,Lorella Cuccarini
+238,Lorenzo Fragola
+239,Lous and the Yakuza
+240,Luca Carboni
+241,Luchè
+242,Lucio Battisti
+243,Lucio Corsi
+244,Lucio Dalla
+245,Luigi Tenco
+246,Lùnapop
+247,Madame
+248,Magical Mistery Band
+249,Mahmood
+250,Malika Ayane
+251,Mamakass
+252,Mandelli
+253,Mango
+254,Maninni
+255,Mannoia
+256,Manuel Agnelli
+257,Mara Sattei
+258,Marcella Bella
+259,Marco Masini
+260,Marco Mengoni
+261,Margherita Vicario
+262,Maria Antonietta
+263,Mario Biondi
+264,Marracash
+265,Masini
+266,Massimo Ranieri
+267,Matia Bazar
+268,Matteo Romano
+269,Mauro Coruzzi
+270,Mauro Pagani
+271,Max Gazzè
+272,Mecna
+273,Merk & Kremont
+274,Mia Martini
+275,Michele Bravi
+276,Michele Zarrillo
+277,Miguel Bosé
+278,Milva
+279,Mina
+280,Mitzi Green
+281,Modà
+282,Moreno
+283,Morgan
+284,Mr. Rain
+285,Myss Keta
+286,Måneskin
+287,Nada
+288,Napoli Mandolin Orchestra
+289,Nayt
+290,Neffa
+291,Negramaro
+292,Nek
+293,Neri per Caso
+294,Nesli
+295,Nik Kershaw
+296,Nilla Pizzi
+297,Nina Zilli
+298,Nino Ferrer
+299,Noemi
+300,Nomadi
+301,Ofenbach
+302,Ofenbach feat. Norma Jean Martine
+303,Olly
+304,Orietta Berti
+305,Ornella Vanoni
+306,P. Vallesi
+307,Pacifico
+308,Paola & Chiara
+309,Paola Turci
+310,Paolo Jannacci
+311,Paolo Vallesi
+312,Patty Pravo
+313,Paul McCartney
+314,Peter Pichler
+315,Pierangelo Bertoli
+316,Piero Pelù
+317,Pinguini Tattici Nucleari
+318,Pino D'Angiò
+319,Pino Daniele
+320,Pooh
+321,Premiata Forneria Marconi
+322,Pupo
+323,Quartetto Cetra
+324,Quartetto d'archi dell'Orchestra di Roma
+325,Queen
+326,Raf
+327,Raffaella Carrà
+328,Rancore
+329,Random
+330,Raoul Casadei
+331,Raphael Gualazzi
+332,Ratchopper
+333,Ray Charles
+334,Renato Carosone
+335,Renato Zero
+336,Renga Nek
+337,Renzo Rubino
+338,Rettore
+339,Riccardo Cocciante
+340,Riccardo Sinigallia
+341,Ricchi e Poveri
+342,Ricky Portera
+343,Righeira
+344,Riki
+345,Rino Gaetano
+346,Rita Marcotulli
+347,Rita Pavone
+348,Rkomi
+349,Roberto Vecchioni
+350,Rocco Hunt
+351,Rocco Tanica
+352,Romina Power
+353,Ron
+354,Rosa Chemical
+355,Rose Villain
+356,Roy Paci
+357,S. Cristicchi
+358,Sal Da Vinci
+359,Salmo
+360,Samuel
+361,Samuele Bersani
+362,Samurai Jay
+363,Sangiovanni
+364,Santi Francesi
+365,Sarah Toscano
+366,Saverio Cigarini
+367,Saverio Lanza
+368,Sayf
+369,Serena Brancale
+370,Sergio Endrigo
+371,Sergio Sylvestre
+372,Sethu
+373,Shablo con Guè Joshua
+374,Shari
+375,Simon & Garfunkel
+376,Simona Molinari
+377,Simone Cristicchi
+378,Sissi
+379,Skin
+380,Solis String Quartet
+381,Sophie and the Giants con Peppe Vessicchio
+382,Sottotono
+383,Soul System
+384,Stadio
+385,Stef Burns
+386,Stjepan Hauser
+387,Sud Sound System
+388,Sílvia Pérez Cruz
+389,Takagi & Ketra
+390,Tananai
+391,Tenores di Bitti
+392,The Beatles
+393,The Bluebeaters
+394,The Guess Who
+395,The Kolors
+396,The Ronettes
+397,Timofej Andrijashenko
+398,Tiromancino
+399,Tiziano Ferro
+400,Tommaso Paradiso
+401,Tony Del Monaco
+402,Tony Effe
+403,TonyPitony
+404,Topo Gigio
+405,Toquinho
+406,Tormento
+407,Tosca
+408,Toto Cutugno
+409,Tozzi-Morandi-Ruggeri
+410,Tredici Pietro
+411,Tricarico
+412,Tullio De Piscopo
+413,Twin Violins
+414,Ultimo
+415,Umberto Tozzi
+416,Valerio Lundini
+417,Valerio Scanu
+418,Vasco Rossi
+419,Vegas Jones
+420,Venerus
+421,Viito
+422,Vinicio Capossela con Mauro Pagani
+423,Walter Murphy
+424,Will
+425,Willie Peyote
+426,Yuman
+427,Zero Assoluto
+428,Zucchero
+429,Zucchero Fornaciari

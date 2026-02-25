@@ -19,12 +19,12 @@ pip install -r requirements.txt
 From the project root:
 
 ```bash
-python -m src.sanremo.run_analysis
+python -m src.run_analysis
 ```
 
 Outputs (charts and summary) are written to `outputs/`.
 
 ## Project structure
 
-- `src/sanremo/` – load, clean, viz, and `run_analysis.py` (entry point)
+- `src/` – load, clean, viz, and `run_analysis.py` (entry point)
 - `outputs/` – Plotly HTML figures and `summary.txt`

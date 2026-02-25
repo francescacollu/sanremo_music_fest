@@ -45,8 +45,8 @@ Colapesce Dimartino,Adriano Celentano,1
 Colapesce Dimartino,Franco Battiato,1
 Colla Zio,Daniele Silvestri,1
 Coma Cose,Lucio Battisti,1
-Coma_Cose,Righeira,1
-Coma_Cose,"[Ricchi, Poveri]",1
+Coma Cose,Ricchi e Poveri,1
+Coma Cose,Righeira,1
 Dargen D'Amico,Dargen D'Amico,1
 Dargen D'Amico,Patty Pravo,1
 Dargen D'Amico,Pupo,1
@@ -59,6 +59,7 @@ Dolcenera,Nada,1
 Eddie Brock,Fabrizio Moro,1
 Elettra Lamborghini,Claudia Mori,1
 Elettra Lamborghini,Las Ketchup,1
+Elio e le Storie Tese,Walter Murphy,1
 Elisa,Irene Cara,1
 Elodie,Eros Ramazzotti,1
 Elodie,Riccardo Cocciante,1
@@ -125,7 +126,7 @@ Irene Fornaciari,Gianni Morandi,1
 Irene Grandi,Ornella Vanoni,1
 Irene Grandi,Patty Pravo,1
 Iva Zanicchi,Milva,1
-J-Ax,"[Cochi, Renato]",1
+J-Ax,Cochi e Renato,1
 Joan Thiele,Gino Paoli,1
 Junior Cally,Vasco Rossi,1
 LDA,Alex Britti,1
@@ -201,8 +202,8 @@ Pinguini Tattici Nucleari,Daniele Silvestri,1
 Pinguini Tattici Nucleari,Max Gazzè,1
 Pinguini Tattici Nucleari,Nilla Pizzi,1
 Pinguini Tattici Nucleari,Noemi,1
+Pinguini Tattici Nucleari,Ricchi e Poveri,1
 Pinguini Tattici Nucleari,Rino Gaetano,1
-Pinguini Tattici Nucleari,"[Ricchi, Poveri]",1
 Raf,Massimo Ranieri,1
 Raf,Nik Kershaw,1
 Rancore,Elisa,1
@@ -210,6 +211,7 @@ Random,Jovanotti,1
 Raphael Gualazzi,"[Fausto Cigliano, Gene Pitney]",1
 Renga Nek,Francesco Renga,2
 Renga Nek,Nek,2
+Ricchi e Poveri,Ricchi e Poveri,1
 Riki,Nilla Pizzi,1
 Rita Pavone,Amedeo Minghi,1
 Rkomi,Vasco Rossi,3
@@ -234,7 +236,7 @@ Shari,Zucchero,2
 Simone Cristicchi,Franco Battiato,1
 Stadio,Lucio Dalla,1
 Tananai,Raffaella Carrà,1
-Tananai,"[S. Cristicchi, B. Antonacci]",1
+Tananai,"[S. Cristicchi, Biagio Antonacci]",1
 The Kolors,Sal Da Vinci,1
 The Kolors,Umberto Tozzi,3
 Tommaso Paradiso,Lucio Dalla,1
@@ -247,10 +249,9 @@ Willie Peyote,Franco Califano,1
 Willie Peyote,Samuele Bersani,1
 Yuman,Frank Sinatra,1
 Zero Assoluto,Actarus,1
-"[Biggio, Mandelli]","[Cochi, Renato]",1
+"[Biggio, Mandelli]",Cochi e Renato,1
 "[Bugo, Morgan]",Sergio Endrigo,1
 "[Ditonellapiaga, Rettore]",Caterina Caselli,1
-"[Elio, le Storie Tese]",Walter Murphy,1
 "[Elodie, Achille Lauro]",Loredana Bertè,1
 "[Elodie, Achille Lauro]",Riccardo Cocciante,1
 "[Elodie, Achille Lauro]","[Riccardo Cocciante, Loredana Bertè]",1
@@ -267,7 +268,6 @@ Zero Assoluto,Actarus,1
 "[Mahmood, Blanco]",Gino Paoli,1
 "[Maria Antonietta, Colombre]",Jimmy Fontana,1
 "[Noemi, Tony Effe]",Franco Califano,1
-"[Ricchi, Poveri]","[Ricchi, Poveri]",1
 "[Rkomi, Francesca Michielin]",Cesare Cremonini,1
 "[Shablo con Guè Joshua, Tormento]",Neffa,1
 "[Shablo con Guè Joshua, Tormento]",Sottotono,1

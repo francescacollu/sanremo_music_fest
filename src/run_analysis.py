@@ -19,6 +19,7 @@ from clean import (
     join_winners_to_covers,
 )
 from normalize_artist_gender import normalize_artist_gender
+from add_artist_ids import add_artist_ids
 import viz
 
 
@@ -82,6 +83,40 @@ def run(
     winners.to_csv(processed_dir / "winners_clean.csv", index=False)
     medley.to_csv(processed_dir / "medley_clean.csv", index=False)
     expanded.to_csv(processed_dir / "expanded_covers.csv", index=False)
+
+    # Update artist_names from normalized data: append new canonical names or full regenerate
+    unique_names = set()
+    for series in [
+        expanded["original_artist"],
+        expanded["contestant"],
+        covers["guest_artist"],
+        medley["contestant"],
+        medley["original_artist"],
+    ]:
+        for cell in series.dropna():
+            for name in _split_artists_cell(cell):
+                if name and str(name).strip() != "-":
+                    unique_names.add(str(name).strip())
+    unique_canonical = sorted(unique_names, key=str.casefold)
+    artist_names_path = processed_dir / "artist_names.csv"
+    if artist_names_path.exists():
+        existing = pd.read_csv(artist_names_path)
+        if len(existing) > 0 and "artist_id" in existing.columns and "artist_name" in existing.columns:
+            existing_names = set(existing["artist_name"].astype(str).str.strip())
+            new_names = [n for n in unique_canonical if n not in existing_names]
+            if new_names:
+                max_id = int(existing["artist_id"].max())
+                append_df = pd.DataFrame(
+                    {"artist_id": range(max_id + 1, max_id + 1 + len(new_names)), "artist_name": new_names}
+                )
+                combined = pd.concat([existing, append_df], ignore_index=True)
+                combined.to_csv(artist_names_path, index=False)
+        else:
+            pd.DataFrame({"artist_name": unique_canonical}).to_csv(artist_names_path, index=False)
+            add_artist_ids(artist_names_path)
+    else:
+        pd.DataFrame({"artist_name": unique_canonical}).to_csv(artist_names_path, index=False)
+        add_artist_ids(artist_names_path)
 
     # Section 2: most sung songs and authors, bar charts
     song_counts = expanded["song"].value_counts().reset_index()
@@ -225,23 +260,31 @@ def run(
             artist_names_path=processed_dir / "artist_names.csv",
             artist_gender_path=artist_gender_path,
             output_path=processed_dir / "artist_gender_by_artist.csv",
+            processed_dir=processed_dir,
         )
         artist_gender_by_artist["artist_name"] = (
             artist_gender_by_artist["artist_name"].astype(str).str.strip()
         )
 
-        expanded_gender = expanded.merge(
-            artist_gender_by_artist.rename(
-                columns={"artist_name": "original_artist", "gender": "original_gender"}
+        # Use artist_id for joins: build name -> artist_id from artist_names
+        artist_names_df = pd.read_csv(processed_dir / "artist_names.csv")
+        artist_names_df["artist_name"] = artist_names_df["artist_name"].astype(str).str.strip()
+        name_to_id = artist_names_df.set_index("artist_name")["artist_id"].to_dict()
+        expanded_gender = expanded.copy()
+        expanded_gender["original_artist_id"] = expanded_gender["original_artist"].map(name_to_id)
+        expanded_gender["contestant_id"] = expanded_gender["contestant"].map(name_to_id)
+        expanded_gender = expanded_gender.merge(
+            artist_gender_by_artist[["artist_id", "gender"]].rename(
+                columns={"artist_id": "original_artist_id", "gender": "original_gender"}
             ),
-            on="original_artist",
+            on="original_artist_id",
             how="left",
         )
         expanded_gender = expanded_gender.merge(
-            artist_gender_by_artist.rename(
-                columns={"artist_name": "contestant", "gender": "performer_gender"}
+            artist_gender_by_artist[["artist_id", "gender"]].rename(
+                columns={"artist_id": "contestant_id", "gender": "performer_gender"}
             ),
-            on="contestant",
+            on="contestant_id",
             how="left",
         )
 
@@ -383,11 +426,6 @@ def run(
     )
     summary_path = out_dir / "summary.txt"
     summary_path.write_text("\n".join(summary_lines), encoding="utf-8")
-
-    print(f"Outputs written to {out_dir}")
-    print(f"  - top_songs.html, top_authors.html")
-    print(f"  - decade_distribution.html, covers_per_edition.html")
-    print(f"  - summary.txt")
 
 
 def main():

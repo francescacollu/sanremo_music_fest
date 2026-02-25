@@ -1,6 +1,61 @@
 """Clean data: strip footnotes, normalize guest, parse song_year, PK checks, build expanded list."""
 import re
+from pathlib import Path
+
 import pandas as pd
+
+
+def _artist_aliases_path() -> Path:
+    return Path(__file__).resolve().parent.parent / "data" / "processed" / "artist_aliases.csv"
+
+
+def _load_artist_aliases() -> dict[str, str] | None:
+    """Load variant -> canonical_name map from artist_aliases.csv. Return None if file missing or empty."""
+    path = _artist_aliases_path()
+    if not path.exists():
+        return None
+    df = pd.read_csv(path)
+    if "name_variant" not in df.columns or "canonical_name" not in df.columns:
+        return None
+    df["name_variant"] = df["name_variant"].astype(str).str.strip()
+    df["canonical_name"] = df["canonical_name"].astype(str).str.strip()
+    df = df[df["name_variant"].ne("")]
+    if df.empty:
+        return None
+    return df.set_index("name_variant")["canonical_name"].to_dict()
+
+
+def _split_artist_cell(cell: str) -> list[str]:
+    """Split a cell into individual names (single name or [A, B, C] -> list)."""
+    if pd.isna(cell):
+        return []
+    s = str(cell).strip()
+    if not s or s == "-":
+        return []
+    if s.startswith("[") and s.endswith("]"):
+        inner = s[1:-1]
+        return [p.strip() for p in inner.split(",") if p.strip()]
+    return [s]
+
+
+def resolve_artist_aliases(cell, alias_map: dict[str, str] | None) -> str:
+    """Replace artist name(s) with canonical form. Whole-cell match first, then name-by-name."""
+    if alias_map is None:
+        return cell
+    if pd.isna(cell):
+        return cell
+    s = str(cell).strip()
+    if not s or s == "-":
+        return s
+    if s in alias_map:
+        return alias_map[s]
+    names = _split_artist_cell(s)
+    if not names:
+        return s
+    resolved = [alias_map.get(n, n) for n in names]
+    if len(resolved) == 1:
+        return resolved[0]
+    return "[" + ", ".join(resolved) + "]"
 
 
 def strip_footnotes(s):
@@ -76,6 +131,10 @@ def clean_covers(covers: pd.DataFrame) -> pd.DataFrame:
     covers["contestant"] = covers["contestant"].apply(format_artist_list_cell)
     covers["original_artist"] = covers["original_artist"].apply(format_artist_list_cell)
     covers["guest_artist"] = covers["guest_artist"].apply(format_artist_list_cell)
+    alias_map = _load_artist_aliases()
+    if alias_map:
+        for col in ("contestant", "original_artist", "guest_artist"):
+            covers[col] = covers[col].apply(lambda x: resolve_artist_aliases(x, alias_map))
     covers["song_year_parsed"] = covers["song_year"].apply(parse_song_year)
     check_pk_covers(covers)
     return covers
@@ -86,6 +145,11 @@ def clean_winners(winners: pd.DataFrame) -> pd.DataFrame:
     winners_clean["winner"] = winners_clean["winner"].apply(format_artist_list_cell)
     if "guest_artists" in winners_clean.columns:
         winners_clean["guest_artists"] = winners_clean["guest_artists"].apply(format_artist_list_cell)
+    alias_map = _load_artist_aliases()
+    if alias_map:
+        winners_clean["winner"] = winners_clean["winner"].apply(lambda x: resolve_artist_aliases(x, alias_map))
+        if "guest_artists" in winners_clean.columns:
+            winners_clean["guest_artists"] = winners_clean["guest_artists"].apply(lambda x: resolve_artist_aliases(x, alias_map))
     check_pk_winners(winners_clean)
     return winners_clean
 
@@ -94,6 +158,10 @@ def clean_medley(medley: pd.DataFrame) -> pd.DataFrame:
     medley_clean = medley.copy()
     medley_clean["contestant"] = medley_clean["contestant"].apply(format_artist_list_cell)
     medley_clean["original_artist"] = medley_clean["original_artist"].apply(format_artist_list_cell)
+    alias_map = _load_artist_aliases()
+    if alias_map:
+        medley_clean["contestant"] = medley_clean["contestant"].apply(lambda x: resolve_artist_aliases(x, alias_map))
+        medley_clean["original_artist"] = medley_clean["original_artist"].apply(lambda x: resolve_artist_aliases(x, alias_map))
     check_pk_medley(medley_clean)
     return medley_clean
 
