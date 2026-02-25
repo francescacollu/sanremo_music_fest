@@ -14,14 +14,14 @@ Top 10 songs by degree centrality (bipartite contestant-song):
   Quando finisce un amore (0.0044)
 
 Top 10 original artists by degree centrality:
-  Lucio Battisti (0.0258)
+  Lucio Battisti (0.0259)
   Adriano Celentano (0.0201)
   Fabrizio De André (0.0201)
   Luigi Tenco (0.0172)
   Ornella Vanoni (0.0172)
   Lucio Dalla (0.0172)
-  Riccardo Cocciante (0.0143)
-  Gianna Nannini (0.0143)
+  Riccardo Cocciante (0.0144)
+  Gianna Nannini (0.0144)
   Caterina Caselli (0.0115)
   Vasco Rossi (0.0115)
 
@@ -53,11 +53,11 @@ Top 15 co-occurrence pairs (same edition):
   Lucio Battisti / Pino Daniele (weight=4)
   Lucio Battisti / Fabrizio De André (weight=4)
   Riccardo Cocciante / Fabrizio De André (weight=4)
-  Vasco Rossi / Adriano Celentano (weight=3)
-  Vasco Rossi / Caterina Caselli (weight=3)
   Sergio Endrigo / Ornella Vanoni (weight=3)
   Sergio Endrigo / Adriano Celentano (weight=3)
   Sergio Endrigo / Caterina Caselli (weight=3)
+  Luigi Tenco / Ornella Vanoni (weight=3)
+  Luigi Tenco / Caterina Caselli (weight=3)
 
 Winners vs canon:
   Winning songs: ['Se telefonando', 'La sera dei miracoli', 'Amara terra mia', 'Piazza Grande', 'Caruso', 'Medley', 'Let It Be', 'Strade (Medley)', 'Skyfall']
@@ -66,21 +66,21 @@ Winners vs canon:
   Overlap with top 30 most covered artists: ['Mina', 'Lucio Dalla', 'Domenico Modugno', 'Lucio Dalla', 'Lucio Dalla']
 
 Medleys vs canon (top 30):
-  Canon songs appearing in medleys: ['Nessuno mi può giudicare', 'Portami via', 'Adesso tu', "L'italiano", 'Salirò', 'Angelo', 'A mano a mano', 'Penso positivo', 'Gianna', 'Il mondo', 'La canzone del sole', 'Sarà perché ti amo', 'Meravigliosa creatura', 'Ragazzo fortunato']
-  Canon artists appearing in medleys: ['Lucio Battisti', 'Articolo 31', 'Jovanotti', 'Paola & Chiara', 'Gianni Morandi', 'Daniele Silvestri', 'Zucchero', 'Ricchi e Poveri', 'Gianna Nannini', 'Loredana Bertè', 'Fabrizio Moro', 'Eros Ramazzotti', 'Vasco Rossi', 'Edoardo Bennato', 'Riccardo Cocciante', 'Caterina Caselli']
+  Canon songs appearing in medleys: ['Ragazzo fortunato', 'Salirò', "L'italiano", 'La canzone del sole', 'Angelo', 'Meravigliosa creatura', 'A mano a mano', 'Portami via', 'Sarà perché ti amo', 'Adesso tu', 'Gianna', 'Nessuno mi può giudicare', 'Il mondo', 'Penso positivo']
+  Canon artists appearing in medleys: ['Gianni Morandi', 'Edoardo Bennato', 'Lucio Battisti', 'Riccardo Cocciante', 'Vasco Rossi', 'Eros Ramazzotti', 'Ricchi e Poveri', 'Daniele Silvestri', 'Loredana Bertè', 'Gianna Nannini', 'Fabrizio Moro', 'Articolo 31', 'Paola & Chiara', 'Caterina Caselli', 'Zucchero Fornaciari', 'Jovanotti']
 
 Ego networks for selected iconic artists (co-occurring originals):
   Lucio Battisti:
     - Lucio Dalla (weight=4)
     - Pino Daniele (weight=4)
     - Fabrizio De André (weight=4)
-    - Loredana Bertè (weight=3)
     - Riccardo Cocciante (weight=3)
+    - Loredana Bertè (weight=3)
     - Luigi Tenco (weight=3)
     - Gianna Nannini (weight=2)
-    - Domenico Modugno (weight=2)
     - Gianni Morandi (weight=2)
     - Patty Pravo (weight=2)
+    - Domenico Modugno (weight=2)
   Lucio Dalla:
     - Lucio Battisti (weight=4)
     - Riccardo Cocciante (weight=4)
@@ -97,12 +97,21 @@ Ego networks for selected iconic artists (co-occurring originals):
     - Lucio Dalla (weight=4)
     - Lucio Battisti (weight=4)
     - Riccardo Cocciante (weight=4)
-    - Loredana Bertè (weight=3)
     - Pino Daniele (weight=3)
+    - Loredana Bertè (weight=3)
     - Gianluca Grignani (weight=3)
     - Luigi Tenco (weight=3)
-    - Domenico Modugno (weight=2)
     - Gianni Morandi (weight=2)
+    - Patty Pravo (weight=2)
+
+Gender-based cover probabilities (performer vs original, F/M only):
+  Total covers with known performer and original gender (F/M only): 262
+  Baseline share of female originals among these covers: 0.225
+  P(original F | performer F): 0.513
+  P(original F | performer M): 0.108
+  Chi-squared test (1 df): chi2=50.879, p-value=0.0000
+
+Multi-artist performances (e.g. duets or multiple original artists) are treated as a single observation with aggregated performer_gender and original_gender (F, M, Group, Mixed, or Unknown).
 
 Self-covers and self-tributes:
   Total self-covers detected: 27

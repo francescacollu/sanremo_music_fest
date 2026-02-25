@@ -72,54 +72,34 @@ def write_figure(fig, out_path: Path, html=True, png=False):
         fig.write_image(str(out_path.with_suffix(".png")))
 
 
-def network_cooccurrence(G: nx.Graph, top_n: int = 50, title: str | None = None):
-    """Simple co-occurrence network visualization for original artists.
-
-    Nodes are artists; edges connect artists that co-occur in at least one
-    edition, with edge width proportional to weight.
-    """
-    # Select top nodes by weighted degree to keep the plot readable
+def _network_graph(G: nx.Graph, top_n: int, title: str):
+    """Shared spring-layout network plot: top_n nodes by weighted degree, visible edges, 1:1 aspect."""
     degrees = dict(G.degree(weight="weight"))
     if not degrees:
-        raise ValueError("Graph has no nodes; cannot plot co-occurrence network.")
+        raise ValueError("Graph has no nodes; cannot plot network.")
 
     nodes_sorted = sorted(degrees.items(), key=lambda x: -x[1])[:top_n]
     keep_nodes = {n for n, _ in nodes_sorted}
     subG = G.subgraph(keep_nodes).copy()
 
-    # Spring-layout positions for the subgraph
     pos = nx.spring_layout(subG, k=0.6, seed=42)
 
-    # Build edge traces
     edge_x = []
     edge_y = []
-    edge_widths = []
     for u, v, data in subG.edges(data=True):
         x0, y0 = pos[u]
         x1, y1 = pos[v]
         edge_x += [x0, x1, None]
         edge_y += [y0, y1, None]
-        w = data.get("weight", 1)
-        edge_widths.append(w)
-
-    # Normalize edge widths for display
-    if edge_widths:
-        min_w = min(edge_widths)
-        max_w = max(edge_widths)
-        span = max_w - min_w if max_w != min_w else 1.0
-        edge_sizes = [1.0 + 4.0 * (w - min_w) / span for w in edge_widths]
-    else:
-        edge_sizes = []
 
     edge_trace = go.Scatter(
         x=edge_x,
         y=edge_y,
-        line=dict(width=0.5, color="rgba(150,150,150,0.5)"),
+        line=dict(width=1.5, color="rgba(100,100,100,0.7)"),
         hoverinfo="none",
         mode="lines",
     )
 
-    # Build node trace
     node_x = []
     node_y = []
     node_text = []
@@ -146,13 +126,31 @@ def network_cooccurrence(G: nx.Graph, top_n: int = 50, title: str | None = None)
 
     fig = go.Figure(data=[edge_trace, node_trace])
     fig.update_layout(
-        title=title or "Co-occurrence network of original artists (cover night)",
+        title=title,
         showlegend=False,
         xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-        yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+        yaxis=dict(showgrid=False, zeroline=False, showticklabels=False, scaleanchor="x", scaleratio=1),
         margin=dict(l=10, r=10, t=40, b=10),
     )
     return fig
+
+
+def network_cooccurrence(G: nx.Graph, top_n: int = 50, title: str | None = None):
+    """Simple co-occurrence network visualization for original artists.
+
+    Nodes are artists; edges connect artists that co-occur in at least one
+    edition, with edge width proportional to weight.
+    """
+    return _network_graph(
+        G,
+        top_n=top_n,
+        title=title or "Co-occurrence network of original artists (cover night)",
+    )
+
+
+def network_graph(G: nx.Graph, top_n: int = 50, title: str | None = None):
+    """Generic network plot (spring layout, visible edges, 1:1 aspect)."""
+    return _network_graph(G, top_n, title=title or "Network")
 
 
 def area_decade_over_time(decade_per_year_df, title: str | None = None):
@@ -256,5 +254,44 @@ def sankey_gender_flow(gender_flow_df, title: str | None = None):
     fig.update_layout(
         title=title or "Who covers whom, by gender",
         font=dict(size=10),
+    )
+    return fig
+
+
+def bar_performer_gender_over_time(performer_gender_by_year_df, title: str | None = None):
+    """Stacked bar chart of performer gender shares per edition."""
+    fig = px.bar(
+        performer_gender_by_year_df,
+        x="year",
+        y="share",
+        color="performer_gender",
+        title=title or "Share of cover-night performances by performer gender over editions",
+        labels={
+            "year": "Festival year",
+            "share": "Share of performances",
+            "performer_gender": "Performer gender",
+        },
+        barmode="stack",
+    )
+    return fig
+
+
+def bar_performer_gender_over_female_originals_over_time(
+    performer_gender_over_female_df, title: str | None = None
+):
+    """Stacked bar of performer gender shares per edition, over songs originally by women."""
+    fig = px.bar(
+        performer_gender_over_female_df,
+        x="year",
+        y="share",
+        color="performer_gender",
+        title=title
+        or "Share of performances by performer gender (only songs originally by women)",
+        labels={
+            "year": "Festival year",
+            "share": "Share of performances (original by women)",
+            "performer_gender": "Performer gender",
+        },
+        barmode="stack",
     )
     return fig

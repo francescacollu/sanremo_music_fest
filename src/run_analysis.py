@@ -49,6 +49,13 @@ def _processed_data_dir() -> Path:
     return _project_root() / "data" / "processed"
 
 
+def _angle_dir(out_dir: Path, angle: str) -> Path:
+    """Return a subdirectory of out_dir for a given analysis angle (e.g. 'gender')."""
+    angle_dir = Path(out_dir) / angle
+    angle_dir.mkdir(parents=True, exist_ok=True)
+    return angle_dir
+
+
 def run(
     data_dir: Path | None = None,
     out_dir: Path | None = None,
@@ -178,6 +185,29 @@ def run(
     fig_cooccur = viz.network_cooccurrence(G_cooccur)
     viz.write_figure(fig_cooccur, out_dir / "cooccurrence_network", html=True)
 
+    # Performer shared-original network: nodes = contestants, edge = covered at least one same original artist
+    original_to_contestants = defaultdict(set)
+    for _, row in expanded.iterrows():
+        for orig in _split_artists_cell(row["original_artist"]):
+            if orig and str(orig).strip() != "-":
+                original_to_contestants[orig.strip()].add(row["contestant"])
+    G_performer_shared_original = nx.Graph()
+    for _orig, contestants in original_to_contestants.items():
+        contestants = list(contestants)
+        for i in range(len(contestants)):
+            for j in range(i + 1, len(contestants)):
+                a, b = contestants[i], contestants[j]
+                if G_performer_shared_original.has_edge(a, b):
+                    G_performer_shared_original[a][b]["weight"] += 1
+                else:
+                    G_performer_shared_original.add_edge(a, b, weight=1)
+    fig_performer = viz.network_graph(
+        G_performer_shared_original,
+        top_n=80,
+        title="Performers connected by same original artist(s)",
+    )
+    viz.write_figure(fig_performer, out_dir / "performer_shared_original_network", html=True)
+
     # Contestant → original-artist relationship table and Sankey diagram
     contestant_artist = (
         expanded.groupby(["contestant", "original_artist"])
@@ -231,6 +261,8 @@ def run(
     viz.write_figure(fig_year_lag, out_dir / "year_lag_by_edition", html=True)
 
     # Section 5: gender mapping and flows (requires manual annotation file)
+    gender_out_dir = _angle_dir(out_dir, "gender")
+
     artist_gender_path = processed_dir / "artist_gender.csv"
     if not artist_gender_path.exists():
         all_artists = pd.concat(
@@ -266,30 +298,45 @@ def run(
             artist_gender_by_artist["artist_name"].astype(str).str.strip()
         )
 
-        # Use artist_id for joins: build name -> artist_id from artist_names
-        artist_names_df = pd.read_csv(processed_dir / "artist_names.csv")
-        artist_names_df["artist_name"] = artist_names_df["artist_name"].astype(str).str.strip()
-        name_to_id = artist_names_df.set_index("artist_name")["artist_id"].to_dict()
+        # Map canonical artist names to gender and aggregate per performance
+        name_to_gender = artist_gender_by_artist.set_index("artist_name")["gender"].to_dict()
+
+        def _aggregate_gender_list(genders: list) -> object:
+            """Aggregate a list of per-artist genders to a row-level category."""
+            vals = []
+            for g in genders:
+                if pd.isna(g):
+                    continue
+                s = str(g).strip()
+                if not s:
+                    continue
+                vals.append(s)
+            if not vals:
+                return pd.NA
+            unique_vals = set(vals)
+            if len(unique_vals) == 1:
+                return vals[0]
+            return "Mixed"
+
+        def _row_gender_from_cell(cell, mapping: dict[str, object]) -> object:
+            names = _split_artists_cell(cell)
+            if not names:
+                return pd.NA
+            genders = [mapping.get(n) for n in names if n and str(n).strip() != "-"]
+            return _aggregate_gender_list(genders)
+
         expanded_gender = expanded.copy()
-        expanded_gender["original_artist_id"] = expanded_gender["original_artist"].map(name_to_id)
-        expanded_gender["contestant_id"] = expanded_gender["contestant"].map(name_to_id)
-        expanded_gender = expanded_gender.merge(
-            artist_gender_by_artist[["artist_id", "gender"]].rename(
-                columns={"artist_id": "original_artist_id", "gender": "original_gender"}
-            ),
-            on="original_artist_id",
-            how="left",
+        expanded_gender["original_gender"] = expanded_gender["original_artist"].apply(
+            lambda cell: _row_gender_from_cell(cell, name_to_gender)
         )
-        expanded_gender = expanded_gender.merge(
-            artist_gender_by_artist[["artist_id", "gender"]].rename(
-                columns={"artist_id": "contestant_id", "gender": "performer_gender"}
-            ),
-            on="contestant_id",
-            how="left",
+        expanded_gender["performer_gender"] = expanded_gender["contestant"].apply(
+            lambda cell: _row_gender_from_cell(cell, name_to_gender)
         )
 
         # Share of covers with female original artists per edition
-        mask_original_known = expanded_gender["original_gender"].notna()
+        mask_original_known = expanded_gender["original_gender"].notna() & (
+            expanded_gender["original_gender"] != "Unknown"
+        )
         gender_by_year = (
             expanded_gender[mask_original_known]
             .groupby("year")
@@ -303,10 +350,14 @@ def run(
             gender_by_year["share_female_original"] = (
                 gender_by_year["n_female_original"] / gender_by_year["n_covers"]
             )
-            gender_by_year.to_csv(out_dir / "gender_original_share_per_year.csv", index=False)
+            gender_by_year.to_csv(gender_out_dir / "gender_original_share_per_year.csv", index=False)
 
             fig_gender_line = viz.line_share_female_originals(gender_by_year)
-            viz.write_figure(fig_gender_line, out_dir / "gender_original_share_over_time", html=True)
+            viz.write_figure(
+                fig_gender_line,
+                gender_out_dir / "gender_original_share_over_time",
+                html=True,
+            )
 
         # Flow between performer gender and original-artist gender
         mask_both_known = expanded_gender["performer_gender"].notna() & expanded_gender["original_gender"].notna()
@@ -317,10 +368,154 @@ def run(
             .reset_index(name="n_covers")
         )
         if not gender_flow.empty:
-            gender_flow.to_csv(out_dir / "gender_performer_to_original_counts.csv", index=False)
+            gender_flow.to_csv(
+                gender_out_dir / "gender_performer_to_original_counts.csv", index=False
+            )
 
             fig_gender_sankey = viz.sankey_gender_flow(gender_flow)
-            viz.write_figure(fig_gender_sankey, out_dir / "gender_performer_to_original_sankey", html=True)
+            viz.write_figure(
+                fig_gender_sankey,
+                gender_out_dir / "gender_performer_to_original_sankey",
+                html=True,
+            )
+
+        # Performer-gender distribution per year (stacked shares, all originals)
+        performer_gender_by_year = (
+            expanded_gender.dropna(subset=["performer_gender"])
+            .groupby(["year", "performer_gender"])
+            .size()
+            .reset_index(name="n_covers")
+        )
+        if not performer_gender_by_year.empty:
+            performer_gender_by_year["total_per_year"] = performer_gender_by_year.groupby("year")[
+                "n_covers"
+            ].transform("sum")
+            performer_gender_by_year["share"] = (
+                performer_gender_by_year["n_covers"] / performer_gender_by_year["total_per_year"]
+            )
+            performer_gender_by_year.to_csv(
+                gender_out_dir / "gender_performer_share_per_year.csv", index=False
+            )
+
+            fig_perf_gender_bar = viz.bar_performer_gender_over_time(
+                performer_gender_by_year
+            )
+            viz.write_figure(
+                fig_perf_gender_bar,
+                gender_out_dir / "gender_performer_share_over_time",
+                html=True,
+            )
+
+        # Performer-gender distribution per year, restricted to covers of songs originally by women.
+        # Each bar's total height reflects the share of *all* covers that year whose original artist is a woman,
+        # and segments within the bar show how those covers are split across performer genders.
+        perf_over_female_orig = expanded_gender[
+            (expanded_gender["original_gender"] == "F") & expanded_gender["performer_gender"].notna()
+        ].copy()
+        performer_gender_over_female = (
+            perf_over_female_orig.groupby(["year", "performer_gender"])
+            .size()
+            .reset_index(name="n_covers")
+        )
+        if not performer_gender_over_female.empty:
+            # Per-year totals: number of covers with female originals, and total covers.
+            female_per_year = (
+                perf_over_female_orig.groupby("year")["original_gender"].size().to_dict()
+            )
+            total_per_year_all = (
+                expanded_gender.groupby("year")["original_gender"].size().to_dict()
+            )
+
+            performer_gender_over_female["n_female_original_per_year"] = (
+                performer_gender_over_female["year"].map(female_per_year)
+            )
+            performer_gender_over_female["n_all_covers_per_year"] = (
+                performer_gender_over_female["year"].map(total_per_year_all)
+            )
+            performer_gender_over_female["share"] = (
+                performer_gender_over_female["n_covers"]
+                / performer_gender_over_female["n_all_covers_per_year"]
+            )
+            performer_gender_over_female.to_csv(
+                gender_out_dir / "gender_performer_mix_over_female_originals_per_year.csv",
+                index=False,
+            )
+
+            fig_perf_over_female = viz.bar_performer_gender_over_female_originals_over_time(
+                performer_gender_over_female
+            )
+            viz.write_figure(
+                fig_perf_over_female,
+                gender_out_dir / "gender_performer_over_female_originals_stacked_over_time",
+                html=True,
+            )
+
+        # Contingency table and conditional probabilities for F/M performer vs original
+        fm_mask = expanded_gender["performer_gender"].isin(["F", "M"]) & expanded_gender[
+            "original_gender"
+        ].isin(["F", "M"])
+        gender_contingency_stats = None
+        gender_contingency_path = (
+            gender_out_dir / "gender_contingency_performance_level.csv"
+        )
+        if fm_mask.any():
+            fm_table = (
+                expanded_gender[fm_mask]
+                .groupby(["performer_gender", "original_gender"])
+                .size()
+                .unstack(fill_value=0)
+            )
+            fm_table = fm_table.reindex(index=["F", "M"], columns=["F", "M"], fill_value=0)
+            fm_table.index.name = "performer_gender"
+            fm_table.columns.name = "original_gender"
+
+            total = int(fm_table.values.sum())
+            if total > 0:
+                row_sums = fm_table.sum(axis=1)
+                col_sums = fm_table.sum(axis=0)
+
+                # Baseline share of female originals among F/M-only covers
+                baseline_share_f = float(col_sums["F"] / total) if col_sums["F"] > 0 else 0.0
+
+                p_f_given_f = float(
+                    fm_table.loc["F", "F"] / row_sums["F"]
+                ) if row_sums["F"] > 0 else float("nan")
+                p_f_given_m = float(
+                    fm_table.loc["M", "F"] / row_sums["M"]
+                ) if row_sums["M"] > 0 else float("nan")
+
+                # Chi-squared test of independence for 2x2 table (1 df)
+                import math
+
+                chi2 = 0.0
+                for i in ["F", "M"]:
+                    for j in ["F", "M"]:
+                        obs = float(fm_table.loc[i, j])
+                        exp = float(row_sums[i] * col_sums[j] / total) if total > 0 else 0.0
+                        if exp > 0:
+                            chi2 += (obs - exp) ** 2 / exp
+                # For 1 degree of freedom, p-value = erfc(sqrt(chi2 / 2))
+                p_value = float(math.erfc(math.sqrt(chi2 / 2.0))) if chi2 >= 0 else float("nan")
+
+                fm_table_reset = (
+                    fm_table.reset_index()
+                    .melt(
+                        id_vars="performer_gender",
+                        value_vars=["F", "M"],
+                        var_name="original_gender",
+                        value_name="n_covers",
+                    )
+                )
+                fm_table_reset.to_csv(gender_contingency_path, index=False)
+
+                gender_contingency_stats = {
+                    "n_total": total,
+                    "baseline_share_f": baseline_share_f,
+                    "p_f_given_f": p_f_given_f,
+                    "p_f_given_m": p_f_given_m,
+                    "chi2": chi2,
+                    "p_value": p_value,
+                }
 
     # Section 6: self-covers and self-tributes
     expanded_self = expanded.copy()
@@ -408,6 +603,47 @@ def run(
             summary_lines.append(f"    - {neighbor} (weight={weight})")
     if not ego_summaries:
         summary_lines.append("  (no ego networks available)")
+    summary_lines.extend(
+        [
+            "",
+            "Gender-based cover probabilities (performer vs original, F/M only):",
+            (
+                f"  Total covers with known performer and original gender (F/M only): "
+                f"{gender_contingency_stats['n_total']}"
+                if gender_contingency_stats is not None
+                else "  (Gender contingency statistics unavailable: missing or insufficient gender data.)"
+            ),
+        ]
+    )
+    if gender_contingency_stats is not None:
+        summary_lines.extend(
+            [
+                (
+                    "  Baseline share of female originals among these covers: "
+                    f"{gender_contingency_stats['baseline_share_f']:.3f}"
+                ),
+                (
+                    "  P(original F | performer F): "
+                    f"{gender_contingency_stats['p_f_given_f']:.3f}"
+                    if pd.notna(gender_contingency_stats["p_f_given_f"])
+                    else "  P(original F | performer F): undefined (no female performers in F/M subset)."
+                ),
+                (
+                    "  P(original F | performer M): "
+                    f"{gender_contingency_stats['p_f_given_m']:.3f}"
+                    if pd.notna(gender_contingency_stats["p_f_given_m"])
+                    else "  P(original F | performer M): undefined (no male performers in F/M subset)."
+                ),
+                (
+                    "  Chi-squared test (1 df): "
+                    f"chi2={gender_contingency_stats['chi2']:.3f}, "
+                    f"p-value={gender_contingency_stats['p_value']:.4f}"
+                ),
+                "",
+                "Multi-artist performances (e.g. duets or multiple original artists) are treated as a single "
+                "observation with aggregated performer_gender and original_gender (F, M, Group, Mixed, or Unknown).",
+            ]
+        )
     summary_lines.extend(
         [
             "",

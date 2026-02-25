@@ -39,7 +39,7 @@ year,edition,contestant,song,original_artist,song_year,song_year_parsed,guest_ar
 2016,LXVI,Enrico Ruggeri,'A canzuncella,Alunni del Sole,1977,1977,-
 2016,LXVI,Annalisa,America,Gianna Nannini,1979,1979,-
 2016,LXVI,Stadio,La sera dei miracoli,Lucio Dalla,1980,1980,"[Ricky Portera, Fabio Liberatori]"
-2017,LXVII,Chiara,Diamante,Zucchero,1989,1989,Mauro Pagani
+2017,LXVII,Chiara,Diamante,Zucchero Fornaciari,1989,1989,Mauro Pagani
 2017,LXVII,Ermal Meta,Amara terra mia,Domenico Modugno,1973,1973,-
 2017,LXVII,Lodovica Comello,Le mille bolle blu,Mina,1961,1961,-
 2017,LXVII,Al Bano,Pregherò,Adriano Celentano,1966,1966,-
@@ -240,7 +240,7 @@ year,edition,contestant,song,original_artist,song_year,song_year_parsed,guest_ar
 2021,LXXI,"[Francesca Michielin, Fedez]",Fiumi di parole,Jalisse,,,-
 2021,LXXI,"[Francesca Michielin, Fedez]",Non amarmi,"[Aleandro Baldi, Francesca Alotta]",,,-
 2021,LXXI,Ghemon,Le ragazze,Neri per Caso,,,-
-2021,LXXI,Ghemon,Donne,Zucchero,,,-
+2021,LXXI,Ghemon,Donne,Zucchero Fornaciari,,,-
 2021,LXXI,Ghemon,Acqua e sapone,Stadio,,,-
 2021,LXXI,Ghemon,La canzone del sole,Lucio Battisti,,,-
 2022,LXXII,Gianni Morandi,Occhi di ragazza,Gianni Morandi,,,-
@@ -256,8 +256,8 @@ year,edition,contestant,song,original_artist,song_year,song_year_parsed,guest_ar
 2023,LXXIII,Ultimo,Adesso tu,Eros Ramazzotti,,,-
 2023,LXXIII,Ultimo,Un'emozione per sempre,Eros Ramazzotti,,,-
 2023,LXXIII,Ultimo,Più bella cosa,Eros Ramazzotti,,,-
-2023,LXXIII,Shari,Hai scelto me,Zucchero,,,-
-2023,LXXIII,Shari,Diavolo in me,Zucchero,,,-
+2023,LXXIII,Shari,Hai scelto me,Zucchero Fornaciari,,,-
+2023,LXXIII,Shari,Diavolo in me,Zucchero Fornaciari,,,-
 2023,LXXIII,Leo Gassmann,A cosa serve la guerra,"[Edoardo, Eugenio Bennato]",,,-
 2023,LXXIII,Leo Gassmann,L'isola che non c'è,Edoardo Bennato,,,-
 2023,LXXIII,Leo Gassmann,Il rock di Capitan Uncino,Edoardo Bennato,,,-
