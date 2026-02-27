@@ -37,6 +37,33 @@ def _split_artists_cell(cell: str) -> list[str]:
     return [s]
 
 
+def _aggregate_gender_list(genders: list) -> object:
+    """Aggregate a list of per-artist genders to a row-level category (F, M, Mixed, or pd.NA)."""
+    vals = []
+    for g in genders:
+        if pd.isna(g):
+            continue
+        s = str(g).strip()
+        if not s:
+            continue
+        vals.append(s)
+    if not vals:
+        return pd.NA
+    unique_vals = set(vals)
+    if len(unique_vals) == 1:
+        return vals[0]
+    return "Mixed"
+
+
+def _row_gender_from_cell(cell, mapping: dict) -> object:
+    """Get a single gender category for a cell (contestant or original_artist) using name_to_gender."""
+    names = _split_artists_cell(cell)
+    if not names:
+        return pd.NA
+    genders = [mapping.get(n) for n in names if n and str(n).strip() != "-"]
+    return _aggregate_gender_list(genders)
+
+
 def _project_root() -> Path:
     return Path(__file__).resolve().parent.parent
 
@@ -54,6 +81,194 @@ def _angle_dir(out_dir: Path, angle: str) -> Path:
     angle_dir = Path(out_dir) / angle
     angle_dir.mkdir(parents=True, exist_ok=True)
     return angle_dir
+
+
+def _write_canon_creation_analysis_guide(canon_out: Path) -> None:
+    """Write a short guide describing the canon_creation outputs."""
+    lines = [
+        "# Canon creation — Analysis guide",
+        "",
+        "This folder holds outputs for the **canon creation** angle: what gets covered, how diverse or original performers' choices are, and how that changes over time.",
+        "",
+        "---",
+        "",
+        "## 1. Data and outputs in this folder",
+        "",
+        "| File | Description |",
+        "|------|-------------|",
+        "| `contestant_to_original_counts.csv` | Count of covers per (contestant, original_artist) pair. |",
+        "| `contestant_to_original_sankey.html` | Sankey diagram: who covers whom (contestants to original artists). |",
+        "| `covers_per_edition.html` | Bar chart: number of cover performances per edition. |",
+        "| `covers_with_year_lag.csv` | Cover-level data with year lag (festival year minus original song year). |",
+        "| `year_lag_by_edition.html` | Boxplot of year lag by edition (how far back contestants look). |",
+        "| `original_artists_per_performer.csv` | Per performer (all editions): number of distinct original artists covered, total cover count. |",
+        "| `original_artists_per_performer.html` | Bar chart: top performers by number of distinct originals. |",
+        "| `original_artists_per_performer_per_year.csv` | Same metrics by (year, contestant). |",
+        "| `performer_originality.csv` | Per performer: mean \"uniqueness\" of their choices (1 / global cover count of that original). Higher = rarer originals. |",
+        "| `canon_metrics_over_time.csv` | Per edition: mean distinct originals per performer, mean originality. |",
+        "| `canon_metrics_over_time.html` | Line chart of these two metrics over editions. |",
+        "| `canon_original_gender_share_per_year.csv` | Share of covers by original-artist gender per year (if gender data exists). |",
+        "| `canon_original_gender_share_over_time.html` | Stacked area of that share over editions. |",
+        "| `top_artists.csv` / `top_artists.html` | Most covered original artists (canon). |",
+        "| `top_songs.csv` / `top_songs.html` | Most covered songs (canon). |",
+        "| `decade_distribution.csv` / `decade_distribution.html` | Distribution of original-song decades. |",
+        "| `decade_mix_per_year.csv` / `decade_mix_over_time.html` | Share of covers by decade per edition. |",
+        "",
+        "---",
+        "",
+        "## 2. Questions this angle answers",
+        "",
+        "- **How many original artists per performer?** Use `original_artists_per_performer.csv` or the per-year table.",
+        "- **How \"original\" are performers' choices?** Use `performer_originality.csv` (mean uniqueness).",
+        "- **Changes over time?** Use `canon_metrics_over_time.csv` and the corresponding chart.",
+        "- **Female vs male original artists?** Use `canon_original_gender_share_per_year.csv` and the area chart (when gender annotations exist).",
+        "- **Top artists and top songs?** Use `top_artists.csv` / `top_songs.csv` and the bar charts.",
+        "- **Most covered decades?** Use `decade_distribution.csv` and `decade_mix_per_year.csv`.",
+        "- **Who covers whom?** Use `contestant_to_original_counts.csv` and `contestant_to_original_sankey.html`.",
+        "- **Volume and time depth?** Use `covers_per_edition.html`, `covers_with_year_lag.csv`, and `year_lag_by_edition.html`.",
+        "",
+    ]
+    (canon_out / "analysis_guide.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def _write_taste_communities_analysis_guide(
+    G_performer_shared_original: nx.Graph,
+    G_cooccur: nx.Graph,
+    expanded: pd.DataFrame,
+    contestant_to_gender: dict | None,
+    performer_edges: list,
+    cooccur_edges: list,
+    out_path: Path,
+    _split_artists_cell,
+):
+    """Compute network metrics and write analysis_guide.md with results."""
+    from collections import Counter
+
+    lines = [
+        "# Taste communities (network analysis) — Analysis guide",
+        "",
+        "This document lists what to check in the networks and reports **pre-computed** metrics to support your data story.",
+        "",
+        "---",
+        "",
+        "## 1. Data and outputs in this folder",
+        "",
+        "- **Performer network**: nodes = contestants (performers); edge between two if they covered at least one same original artist; edge weight = number of shared originals. Files: `performer_shared_original_network.html`, `performer_shared_original_edges.csv`, `performer_shared_original_top_pairs.csv`.",
+        "- **Cooccurrence network**: nodes = original artists; edge between two if they co-occurred in at least one edition; edge weight = co-occurrence count. Files: `cooccurrence_network.html`, `cooccurrence_edges.csv`, `cooccurrence_top_pairs.csv`.",
+        "- Optional: node color = gender when `artist_gender_by_artist.csv` exists.",
+        "",
+        "---",
+        "",
+        "## 2. What to check in the networks (visual)",
+        "",
+        "- **Performer network**: Do performers cluster by taste? Are there clear communities? When gender is on: do clusters look more male/female/mixed? Who are the \"bridge\" performers (high betweenness)?",
+        "- **Cooccurrence network**: Which original artists sit in the centre? Do artists from the same era/genre cluster?",
+        "",
+        "---",
+        "",
+        "## 3. Computed metrics — Performer network",
+        "",
+    ]
+
+    # Weighted degree (top 20)
+    degrees = dict(G_performer_shared_original.degree(weight="weight"))
+    top_degree = sorted(degrees.items(), key=lambda x: -x[1])[:20]
+    lines.append("### Top 20 performers by weighted degree (taste overlap)")
+    lines.append("")
+    for i, (name, d) in enumerate(top_degree, 1):
+        lines.append(f"{i}. **{name}** — {d}")
+    lines.extend(["", "---", "", "### Top 15 bridge performers (betweenness centrality)", ""])
+    try:
+        betweenness = nx.betweenness_centrality(G_performer_shared_original, weight="weight")
+        top_bet = sorted(betweenness.items(), key=lambda x: -x[1])[:15]
+        for i, (name, b) in enumerate(top_bet, 1):
+            lines.append(f"{i}. **{name}** — {b:.4f}")
+    except Exception:
+        lines.append("(Betweenness could not be computed.)")
+    lines.extend(["", "---", "", "### Top 15 performer pairs by shared originals", ""])
+    sorted_pairs = sorted(performer_edges, key=lambda x: -x["weight"])[:15]
+    for i, e in enumerate(sorted_pairs, 1):
+        lines.append(f"{i}. **{e['node_a']}** and **{e['node_b']}** — {e['weight']} shared original artist(s)")
+    lines.extend(["", "---", "", "## 4. Community detection (performer network)", ""])
+
+    # Community detection
+    try:
+        from networkx.algorithms.community import greedy_modularity_communities
+        communities = list(greedy_modularity_communities(G_performer_shared_original, weight="weight"))
+    except Exception:
+        try:
+            from networkx.algorithms.community import label_propagation_communities
+            communities = list(label_propagation_communities(G_performer_shared_original))
+        except Exception:
+            communities = []
+    # Sort by size descending
+    communities = sorted(communities, key=len, reverse=True)
+
+    if not communities:
+        lines.append("(Community detection could not be run.)")
+    else:
+        lines.append(f"Found **{len(communities)}** communities (greedy modularity).")
+        lines.append("")
+        # Per-community: size, gender mix, top originals
+        for idx, comm in enumerate(communities, 1):
+            members = list(comm)
+            lines.append(f"### Community {idx} (size: {len(members)})")
+            lines.append("")
+            lines.append("**Members:** " + ", ".join(sorted(members)[:25]) + ("..." if len(members) > 25 else "") + ".")
+            lines.append("")
+            if contestant_to_gender:
+                gender_counts = Counter()
+                for c in members:
+                    g = contestant_to_gender.get(c)
+                    if g is None or (isinstance(g, float) and str(g) == "nan") or pd.isna(g):
+                        gender_counts["Unknown"] += 1
+                    else:
+                        gender_counts[str(g).strip() or "Unknown"] += 1
+                parts = [f"{g}: {n}" for g, n in sorted(gender_counts.items())]
+                lines.append("**Gender mix:** " + "; ".join(parts) + ".")
+                lines.append("")
+            # Top originals covered by this community (from expanded)
+            orig_counts = Counter()
+            for _, row in expanded.iterrows():
+                if row["contestant"] in comm:
+                    for o in _split_artists_cell(row["original_artist"]):
+                        if o and str(o).strip() != "-":
+                            orig_counts[o.strip()] += 1
+            top_orig = orig_counts.most_common(10)
+            if top_orig:
+                lines.append("**Top 10 original artists covered by this community:**")
+                for o, c in top_orig:
+                    lines.append(f"- {o} ({c})")
+            lines.append("")
+            lines.append("---")
+            lines.append("")
+
+    lines.extend(["", "## 5. Computed metrics — Cooccurrence network", "", "### Top 15 original-artist pairs by co-occurrence weight", ""])
+    sorted_cooccur = sorted(cooccur_edges, key=lambda x: -x["weight"])[:15]
+    for i, e in enumerate(sorted_cooccur, 1):
+        lines.append(f"{i}. **{e['node_a']}** and **{e['node_b']}** — {e['weight']}")
+    lines.extend(["", "### Top 15 original artists by weighted degree (co-occurrence)", ""])
+    cooccur_degrees = dict(G_cooccur.degree(weight="weight"))
+    top_cooccur_deg = sorted(cooccur_degrees.items(), key=lambda x: -x[1])[:15]
+    for i, (name, d) in enumerate(top_cooccur_deg, 1):
+        lines.append(f"{i}. **{name}** — {d}")
+    lines.extend([
+        "",
+        "---",
+        "",
+        "## 6. Story angles you can build",
+        "",
+        "- **Taste communities**: Use the communities above; name them by top covered originals or genre; describe size and gender mix.",
+        "- **Bridge performers**: Use the betweenness list; say who connects different taste clusters.",
+        "- **Gender and taste**: Compare gender mix across communities; note homophily or mixing.",
+        "- **Canon and co-occurrence**: Use central artists and top pairs to describe the \"Sanremo cover canon\" and typical pairings.",
+        "- **Strongest ties**: Use the top performer pairs to highlight similar repertoires or key editions.",
+        "",
+    ])
+
+    out_path = Path(out_path)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text("\n".join(lines), encoding="utf-8")
 
 
 def run(
@@ -131,11 +346,6 @@ def run(
     author_counts = expanded["original_artist"].value_counts().reset_index()
     author_counts.columns = ["original_artist", "count"]
 
-    fig_songs = viz.bar_top_songs(song_counts)
-    viz.write_figure(fig_songs, out_dir / "top_songs", html=True)
-    fig_authors = viz.bar_top_authors(author_counts)
-    viz.write_figure(fig_authors, out_dir / "top_authors", html=True)
-
     # Section 3: bipartite and co-occurrence networks
     B_song = nx.Graph()
     for _, row in expanded.iterrows():
@@ -153,11 +363,9 @@ def run(
     artist_centrality.sort(key=lambda x: -x[1])
     top_artists_centrality = artist_centrality[:10]
 
-    # Persist full centrality tables for further analysis
+    # Persist full centrality tables for further analysis (written to taste_communities below)
     song_centrality_df = pd.DataFrame(song_centrality, columns=["song", "degree_centrality"])
     artist_centrality_df = pd.DataFrame(artist_centrality, columns=["original_artist", "degree_centrality"])
-    song_centrality_df.to_csv(out_dir / "song_degree_centrality.csv", index=False)
-    artist_centrality_df.to_csv(out_dir / "artist_degree_centrality.csv", index=False)
 
     G_guest = nx.Graph()
     for _, row in covers.iterrows():
@@ -181,9 +389,28 @@ def run(
         G_cooccur.add_edge(a, b, weight=w)
     top_cooccur = sorted(G_cooccur.edges(data=True), key=lambda x: -x[2].get("weight", 0))[:15]
 
+    taste_communities_out = _angle_dir(out_dir, "taste_communities")
+    song_centrality_df.to_csv(taste_communities_out / "song_degree_centrality.csv", index=False)
+    artist_centrality_df.to_csv(taste_communities_out / "artist_degree_centrality.csv", index=False)
+
+    # Optional: color nodes by gender when artist_gender_by_artist exists
+    name_to_gender_tc = None
+    contestant_to_gender = None
+    artist_gender_by_artist_path = processed_dir / "artist_gender_by_artist.csv"
+    if artist_gender_by_artist_path.exists():
+        agb = pd.read_csv(artist_gender_by_artist_path)
+        agb["artist_name"] = agb["artist_name"].astype(str).str.strip()
+        name_to_gender_tc = agb.set_index("artist_name")["gender"].to_dict()
+        contestant_to_gender = {
+            c: _row_gender_from_cell(c, name_to_gender_tc) for c in expanded["contestant"].unique()
+        }
+
     # Co-occurrence network figure for original artists
-    fig_cooccur = viz.network_cooccurrence(G_cooccur)
-    viz.write_figure(fig_cooccur, out_dir / "cooccurrence_network", html=True)
+    fig_cooccur = viz.network_cooccurrence(
+        G_cooccur,
+        #node_color_attr=name_to_gender_tc,
+    )
+    viz.write_figure(fig_cooccur, taste_communities_out / "cooccurrence_network", html=True)
 
     # Performer shared-original network: nodes = contestants, edge = covered at least one same original artist
     original_to_contestants = defaultdict(set)
@@ -201,12 +428,55 @@ def run(
                     G_performer_shared_original[a][b]["weight"] += 1
                 else:
                     G_performer_shared_original.add_edge(a, b, weight=1)
+
+    performer_total_covers = expanded.groupby("contestant").size().to_dict()
     fig_performer = viz.network_graph(
         G_performer_shared_original,
         top_n=80,
         title="Performers connected by same original artist(s)",
+        node_size_attr=performer_total_covers,
+        node_hover_suffix=" shared original artists (degree)",
+        #node_color_attr=contestant_to_gender,
     )
-    viz.write_figure(fig_performer, out_dir / "performer_shared_original_network", html=True)
+    viz.write_figure(fig_performer, taste_communities_out / "performer_shared_original_network", html=True)
+
+    # Edge list and top pairs CSVs for taste communities
+    performer_edges = [
+        {"node_a": u, "node_b": v, "weight": d.get("weight", 1)}
+        for u, v, d in G_performer_shared_original.edges(data=True)
+    ]
+    if performer_edges:
+        pd.DataFrame(performer_edges).to_csv(
+            taste_communities_out / "performer_shared_original_edges.csv", index=False
+        )
+        pd.DataFrame(performer_edges).sort_values("weight", ascending=False).to_csv(
+            taste_communities_out / "performer_shared_original_top_pairs.csv", index=False
+        )
+    cooccur_edges = [
+        {"node_a": u, "node_b": v, "weight": d.get("weight", 1)}
+        for u, v, d in G_cooccur.edges(data=True)
+    ]
+    if cooccur_edges:
+        pd.DataFrame(cooccur_edges).to_csv(
+            taste_communities_out / "cooccurrence_edges.csv", index=False
+        )
+        pd.DataFrame(cooccur_edges).sort_values("weight", ascending=False).to_csv(
+            taste_communities_out / "cooccurrence_top_pairs.csv", index=False
+        )
+
+    # Taste communities: compute metrics and write analysis guide
+    _write_taste_communities_analysis_guide(
+        G_performer_shared_original=G_performer_shared_original,
+        G_cooccur=G_cooccur,
+        expanded=expanded,
+        contestant_to_gender=contestant_to_gender,
+        performer_edges=performer_edges if performer_edges else [],
+        cooccur_edges=cooccur_edges if cooccur_edges else [],
+        out_path=taste_communities_out / "analysis_guide.md",
+        _split_artists_cell=_split_artists_cell,
+    )
+
+    canon_out = _angle_dir(out_dir, "canon_creation")
 
     # Contestant → original-artist relationship table and Sankey diagram
     contestant_artist = (
@@ -214,22 +484,20 @@ def run(
         .size()
         .reset_index(name="n_covers_pair")
     )
-    contestant_artist.to_csv(out_dir / "contestant_to_original_counts.csv", index=False)
+    contestant_artist.to_csv(canon_out / "contestant_to_original_counts.csv", index=False)
 
     fig_sankey = viz.sankey_contestant_to_original(contestant_artist)
-    viz.write_figure(fig_sankey, out_dir / "contestant_to_original_sankey", html=True)
+    viz.write_figure(fig_sankey, canon_out / "contestant_to_original_sankey", html=True)
 
     # Section 4: temporal, guests, winners vs canon, medley summary
     expanded_decade = expanded.copy()
     expanded_decade["decade"] = (expanded_decade["song_year_parsed"] // 10 * 10).astype("Int64")
 
-    # Overall distribution of original-song decades
+    # Overall distribution of original-song decades (figs written in canon_creation section below)
     decade_counts = expanded_decade["decade"].dropna().astype(int).value_counts().sort_index()
     decade_df = decade_counts.reset_index()
     decade_df.columns = ["decade", "count"]
     decade_df["decade"] = decade_df["decade"].astype(str) + "s"
-    fig_decade = viz.bar_decade(decade_df)
-    viz.write_figure(fig_decade, out_dir / "decade_distribution", html=True)
 
     # Decade mix per edition (for stacked area over time)
     decade_per_year = (
@@ -242,23 +510,124 @@ def run(
     decade_per_year["share"] = decade_per_year["n_covers"] / decade_per_year["total_per_year"]
     decade_per_year["decade"] = decade_per_year["decade"].astype(int).astype(str) + "s"
     decade_per_year = decade_per_year.sort_values(["year", "decade"])
-    decade_per_year.to_csv(out_dir / "covers_decade_mix_per_year.csv", index=False)
-
-    fig_decade_time = viz.area_decade_over_time(decade_per_year)
-    viz.write_figure(fig_decade_time, out_dir / "decade_mix_over_time", html=True)
 
     covers_per_year = covers.groupby("year").size().reset_index(name="n_covers")
     fig_trend = viz.bar_covers_per_year(covers_per_year)
-    viz.write_figure(fig_trend, out_dir / "covers_per_edition", html=True)
+    viz.write_figure(fig_trend, canon_out / "covers_per_edition", html=True)
 
     # Year-lag distribution: how far back contestants look each edition
     expanded_with_lag = expanded_decade.dropna(subset=["song_year_parsed"]).copy()
     expanded_with_lag["song_year_parsed"] = expanded_with_lag["song_year_parsed"].astype(int)
     expanded_with_lag["year_lag"] = expanded_with_lag["year"] - expanded_with_lag["song_year_parsed"]
-    expanded_with_lag.to_csv(out_dir / "covers_with_year_lag.csv", index=False)
+    expanded_with_lag.to_csv(canon_out / "covers_with_year_lag.csv", index=False)
 
     fig_year_lag = viz.box_year_lag(expanded_with_lag)
-    viz.write_figure(fig_year_lag, out_dir / "year_lag_by_edition", html=True)
+    viz.write_figure(fig_year_lag, canon_out / "year_lag_by_edition", html=True)
+
+    # Section: canon creation (canon_out already created above)
+
+    # Original artists per performer (overall)
+    per_performer = (
+        expanded.groupby("contestant")
+        .agg(
+            n_original_artists=("original_artist", "nunique"),
+            n_covers=("original_artist", "count"),
+        )
+        .reset_index()
+    )
+    per_performer.to_csv(canon_out / "original_artists_per_performer.csv", index=False)
+    fig_canon_perf = viz.bar_original_artists_per_performer(per_performer)
+    viz.write_figure(fig_canon_perf, canon_out / "original_artists_per_performer", html=True)
+
+    # Original artists per performer per year
+    per_performer_year = (
+        expanded.groupby(["year", "contestant"])
+        .agg(
+            n_original_artists=("original_artist", "nunique"),
+            n_covers=("original_artist", "count"),
+        )
+        .reset_index()
+    )
+    per_performer_year.to_csv(canon_out / "original_artists_per_performer_per_year.csv", index=False)
+
+    # Uniqueness = 1 / global cover count of that original; per-performer mean originality
+    artist_cover_count = expanded["original_artist"].value_counts()
+    expanded_with_uniq = expanded.copy()
+    expanded_with_uniq["uniqueness"] = expanded_with_uniq["original_artist"].map(
+        lambda a: 1.0 / artist_cover_count.get(a, 1)
+    )
+    performer_orig = (
+        expanded_with_uniq.groupby("contestant")
+        .agg(
+            n_covers=("uniqueness", "count"),
+            mean_uniqueness=("uniqueness", "mean"),
+        )
+        .reset_index()
+    )
+    performer_orig.rename(columns={"mean_uniqueness": "mean_originality"}, inplace=True)
+    performer_orig.to_csv(canon_out / "performer_originality.csv", index=False)
+
+    # Canon metrics over time: mean n_originals and mean originality per edition
+    canon_metrics_rows = []
+    for y in sorted(expanded["year"].unique()):
+        sub = expanded[expanded["year"] == y]
+        ac_y = sub["original_artist"].value_counts()
+        sub_uniq = sub.copy()
+        sub_uniq["uniqueness"] = sub_uniq["original_artist"].map(lambda a: 1.0 / ac_y.get(a, 1))
+        mean_orig = sub_uniq.groupby("contestant")["uniqueness"].mean().mean()
+        mean_n = per_performer_year.loc[per_performer_year["year"] == y, "n_original_artists"].mean()
+        canon_metrics_rows.append({
+            "year": y,
+            "mean_n_originals_per_performer": mean_n,
+            "mean_originality": mean_orig,
+        })
+    canon_metrics_df = pd.DataFrame(canon_metrics_rows)
+    canon_metrics_df.to_csv(canon_out / "canon_metrics_over_time.csv", index=False)
+    fig_canon_metrics = viz.line_canon_metrics_over_time(canon_metrics_df)
+    viz.write_figure(fig_canon_metrics, canon_out / "canon_metrics_over_time", html=True)
+
+    # Female vs male original artists in canon (if gender data exists)
+    artist_gender_by_artist_path = processed_dir / "artist_gender_by_artist.csv"
+    if artist_gender_by_artist_path.exists():
+        agb = pd.read_csv(artist_gender_by_artist_path)
+        agb["artist_name"] = agb["artist_name"].astype(str).str.strip()
+        name_to_gender_canon = agb.set_index("artist_name")["gender"].to_dict()
+        expanded_canon_gender = expanded.copy()
+        expanded_canon_gender["original_gender"] = expanded_canon_gender["original_artist"].apply(
+            lambda cell: _row_gender_from_cell(cell, name_to_gender_canon)
+        )
+        canon_gender_by_year = (
+            expanded_canon_gender.dropna(subset=["original_gender"])
+            .groupby(["year", "original_gender"])
+            .size()
+            .reset_index(name="n_covers")
+        )
+        if not canon_gender_by_year.empty:
+            canon_gender_by_year["total_per_year"] = canon_gender_by_year.groupby("year")["n_covers"].transform("sum")
+            canon_gender_by_year["share"] = canon_gender_by_year["n_covers"] / canon_gender_by_year["total_per_year"]
+            canon_gender_by_year.to_csv(canon_out / "canon_original_gender_share_per_year.csv", index=False)
+            fig_canon_gender = viz.area_canon_original_gender_over_time(canon_gender_by_year)
+            viz.write_figure(fig_canon_gender, canon_out / "canon_original_gender_share_over_time", html=True)
+
+    # Top artists and top songs (self-contained in canon folder)
+    author_counts.to_csv(canon_out / "top_artists.csv", index=False)
+    song_counts.to_csv(canon_out / "top_songs.csv", index=False)
+    fig_canon_authors = viz.bar_top_authors(author_counts, title="Canon: top most covered original artists")
+    viz.write_figure(fig_canon_authors, canon_out / "top_artists", html=True)
+    fig_canon_songs = viz.bar_top_songs(song_counts, title="Canon: top most covered songs")
+    viz.write_figure(fig_canon_songs, canon_out / "top_songs", html=True)
+
+    # Most covered decades
+    decade_df.to_csv(canon_out / "decade_distribution.csv", index=False)
+    decade_per_year.to_csv(canon_out / "decade_mix_per_year.csv", index=False)
+    fig_canon_decade = viz.bar_decade(decade_df, title="Canon: distribution of original-song decades")
+    viz.write_figure(fig_canon_decade, canon_out / "decade_distribution", html=True)
+    fig_canon_decade_time = viz.area_decade_over_time(
+        decade_per_year, title="Canon: share of covers by decade over editions"
+    )
+    viz.write_figure(fig_canon_decade_time, canon_out / "decade_mix_over_time", html=True)
+
+    _write_canon_creation_analysis_guide(canon_out)
 
     # Section 5: gender mapping and flows (requires manual annotation file)
     gender_out_dir = _angle_dir(out_dir, "gender")
@@ -301,30 +670,6 @@ def run(
         # Map canonical artist names to gender and aggregate per performance
         name_to_gender = artist_gender_by_artist.set_index("artist_name")["gender"].to_dict()
 
-        def _aggregate_gender_list(genders: list) -> object:
-            """Aggregate a list of per-artist genders to a row-level category."""
-            vals = []
-            for g in genders:
-                if pd.isna(g):
-                    continue
-                s = str(g).strip()
-                if not s:
-                    continue
-                vals.append(s)
-            if not vals:
-                return pd.NA
-            unique_vals = set(vals)
-            if len(unique_vals) == 1:
-                return vals[0]
-            return "Mixed"
-
-        def _row_gender_from_cell(cell, mapping: dict[str, object]) -> object:
-            names = _split_artists_cell(cell)
-            if not names:
-                return pd.NA
-            genders = [mapping.get(n) for n in names if n and str(n).strip() != "-"]
-            return _aggregate_gender_list(genders)
-
         expanded_gender = expanded.copy()
         expanded_gender["original_gender"] = expanded_gender["original_artist"].apply(
             lambda cell: _row_gender_from_cell(cell, name_to_gender)
@@ -351,13 +696,6 @@ def run(
                 gender_by_year["n_female_original"] / gender_by_year["n_covers"]
             )
             gender_by_year.to_csv(gender_out_dir / "gender_original_share_per_year.csv", index=False)
-
-            fig_gender_line = viz.line_share_female_originals(gender_by_year)
-            viz.write_figure(
-                fig_gender_line,
-                gender_out_dir / "gender_original_share_over_time",
-                html=True,
-            )
 
         # Flow between performer gender and original-artist gender
         mask_both_known = expanded_gender["performer_gender"].notna() & expanded_gender["original_gender"].notna()
@@ -441,14 +779,15 @@ def run(
                 index=False,
             )
 
-            fig_perf_over_female = viz.bar_performer_gender_over_female_originals_over_time(
-                performer_gender_over_female
-            )
-            viz.write_figure(
-                fig_perf_over_female,
-                gender_out_dir / "gender_performer_over_female_originals_stacked_over_time",
-                html=True,
-            )
+            if not gender_by_year.empty:
+                fig_combined = viz.combined_gender_original_share_and_performer_stacked(
+                    gender_by_year, performer_gender_over_female
+                )
+                viz.write_figure(
+                    fig_combined,
+                    gender_out_dir / "gender_original_share_and_performer_over_female_originals_over_time",
+                    html=True,
+                )
 
         # Contingency table and conditional probabilities for F/M performer vs original
         fm_mask = expanded_gender["performer_gender"].isin(["F", "M"]) & expanded_gender[
@@ -497,6 +836,31 @@ def run(
                 # For 1 degree of freedom, p-value = erfc(sqrt(chi2 / 2))
                 p_value = float(math.erfc(math.sqrt(chi2 / 2.0))) if chi2 >= 0 else float("nan")
 
+                # Baseline share of original gender (bar chart)
+                baseline_original_df = pd.DataFrame(
+                    {
+                        "original_gender": ["F", "M"],
+                        "share": [
+                            float(col_sums["F"] / total),
+                            float(col_sums["M"] / total),
+                        ],
+                    }
+                )
+                fig_baseline = viz.bar_baseline_original_gender(baseline_original_df)
+                viz.write_figure(
+                    fig_baseline,
+                    gender_out_dir / "gender_baseline_original_share",
+                    html=True,
+                )
+
+                # Heatmap of conditional probabilities P(original | performer) for F/M covers
+                fig_gender_heatmap = viz.heatmap_gender_conditional_probs(fm_table)
+                viz.write_figure(
+                    fig_gender_heatmap,
+                    gender_out_dir / "gender_performer_original_prob_heatmap",
+                    html=True,
+                )
+
                 fm_table_reset = (
                     fm_table.reset_index()
                     .melt(
@@ -518,6 +882,7 @@ def run(
                 }
 
     # Section 6: self-covers and self-tributes
+    self_cover_out = _angle_dir(out_dir, "self_cover")
     expanded_self = expanded.copy()
     expanded_self["is_self_cover"] = expanded_self.apply(
         lambda row: bool(
@@ -527,14 +892,46 @@ def run(
         axis=1,
     )
     self_covers = expanded_self[expanded_self["is_self_cover"]]
-    self_covers.to_csv(out_dir / "self_covers_detailed.csv", index=False)
+    self_covers.to_csv(self_cover_out / "self_covers_detailed.csv", index=False)
 
     self_covers_per_year = self_covers.groupby("year").size().reset_index(name="n_self_covers")
-    self_covers_per_year.to_csv(out_dir / "self_covers_per_year.csv", index=False)
+    self_covers_per_year.to_csv(self_cover_out / "self_covers_per_year.csv", index=False)
 
     if not self_covers_per_year.empty:
         fig_self_covers = viz.bar_self_covers_per_year(self_covers_per_year)
-        viz.write_figure(fig_self_covers, out_dir / "self_covers_per_year", html=True)
+        viz.write_figure(fig_self_covers, self_cover_out / "self_covers_per_year", html=True)
+
+    if not self_covers.empty:
+        performer_year = (
+            self_covers.groupby(["year", "contestant", "edition"])
+            .agg(
+                n_self_covers=("song", "count"),
+                songs_str=("song", lambda s: " | ".join(s.astype(str))),
+            )
+            .reset_index()
+        )
+        songs_per_performer = (
+            expanded.groupby(["year", "contestant"]).size().reset_index(name="n_songs_performer")
+        )
+        performer_year = performer_year.merge(
+            songs_per_performer, on=["year", "contestant"], how="left"
+        )
+        performer_year["n_songs_performer"] = performer_year["n_songs_performer"].fillna(0).astype(int)
+        performer_year.to_csv(self_cover_out / "self_covers_per_performer_year.csv", index=False)
+        fig_scatter = viz.scatter_self_covers_performer(performer_year)
+        viz.write_figure(fig_scatter, self_cover_out / "self_covers_scatter_performer", html=True)
+
+        self_covers_decade = self_covers.dropna(subset=["song_year_parsed"]).copy()
+        self_covers_decade["song_year_parsed"] = self_covers_decade["song_year_parsed"].astype(int)
+        self_covers_decade["decade"] = (
+            (self_covers_decade["song_year_parsed"] // 10 * 10).astype(int).astype(str) + "s"
+        )
+        self_covers_by_decade = (
+            self_covers_decade.groupby("decade").size().reset_index(name="count").sort_values("decade")
+        )
+        self_covers_by_decade.to_csv(self_cover_out / "self_covers_by_decade.csv", index=False)
+        fig_decade = viz.bar_self_covers_by_decade(self_covers_by_decade)
+        viz.write_figure(fig_decade, self_cover_out / "self_covers_by_decade", html=True)
 
     winning_songs = winners["song"].tolist()
     top_songs_set = set(song_counts.head(30)["song"])

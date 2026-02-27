@@ -47,17 +47,17 @@ Top 15 co-occurrence pairs (same edition):
   Ornella Vanoni / Lucio Dalla (weight=4)
   Adriano Celentano / Franco Battiato (weight=4)
   Gianna Nannini / Fabrizio De André (weight=4)
-  Lucio Dalla / Lucio Battisti (weight=4)
-  Lucio Dalla / Riccardo Cocciante (weight=4)
-  Lucio Dalla / Fabrizio De André (weight=4)
-  Lucio Battisti / Pino Daniele (weight=4)
-  Lucio Battisti / Fabrizio De André (weight=4)
+  Pino Daniele / Lucio Battisti (weight=4)
   Riccardo Cocciante / Fabrizio De André (weight=4)
+  Riccardo Cocciante / Lucio Dalla (weight=4)
+  Fabrizio De André / Lucio Battisti (weight=4)
+  Fabrizio De André / Lucio Dalla (weight=4)
+  Lucio Battisti / Lucio Dalla (weight=4)
   Sergio Endrigo / Ornella Vanoni (weight=3)
-  Sergio Endrigo / Adriano Celentano (weight=3)
   Sergio Endrigo / Caterina Caselli (weight=3)
-  Luigi Tenco / Ornella Vanoni (weight=3)
-  Luigi Tenco / Caterina Caselli (weight=3)
+  Sergio Endrigo / Adriano Celentano (weight=3)
+  Ornella Vanoni / Luigi Tenco (weight=3)
+  Ornella Vanoni / Caterina Caselli (weight=3)
 
 Winners vs canon:
   Winning songs: ['Se telefonando', 'La sera dei miracoli', 'Amara terra mia', 'Piazza Grande', 'Caruso', 'Medley', 'Let It Be', 'Strade (Medley)', 'Skyfall']
@@ -66,42 +66,42 @@ Winners vs canon:
   Overlap with top 30 most covered artists: ['Mina', 'Lucio Dalla', 'Domenico Modugno', 'Lucio Dalla', 'Lucio Dalla']
 
 Medleys vs canon (top 30):
-  Canon songs appearing in medleys: ['Ragazzo fortunato', 'Salirò', "L'italiano", 'La canzone del sole', 'Angelo', 'Meravigliosa creatura', 'A mano a mano', 'Portami via', 'Sarà perché ti amo', 'Adesso tu', 'Gianna', 'Nessuno mi può giudicare', 'Il mondo', 'Penso positivo']
-  Canon artists appearing in medleys: ['Gianni Morandi', 'Edoardo Bennato', 'Lucio Battisti', 'Riccardo Cocciante', 'Vasco Rossi', 'Eros Ramazzotti', 'Ricchi e Poveri', 'Daniele Silvestri', 'Loredana Bertè', 'Gianna Nannini', 'Fabrizio Moro', 'Articolo 31', 'Paola & Chiara', 'Caterina Caselli', 'Zucchero Fornaciari', 'Jovanotti']
+  Canon songs appearing in medleys: ['A mano a mano', 'Angelo', 'Gianna', "L'italiano", 'Sarà perché ti amo', 'Portami via', 'Nessuno mi può giudicare', 'Salirò', 'Ragazzo fortunato', 'Penso positivo', 'Meravigliosa creatura', 'Il mondo', 'La canzone del sole', 'Adesso tu']
+  Canon artists appearing in medleys: ['Loredana Bertè', 'Eros Ramazzotti', 'Ricchi e Poveri', 'Riccardo Cocciante', 'Lucio Battisti', 'Zucchero Fornaciari', 'Jovanotti', 'Gianni Morandi', 'Daniele Silvestri', 'Gianna Nannini', 'Fabrizio Moro', 'Edoardo Bennato', 'Vasco Rossi', 'Caterina Caselli', 'Paola & Chiara', 'Articolo 31']
 
 Ego networks for selected iconic artists (co-occurring originals):
   Lucio Battisti:
-    - Lucio Dalla (weight=4)
     - Pino Daniele (weight=4)
     - Fabrizio De André (weight=4)
-    - Riccardo Cocciante (weight=3)
+    - Lucio Dalla (weight=4)
     - Loredana Bertè (weight=3)
+    - Riccardo Cocciante (weight=3)
     - Luigi Tenco (weight=3)
     - Gianna Nannini (weight=2)
-    - Gianni Morandi (weight=2)
-    - Patty Pravo (weight=2)
     - Domenico Modugno (weight=2)
+    - Patty Pravo (weight=2)
+    - Gianni Morandi (weight=2)
   Lucio Dalla:
-    - Lucio Battisti (weight=4)
     - Riccardo Cocciante (weight=4)
     - Fabrizio De André (weight=4)
+    - Lucio Battisti (weight=4)
     - Ornella Vanoni (weight=4)
     - Gianna Nannini (weight=3)
     - Pino Daniele (weight=3)
     - Adriano Celentano (weight=3)
     - Luigi Tenco (weight=3)
-    - Domenico Modugno (weight=2)
     - Loredana Bertè (weight=2)
+    - Domenico Modugno (weight=2)
   Fabrizio De André:
     - Gianna Nannini (weight=4)
-    - Lucio Dalla (weight=4)
-    - Lucio Battisti (weight=4)
     - Riccardo Cocciante (weight=4)
-    - Pino Daniele (weight=3)
+    - Lucio Battisti (weight=4)
+    - Lucio Dalla (weight=4)
     - Loredana Bertè (weight=3)
+    - Pino Daniele (weight=3)
     - Gianluca Grignani (weight=3)
     - Luigi Tenco (weight=3)
-    - Gianni Morandi (weight=2)
+    - Domenico Modugno (weight=2)
     - Patty Pravo (weight=2)
 
 Gender-based cover probabilities (performer vs original, F/M only):

@@ -1,0 +1,3138 @@
+node_a,node_b,weight
+Dik Dik,Sergio Endrigo,1
+Dik Dik,Matia Bazar,1
+Dik Dik,Ornella Vanoni,1
+Dik Dik,Luigi Tenco,1
+Dik Dik,Vasco Rossi,1
+Dik Dik,Massimo Ranieri,1
+Dik Dik,Giuni Russo,1
+Dik Dik,Luca Carboni,1
+Dik Dik,"[Domenico Modugno, Gigliola Cinquetti]",1
+Dik Dik,Eduardo De Crescenzo,1
+Dik Dik,Cochi e Renato,1
+Dik Dik,Patty Pravo,1
+Dik Dik,Francesco Nuti,1
+Dik Dik,Caterina Caselli,1
+Dik Dik,Adriano Celentano,1
+Dik Dik,Mina,1
+Dik Dik,Ron,1
+Sergio Endrigo,Matia Bazar,2
+Sergio Endrigo,Ornella Vanoni,3
+Sergio Endrigo,Luigi Tenco,2
+Sergio Endrigo,Vasco Rossi,2
+Sergio Endrigo,Massimo Ranieri,1
+Sergio Endrigo,Giuni Russo,1
+Sergio Endrigo,Luca Carboni,1
+Sergio Endrigo,"[Domenico Modugno, Gigliola Cinquetti]",1
+Sergio Endrigo,Eduardo De Crescenzo,1
+Sergio Endrigo,Cochi e Renato,1
+Sergio Endrigo,Patty Pravo,1
+Sergio Endrigo,Francesco Nuti,1
+Sergio Endrigo,Caterina Caselli,3
+Sergio Endrigo,Adriano Celentano,3
+Sergio Endrigo,Mina,1
+Sergio Endrigo,Ron,1
+Sergio Endrigo,Amedeo Minghi,1
+Sergio Endrigo,Eros Ramazzotti,1
+Sergio Endrigo,Ricchi e Poveri,1
+Sergio Endrigo,"[Fausto Cigliano, Gene Pitney]",1
+Sergio Endrigo,Little Tony,1
+Sergio Endrigo,Renato Zero,1
+Sergio Endrigo,Fausto Leali,1
+Sergio Endrigo,Mia Martini,1
+Sergio Endrigo,Simone Cristicchi,1
+Sergio Endrigo,Nilla Pizzi,1
+Sergio Endrigo,Enzo Jannacci,1
+Sergio Endrigo,Achille Lauro,1
+Sergio Endrigo,Claudia Mori,1
+Sergio Endrigo,Max Gazzè,1
+Sergio Endrigo,Daniele Silvestri,2
+Sergio Endrigo,Toto Cutugno,1
+Sergio Endrigo,Lucio Dalla,2
+Sergio Endrigo,Tozzi-Morandi-Ruggeri,1
+Sergio Endrigo,Rino Gaetano,2
+Sergio Endrigo,Anna Oxa,1
+Sergio Endrigo,Elisa,1
+Sergio Endrigo,Noemi,1
+Sergio Endrigo,"[Tony Del Monaco, Dionne Warwick]",1
+Sergio Endrigo,Nesli,1
+Sergio Endrigo,Jalisse,1
+Sergio Endrigo,Neffa,1
+Sergio Endrigo,Stadio,1
+Sergio Endrigo,Pino Daniele,1
+Sergio Endrigo,Dori Ghezzi,1
+Sergio Endrigo,Lucio Battisti,1
+Sergio Endrigo,Zucchero Fornaciari,1
+Sergio Endrigo,C.S.I.,1
+Sergio Endrigo,Calcutta,1
+Sergio Endrigo,Jovanotti,1
+Sergio Endrigo,Afterhours,1
+Sergio Endrigo,Raoul Casadei,1
+Sergio Endrigo,"[Al Bano, Romina Power]",1
+Sergio Endrigo,"[Aleandro Baldi, Francesca Alotta]",1
+Sergio Endrigo,CCCP - Fedeli alla linea,1
+Sergio Endrigo,Samuele Bersani,1
+Sergio Endrigo,Francesco Guccini,1
+Sergio Endrigo,Donatella Rettore,1
+Sergio Endrigo,Franco Battiato,1
+Sergio Endrigo,Gabriella Ferri,1
+Sergio Endrigo,Neri per Caso,1
+Sergio Endrigo,883,1
+Matia Bazar,Ornella Vanoni,2
+Matia Bazar,Luigi Tenco,1
+Matia Bazar,Vasco Rossi,2
+Matia Bazar,Massimo Ranieri,1
+Matia Bazar,Giuni Russo,1
+Matia Bazar,Luca Carboni,1
+Matia Bazar,"[Domenico Modugno, Gigliola Cinquetti]",1
+Matia Bazar,Eduardo De Crescenzo,1
+Matia Bazar,Cochi e Renato,1
+Matia Bazar,Patty Pravo,1
+Matia Bazar,Francesco Nuti,1
+Matia Bazar,Caterina Caselli,2
+Matia Bazar,Adriano Celentano,2
+Matia Bazar,Mina,1
+Matia Bazar,Ron,1
+Matia Bazar,Amedeo Minghi,1
+Matia Bazar,Eros Ramazzotti,1
+Matia Bazar,Ricchi e Poveri,1
+Matia Bazar,"[Fausto Cigliano, Gene Pitney]",1
+Matia Bazar,Little Tony,1
+Matia Bazar,Renato Zero,1
+Matia Bazar,Fausto Leali,1
+Matia Bazar,Mia Martini,1
+Matia Bazar,Simone Cristicchi,1
+Matia Bazar,Nilla Pizzi,1
+Matia Bazar,Enzo Jannacci,1
+Matia Bazar,Achille Lauro,1
+Matia Bazar,Claudia Mori,1
+Matia Bazar,Max Gazzè,1
+Matia Bazar,Daniele Silvestri,1
+Matia Bazar,Toto Cutugno,1
+Matia Bazar,Lucio Dalla,1
+Matia Bazar,Tozzi-Morandi-Ruggeri,1
+Matia Bazar,Rino Gaetano,1
+Matia Bazar,Anna Oxa,1
+Matia Bazar,Elisa,1
+Matia Bazar,Noemi,1
+Matia Bazar,"[Tony Del Monaco, Dionne Warwick]",1
+Ornella Vanoni,Luigi Tenco,3
+Ornella Vanoni,Vasco Rossi,2
+Ornella Vanoni,Massimo Ranieri,1
+Ornella Vanoni,Giuni Russo,1
+Ornella Vanoni,Luca Carboni,1
+Ornella Vanoni,"[Domenico Modugno, Gigliola Cinquetti]",1
+Ornella Vanoni,Eduardo De Crescenzo,1
+Ornella Vanoni,Cochi e Renato,2
+Ornella Vanoni,Patty Pravo,1
+Ornella Vanoni,Francesco Nuti,1
+Ornella Vanoni,Caterina Caselli,3
+Ornella Vanoni,Adriano Celentano,4
+Ornella Vanoni,Mina,2
+Ornella Vanoni,Ron,1
+Ornella Vanoni,Amedeo Minghi,1
+Ornella Vanoni,Eros Ramazzotti,1
+Ornella Vanoni,Ricchi e Poveri,1
+Ornella Vanoni,"[Fausto Cigliano, Gene Pitney]",1
+Ornella Vanoni,Little Tony,1
+Ornella Vanoni,Renato Zero,1
+Ornella Vanoni,Fausto Leali,1
+Ornella Vanoni,Mia Martini,1
+Ornella Vanoni,Simone Cristicchi,1
+Ornella Vanoni,Nilla Pizzi,1
+Ornella Vanoni,Enzo Jannacci,1
+Ornella Vanoni,Achille Lauro,1
+Ornella Vanoni,Claudia Mori,1
+Ornella Vanoni,Max Gazzè,1
+Ornella Vanoni,Daniele Silvestri,2
+Ornella Vanoni,Toto Cutugno,1
+Ornella Vanoni,Lucio Dalla,4
+Ornella Vanoni,Tozzi-Morandi-Ruggeri,1
+Ornella Vanoni,Rino Gaetano,2
+Ornella Vanoni,Anna Oxa,1
+Ornella Vanoni,Elisa,1
+Ornella Vanoni,Noemi,1
+Ornella Vanoni,"[Tony Del Monaco, Dionne Warwick]",1
+Ornella Vanoni,Nesli,1
+Ornella Vanoni,Jalisse,1
+Ornella Vanoni,Neffa,2
+Ornella Vanoni,Stadio,1
+Ornella Vanoni,Pino Daniele,2
+Ornella Vanoni,Dori Ghezzi,1
+Ornella Vanoni,Lucio Battisti,2
+Ornella Vanoni,Zucchero Fornaciari,2
+Ornella Vanoni,C.S.I.,1
+Ornella Vanoni,Calcutta,1
+Ornella Vanoni,Jovanotti,1
+Ornella Vanoni,Afterhours,1
+Ornella Vanoni,Raoul Casadei,1
+Ornella Vanoni,"[Al Bano, Romina Power]",1
+Ornella Vanoni,"[Aleandro Baldi, Francesca Alotta]",1
+Ornella Vanoni,CCCP - Fedeli alla linea,1
+Ornella Vanoni,Samuele Bersani,2
+Ornella Vanoni,Francesco Guccini,1
+Ornella Vanoni,Donatella Rettore,1
+Ornella Vanoni,Franco Battiato,2
+Ornella Vanoni,Gabriella Ferri,1
+Ornella Vanoni,Neri per Caso,1
+Ornella Vanoni,883,1
+Ornella Vanoni,Ofenbach feat. Norma Jean Martine,1
+Ornella Vanoni,Loredana Bertè,1
+Ornella Vanoni,Domenico Modugno,1
+Ornella Vanoni,Riccardo Cocciante,2
+Ornella Vanoni,Sottotono,1
+Ornella Vanoni,Gino Paoli,1
+Ornella Vanoni,Franco Califano,1
+Ornella Vanoni,"[Riccardo Cocciante, Loredana Bertè]",1
+Ornella Vanoni,Sal Da Vinci,1
+Ornella Vanoni,Tricarico,1
+Ornella Vanoni,Fabrizio De André,2
+Ornella Vanoni,Simon & Garfunkel,1
+Ornella Vanoni,Righeira,1
+Ornella Vanoni,Cesare Cremonini,1
+Ornella Vanoni,Alicia Keys,1
+Ornella Vanoni,Marco Masini,1
+Ornella Vanoni,Francesco Renga,1
+Ornella Vanoni,A Great Big World feat. Christina Aguilera,1
+Ornella Vanoni,Adele,1
+Ornella Vanoni,"[Neffa, Sottotono]",1
+Ornella Vanoni,Gianluca Grignani,1
+Ornella Vanoni,Nik Kershaw,1
+Ornella Vanoni,Fiorella Mannoia,1
+Ornella Vanoni,Pupo,1
+Ornella Vanoni,Jvke,1
+Ornella Vanoni,Tullio De Piscopo,1
+Ornella Vanoni,Mitzi Green,1
+Ornella Vanoni,Ray Charles,1
+Ornella Vanoni,Las Ketchup,1
+Ornella Vanoni,Carmen Consoli,1
+Ornella Vanoni,Gianna Nannini,1
+Ornella Vanoni,David Bowie,1
+Ornella Vanoni,Fabrizio Moro,1
+Ornella Vanoni,Andrea Bocelli,1
+Ornella Vanoni,"[Ornella Vanoni, Gino Paoli]",1
+Ornella Vanoni,Michele Zarrillo,1
+Ornella Vanoni,Cristina D'Avena,1
+Ornella Vanoni,"[Gianni Morandi, Lucio Dalla]",1
+Ornella Vanoni,"[Mina, Alberto Lupo]",1
+Ornella Vanoni,Jimmy Fontana,1
+Luigi Tenco,Vasco Rossi,2
+Luigi Tenco,Massimo Ranieri,1
+Luigi Tenco,Giuni Russo,1
+Luigi Tenco,Luca Carboni,1
+Luigi Tenco,"[Domenico Modugno, Gigliola Cinquetti]",1
+Luigi Tenco,Eduardo De Crescenzo,1
+Luigi Tenco,Cochi e Renato,2
+Luigi Tenco,Patty Pravo,2
+Luigi Tenco,Francesco Nuti,1
+Luigi Tenco,Caterina Caselli,3
+Luigi Tenco,Adriano Celentano,2
+Luigi Tenco,Mina,2
+Luigi Tenco,Ron,1
+Luigi Tenco,Nesli,1
+Luigi Tenco,Jalisse,1
+Luigi Tenco,Neffa,1
+Luigi Tenco,Stadio,1
+Luigi Tenco,Pino Daniele,2
+Luigi Tenco,Dori Ghezzi,1
+Luigi Tenco,Lucio Battisti,3
+Luigi Tenco,Zucchero Fornaciari,2
+Luigi Tenco,C.S.I.,1
+Luigi Tenco,Calcutta,1
+Luigi Tenco,Jovanotti,2
+Luigi Tenco,Afterhours,1
+Luigi Tenco,Raoul Casadei,1
+Luigi Tenco,"[Al Bano, Romina Power]",1
+Luigi Tenco,"[Aleandro Baldi, Francesca Alotta]",1
+Luigi Tenco,CCCP - Fedeli alla linea,1
+Luigi Tenco,Daniele Silvestri,1
+Luigi Tenco,Lucio Dalla,3
+Luigi Tenco,Samuele Bersani,2
+Luigi Tenco,Rino Gaetano,1
+Luigi Tenco,Francesco Guccini,1
+Luigi Tenco,Donatella Rettore,2
+Luigi Tenco,Franco Battiato,1
+Luigi Tenco,Gabriella Ferri,1
+Luigi Tenco,Neri per Caso,1
+Luigi Tenco,883,1
+Luigi Tenco,Loredana Bertè,1
+Luigi Tenco,Pooh,1
+Luigi Tenco,Pierangelo Bertoli,1
+Luigi Tenco,Julio Iglesias,1
+Luigi Tenco,Gino Paoli,1
+Luigi Tenco,Gianluca Grignani,2
+Luigi Tenco,Aretha Franklin,1
+Luigi Tenco,Milva,1
+Luigi Tenco,Raffaella Carrà,1
+Luigi Tenco,Paul McCartney,1
+Luigi Tenco,Frank Sinatra,1
+Luigi Tenco,Fabrizio De André,3
+Luigi Tenco,Gianni Morandi,1
+Luigi Tenco,Irene Cara,1
+Luigi Tenco,Elton John,1
+Luigi Tenco,Alan Sorrenti,1
+Luigi Tenco,Alex Baroni,1
+Luigi Tenco,Britney Spears,1
+Luigi Tenco,The Ronettes,1
+Luigi Tenco,Jimmy Fontana,2
+Luigi Tenco,Leonard Cohen,1
+Luigi Tenco,"[Guè, Marracash]",1
+Luigi Tenco,Ricchi e Poveri,1
+Luigi Tenco,Riccardo Cocciante,2
+Luigi Tenco,Queen,1
+Luigi Tenco,Antonello Venditti,1
+Luigi Tenco,Sud Sound System,1
+Luigi Tenco,Dargen D'Amico,1
+Luigi Tenco,Sangiovanni,1
+Luigi Tenco,Christina Aguilera et al.,1
+Luigi Tenco,Eurythmics,1
+Luigi Tenco,Gianna Nannini,2
+Luigi Tenco,Roberto Vecchioni,1
+Luigi Tenco,Toto Cutugno,1
+Luigi Tenco,Pino D'Angiò,1
+Luigi Tenco,"[Ermal Meta, Fabrizio Moro]",1
+Luigi Tenco,"[Alessandra Amoroso, Boomdabash]",1
+Luigi Tenco,Fabrizio Moro,2
+Luigi Tenco,Ivana Spagna,1
+Luigi Tenco,Francesco Renga,1
+Luigi Tenco,Nek,1
+Luigi Tenco,Ghali,1
+Luigi Tenco,Luchè,1
+Luigi Tenco,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Luigi Tenco,"[Mannoia, Gabbani]",1
+Luigi Tenco,"[Gemelli DiVersi, Mr. Rain]",1
+Luigi Tenco,Tiziano Ferro,1
+Luigi Tenco,Eiffel 65,1
+Luigi Tenco,Umberto Tozzi,1
+Luigi Tenco,Mango,1
+Luigi Tenco,Nik Kershaw,1
+Luigi Tenco,Fiorella Mannoia,1
+Luigi Tenco,Pupo,1
+Luigi Tenco,Jvke,1
+Luigi Tenco,Tullio De Piscopo,1
+Luigi Tenco,Mitzi Green,1
+Luigi Tenco,Ray Charles,1
+Luigi Tenco,Las Ketchup,1
+Luigi Tenco,Carmen Consoli,1
+Luigi Tenco,David Bowie,1
+Luigi Tenco,Andrea Bocelli,1
+Luigi Tenco,"[Ornella Vanoni, Gino Paoli]",1
+Luigi Tenco,Michele Zarrillo,1
+Luigi Tenco,Cristina D'Avena,1
+Luigi Tenco,"[Gianni Morandi, Lucio Dalla]",1
+Luigi Tenco,"[Mina, Alberto Lupo]",1
+Vasco Rossi,Massimo Ranieri,1
+Vasco Rossi,Giuni Russo,1
+Vasco Rossi,Luca Carboni,1
+Vasco Rossi,"[Domenico Modugno, Gigliola Cinquetti]",1
+Vasco Rossi,Eduardo De Crescenzo,1
+Vasco Rossi,Cochi e Renato,1
+Vasco Rossi,Patty Pravo,2
+Vasco Rossi,Francesco Nuti,1
+Vasco Rossi,Caterina Caselli,3
+Vasco Rossi,Adriano Celentano,3
+Vasco Rossi,Mina,1
+Vasco Rossi,Ron,1
+Vasco Rossi,Amedeo Minghi,1
+Vasco Rossi,Eros Ramazzotti,2
+Vasco Rossi,Ricchi e Poveri,2
+Vasco Rossi,"[Fausto Cigliano, Gene Pitney]",1
+Vasco Rossi,Little Tony,1
+Vasco Rossi,Renato Zero,1
+Vasco Rossi,Fausto Leali,1
+Vasco Rossi,Mia Martini,1
+Vasco Rossi,Simone Cristicchi,1
+Vasco Rossi,Nilla Pizzi,1
+Vasco Rossi,Enzo Jannacci,1
+Vasco Rossi,Achille Lauro,1
+Vasco Rossi,Claudia Mori,1
+Vasco Rossi,Max Gazzè,1
+Vasco Rossi,Daniele Silvestri,2
+Vasco Rossi,Toto Cutugno,1
+Vasco Rossi,Lucio Dalla,1
+Vasco Rossi,Tozzi-Morandi-Ruggeri,1
+Vasco Rossi,Rino Gaetano,1
+Vasco Rossi,Anna Oxa,2
+Vasco Rossi,Elisa,1
+Vasco Rossi,Noemi,1
+Vasco Rossi,"[Tony Del Monaco, Dionne Warwick]",1
+Vasco Rossi,Loredana Bertè,1
+Vasco Rossi,Pooh,1
+Vasco Rossi,Pierangelo Bertoli,1
+Vasco Rossi,Julio Iglesias,1
+Vasco Rossi,Pino Daniele,1
+Vasco Rossi,Lucio Battisti,1
+Vasco Rossi,Gino Paoli,1
+Vasco Rossi,Gianluca Grignani,2
+Vasco Rossi,Aretha Franklin,1
+Vasco Rossi,Milva,1
+Vasco Rossi,Raffaella Carrà,1
+Vasco Rossi,Paul McCartney,1
+Vasco Rossi,Jovanotti,1
+Vasco Rossi,Frank Sinatra,1
+Vasco Rossi,Fabrizio De André,2
+Vasco Rossi,Gianni Morandi,1
+Vasco Rossi,Irene Cara,1
+Vasco Rossi,Elton John,1
+Vasco Rossi,Alan Sorrenti,1
+Vasco Rossi,Alex Baroni,1
+Vasco Rossi,Britney Spears,1
+Vasco Rossi,The Ronettes,1
+Vasco Rossi,Jimmy Fontana,1
+Vasco Rossi,Nesli,1
+Vasco Rossi,Zucchero Fornaciari,1
+Vasco Rossi,Afterhours,1
+Vasco Rossi,"[Edoardo, Eugenio Bennato]",1
+Vasco Rossi,The Beatles,1
+Vasco Rossi,"[P. Vallesi, Cugini di Campagna]",1
+Vasco Rossi,Lorella Cuccarini,1
+Vasco Rossi,Gianna Nannini,1
+Vasco Rossi,Le Vibrazioni,1
+Vasco Rossi,"[S. Cristicchi, Biagio Antonacci]",1
+Vasco Rossi,Lùnapop,1
+Vasco Rossi,Baustelle,1
+Vasco Rossi,Alex Britti,1
+Vasco Rossi,Edoardo Bennato,1
+Vasco Rossi,Gigi D'Agostino,1
+Vasco Rossi,The Guess Who,1
+Vasco Rossi,Michele Zarrillo,1
+Vasco Rossi,Franco Battiato,1
+Vasco Rossi,"[Elisa, Giorgia]",1
+Vasco Rossi,Paola & Chiara,1
+Vasco Rossi,Articolo 31,1
+Massimo Ranieri,Giuni Russo,1
+Massimo Ranieri,Luca Carboni,1
+Massimo Ranieri,"[Domenico Modugno, Gigliola Cinquetti]",1
+Massimo Ranieri,Eduardo De Crescenzo,1
+Massimo Ranieri,Cochi e Renato,1
+Massimo Ranieri,Patty Pravo,1
+Massimo Ranieri,Francesco Nuti,1
+Massimo Ranieri,Caterina Caselli,1
+Massimo Ranieri,Adriano Celentano,1
+Massimo Ranieri,Mina,1
+Massimo Ranieri,Ron,1
+Giuni Russo,Luca Carboni,1
+Giuni Russo,"[Domenico Modugno, Gigliola Cinquetti]",1
+Giuni Russo,Eduardo De Crescenzo,1
+Giuni Russo,Cochi e Renato,1
+Giuni Russo,Patty Pravo,1
+Giuni Russo,Francesco Nuti,1
+Giuni Russo,Caterina Caselli,1
+Giuni Russo,Adriano Celentano,1
+Giuni Russo,Mina,1
+Giuni Russo,Ron,1
+Luca Carboni,"[Domenico Modugno, Gigliola Cinquetti]",1
+Luca Carboni,Eduardo De Crescenzo,1
+Luca Carboni,Cochi e Renato,1
+Luca Carboni,Patty Pravo,1
+Luca Carboni,Francesco Nuti,1
+Luca Carboni,Caterina Caselli,1
+Luca Carboni,Adriano Celentano,1
+Luca Carboni,Mina,1
+Luca Carboni,Ron,1
+"[Domenico Modugno, Gigliola Cinquetti]",Eduardo De Crescenzo,1
+"[Domenico Modugno, Gigliola Cinquetti]",Cochi e Renato,1
+"[Domenico Modugno, Gigliola Cinquetti]",Patty Pravo,1
+"[Domenico Modugno, Gigliola Cinquetti]",Francesco Nuti,1
+"[Domenico Modugno, Gigliola Cinquetti]",Caterina Caselli,1
+"[Domenico Modugno, Gigliola Cinquetti]",Adriano Celentano,1
+"[Domenico Modugno, Gigliola Cinquetti]",Mina,1
+"[Domenico Modugno, Gigliola Cinquetti]",Ron,1
+Eduardo De Crescenzo,Cochi e Renato,1
+Eduardo De Crescenzo,Patty Pravo,1
+Eduardo De Crescenzo,Francesco Nuti,1
+Eduardo De Crescenzo,Caterina Caselli,1
+Eduardo De Crescenzo,Adriano Celentano,1
+Eduardo De Crescenzo,Mina,1
+Eduardo De Crescenzo,Ron,1
+Cochi e Renato,Patty Pravo,1
+Cochi e Renato,Francesco Nuti,1
+Cochi e Renato,Caterina Caselli,1
+Cochi e Renato,Adriano Celentano,1
+Cochi e Renato,Mina,2
+Cochi e Renato,Ron,1
+Cochi e Renato,Riccardo Cocciante,1
+Cochi e Renato,Gianluca Grignani,1
+Cochi e Renato,Nik Kershaw,1
+Cochi e Renato,Fiorella Mannoia,1
+Cochi e Renato,Pupo,1
+Cochi e Renato,Zucchero Fornaciari,1
+Cochi e Renato,Jvke,1
+Cochi e Renato,Tullio De Piscopo,1
+Cochi e Renato,Mitzi Green,1
+Cochi e Renato,Fabrizio De André,1
+Cochi e Renato,Ray Charles,1
+Cochi e Renato,Las Ketchup,1
+Cochi e Renato,Carmen Consoli,1
+Cochi e Renato,Gianna Nannini,1
+Cochi e Renato,David Bowie,1
+Cochi e Renato,Lucio Dalla,1
+Cochi e Renato,Fabrizio Moro,1
+Cochi e Renato,Samuele Bersani,1
+Cochi e Renato,Andrea Bocelli,1
+Cochi e Renato,"[Ornella Vanoni, Gino Paoli]",1
+Cochi e Renato,Michele Zarrillo,1
+Cochi e Renato,Cristina D'Avena,1
+Cochi e Renato,"[Gianni Morandi, Lucio Dalla]",1
+Cochi e Renato,"[Mina, Alberto Lupo]",1
+Cochi e Renato,Jimmy Fontana,1
+Patty Pravo,Francesco Nuti,1
+Patty Pravo,Caterina Caselli,2
+Patty Pravo,Adriano Celentano,1
+Patty Pravo,Mina,1
+Patty Pravo,Ron,1
+Patty Pravo,Alunni del Sole,1
+Patty Pravo,Loredana Bertè,2
+Patty Pravo,Renato Carosone,1
+Patty Pravo,Rita Pavone,1
+Patty Pravo,Gianna Nannini,1
+Patty Pravo,Quartetto Cetra,1
+Patty Pravo,Nada,1
+Patty Pravo,Domenico Modugno,1
+Patty Pravo,Pino Daniele,2
+Patty Pravo,Riccardo Cocciante,1
+Patty Pravo,Fabrizio De André,2
+Patty Pravo,Lucio Battisti,2
+Patty Pravo,Gianni Morandi,2
+Patty Pravo,Actarus,1
+Patty Pravo,Walter Murphy,1
+Patty Pravo,Lucio Dalla,1
+Patty Pravo,Francesco De Gregori,1
+Patty Pravo,Pooh,1
+Patty Pravo,Pierangelo Bertoli,1
+Patty Pravo,Julio Iglesias,1
+Patty Pravo,Gino Paoli,1
+Patty Pravo,Gianluca Grignani,1
+Patty Pravo,Aretha Franklin,1
+Patty Pravo,Milva,1
+Patty Pravo,Raffaella Carrà,1
+Patty Pravo,Paul McCartney,1
+Patty Pravo,Jovanotti,1
+Patty Pravo,Frank Sinatra,1
+Patty Pravo,Irene Cara,1
+Patty Pravo,Elton John,1
+Patty Pravo,Alan Sorrenti,1
+Patty Pravo,Alex Baroni,1
+Patty Pravo,Britney Spears,1
+Patty Pravo,The Ronettes,1
+Patty Pravo,Jimmy Fontana,1
+Francesco Nuti,Caterina Caselli,1
+Francesco Nuti,Adriano Celentano,1
+Francesco Nuti,Mina,1
+Francesco Nuti,Ron,1
+Caterina Caselli,Adriano Celentano,3
+Caterina Caselli,Mina,1
+Caterina Caselli,Ron,1
+Caterina Caselli,Amedeo Minghi,1
+Caterina Caselli,Eros Ramazzotti,1
+Caterina Caselli,Ricchi e Poveri,1
+Caterina Caselli,"[Fausto Cigliano, Gene Pitney]",1
+Caterina Caselli,Little Tony,1
+Caterina Caselli,Renato Zero,1
+Caterina Caselli,Fausto Leali,1
+Caterina Caselli,Mia Martini,1
+Caterina Caselli,Simone Cristicchi,1
+Caterina Caselli,Nilla Pizzi,1
+Caterina Caselli,Enzo Jannacci,1
+Caterina Caselli,Achille Lauro,1
+Caterina Caselli,Claudia Mori,1
+Caterina Caselli,Max Gazzè,1
+Caterina Caselli,Daniele Silvestri,2
+Caterina Caselli,Toto Cutugno,1
+Caterina Caselli,Lucio Dalla,2
+Caterina Caselli,Tozzi-Morandi-Ruggeri,1
+Caterina Caselli,Rino Gaetano,2
+Caterina Caselli,Anna Oxa,1
+Caterina Caselli,Elisa,1
+Caterina Caselli,Noemi,1
+Caterina Caselli,"[Tony Del Monaco, Dionne Warwick]",1
+Caterina Caselli,Nesli,1
+Caterina Caselli,Jalisse,1
+Caterina Caselli,Neffa,1
+Caterina Caselli,Stadio,1
+Caterina Caselli,Pino Daniele,2
+Caterina Caselli,Dori Ghezzi,1
+Caterina Caselli,Lucio Battisti,2
+Caterina Caselli,Zucchero Fornaciari,1
+Caterina Caselli,C.S.I.,1
+Caterina Caselli,Calcutta,1
+Caterina Caselli,Jovanotti,2
+Caterina Caselli,Afterhours,1
+Caterina Caselli,Raoul Casadei,1
+Caterina Caselli,"[Al Bano, Romina Power]",1
+Caterina Caselli,"[Aleandro Baldi, Francesca Alotta]",1
+Caterina Caselli,CCCP - Fedeli alla linea,1
+Caterina Caselli,Samuele Bersani,1
+Caterina Caselli,Francesco Guccini,1
+Caterina Caselli,Donatella Rettore,1
+Caterina Caselli,Franco Battiato,1
+Caterina Caselli,Gabriella Ferri,1
+Caterina Caselli,Neri per Caso,1
+Caterina Caselli,883,1
+Caterina Caselli,Loredana Bertè,1
+Caterina Caselli,Pooh,1
+Caterina Caselli,Pierangelo Bertoli,1
+Caterina Caselli,Julio Iglesias,1
+Caterina Caselli,Gino Paoli,1
+Caterina Caselli,Gianluca Grignani,1
+Caterina Caselli,Aretha Franklin,1
+Caterina Caselli,Milva,1
+Caterina Caselli,Raffaella Carrà,1
+Caterina Caselli,Paul McCartney,1
+Caterina Caselli,Frank Sinatra,1
+Caterina Caselli,Fabrizio De André,1
+Caterina Caselli,Gianni Morandi,1
+Caterina Caselli,Irene Cara,1
+Caterina Caselli,Elton John,1
+Caterina Caselli,Alan Sorrenti,1
+Caterina Caselli,Alex Baroni,1
+Caterina Caselli,Britney Spears,1
+Caterina Caselli,The Ronettes,1
+Caterina Caselli,Jimmy Fontana,1
+Adriano Celentano,Mina,2
+Adriano Celentano,Ron,1
+Adriano Celentano,Nomadi,1
+Adriano Celentano,Don Backy,1
+Adriano Celentano,Giorgio Faletti,1
+Adriano Celentano,Miguel Bosé,1
+Adriano Celentano,Nino Ferrer,1
+Adriano Celentano,Domenico Modugno,2
+Adriano Celentano,Riccardo Cocciante,2
+Adriano Celentano,Franco Battiato,4
+Adriano Celentano,Edoardo Bennato,2
+Adriano Celentano,Francesco De Gregori,1
+Adriano Celentano,Zucchero Fornaciari,3
+Adriano Celentano,Anna Oxa,3
+Adriano Celentano,Amedeo Minghi,1
+Adriano Celentano,Eros Ramazzotti,2
+Adriano Celentano,Ricchi e Poveri,2
+Adriano Celentano,"[Fausto Cigliano, Gene Pitney]",1
+Adriano Celentano,Little Tony,1
+Adriano Celentano,Renato Zero,1
+Adriano Celentano,Fausto Leali,1
+Adriano Celentano,Mia Martini,1
+Adriano Celentano,Simone Cristicchi,1
+Adriano Celentano,Nilla Pizzi,1
+Adriano Celentano,Enzo Jannacci,1
+Adriano Celentano,Achille Lauro,1
+Adriano Celentano,Claudia Mori,1
+Adriano Celentano,Max Gazzè,1
+Adriano Celentano,Daniele Silvestri,3
+Adriano Celentano,Toto Cutugno,1
+Adriano Celentano,Lucio Dalla,3
+Adriano Celentano,Tozzi-Morandi-Ruggeri,1
+Adriano Celentano,Rino Gaetano,2
+Adriano Celentano,Elisa,1
+Adriano Celentano,Noemi,1
+Adriano Celentano,"[Tony Del Monaco, Dionne Warwick]",1
+Adriano Celentano,Nesli,2
+Adriano Celentano,Jalisse,1
+Adriano Celentano,Neffa,2
+Adriano Celentano,Stadio,1
+Adriano Celentano,Pino Daniele,2
+Adriano Celentano,Dori Ghezzi,1
+Adriano Celentano,Lucio Battisti,2
+Adriano Celentano,C.S.I.,1
+Adriano Celentano,Calcutta,1
+Adriano Celentano,Jovanotti,1
+Adriano Celentano,Afterhours,2
+Adriano Celentano,Raoul Casadei,1
+Adriano Celentano,"[Al Bano, Romina Power]",1
+Adriano Celentano,"[Aleandro Baldi, Francesca Alotta]",1
+Adriano Celentano,CCCP - Fedeli alla linea,1
+Adriano Celentano,Samuele Bersani,1
+Adriano Celentano,Francesco Guccini,1
+Adriano Celentano,Donatella Rettore,1
+Adriano Celentano,Gabriella Ferri,1
+Adriano Celentano,Neri per Caso,1
+Adriano Celentano,883,1
+Adriano Celentano,Gianluca Grignani,1
+Adriano Celentano,Fabrizio De André,2
+Adriano Celentano,"[Edoardo, Eugenio Bennato]",1
+Adriano Celentano,The Beatles,1
+Adriano Celentano,"[P. Vallesi, Cugini di Campagna]",1
+Adriano Celentano,Lorella Cuccarini,1
+Adriano Celentano,Gianna Nannini,1
+Adriano Celentano,Le Vibrazioni,1
+Adriano Celentano,"[S. Cristicchi, Biagio Antonacci]",1
+Adriano Celentano,Lùnapop,1
+Adriano Celentano,Baustelle,1
+Adriano Celentano,Alex Britti,1
+Adriano Celentano,Gigi D'Agostino,1
+Adriano Celentano,The Guess Who,1
+Adriano Celentano,Michele Zarrillo,1
+Adriano Celentano,"[Elisa, Giorgia]",1
+Adriano Celentano,Paola & Chiara,1
+Adriano Celentano,Articolo 31,1
+Adriano Celentano,Ofenbach feat. Norma Jean Martine,1
+Adriano Celentano,Loredana Bertè,1
+Adriano Celentano,Sottotono,1
+Adriano Celentano,Gino Paoli,1
+Adriano Celentano,Franco Califano,1
+Adriano Celentano,"[Riccardo Cocciante, Loredana Bertè]",1
+Adriano Celentano,Sal Da Vinci,1
+Adriano Celentano,Tricarico,1
+Adriano Celentano,Simon & Garfunkel,1
+Adriano Celentano,Righeira,1
+Adriano Celentano,Cesare Cremonini,1
+Adriano Celentano,Alicia Keys,1
+Adriano Celentano,Marco Masini,1
+Adriano Celentano,Francesco Renga,1
+Adriano Celentano,A Great Big World feat. Christina Aguilera,1
+Adriano Celentano,Adele,1
+Adriano Celentano,"[Neffa, Sottotono]",1
+Mina,Ron,1
+Mina,Nomadi,1
+Mina,Don Backy,1
+Mina,Giorgio Faletti,1
+Mina,Miguel Bosé,1
+Mina,Nino Ferrer,1
+Mina,Domenico Modugno,1
+Mina,Riccardo Cocciante,2
+Mina,Franco Battiato,1
+Mina,Edoardo Bennato,1
+Mina,Francesco De Gregori,1
+Mina,Zucchero Fornaciari,2
+Mina,Anna Oxa,1
+Mina,Gianluca Grignani,1
+Mina,Nik Kershaw,1
+Mina,Fiorella Mannoia,1
+Mina,Pupo,1
+Mina,Jvke,1
+Mina,Tullio De Piscopo,1
+Mina,Mitzi Green,1
+Mina,Fabrizio De André,1
+Mina,Ray Charles,1
+Mina,Las Ketchup,1
+Mina,Carmen Consoli,1
+Mina,Gianna Nannini,1
+Mina,David Bowie,1
+Mina,Lucio Dalla,1
+Mina,Fabrizio Moro,1
+Mina,Samuele Bersani,1
+Mina,Andrea Bocelli,1
+Mina,"[Ornella Vanoni, Gino Paoli]",1
+Mina,Michele Zarrillo,1
+Mina,Cristina D'Avena,1
+Mina,"[Gianni Morandi, Lucio Dalla]",1
+Mina,"[Mina, Alberto Lupo]",1
+Mina,Jimmy Fontana,1
+Alunni del Sole,Loredana Bertè,1
+Alunni del Sole,Renato Carosone,1
+Alunni del Sole,Rita Pavone,1
+Alunni del Sole,Gianna Nannini,1
+Alunni del Sole,Quartetto Cetra,1
+Alunni del Sole,Nada,1
+Alunni del Sole,Domenico Modugno,1
+Alunni del Sole,Pino Daniele,1
+Alunni del Sole,Riccardo Cocciante,1
+Alunni del Sole,Fabrizio De André,1
+Alunni del Sole,Lucio Battisti,1
+Alunni del Sole,Gianni Morandi,1
+Alunni del Sole,Actarus,1
+Alunni del Sole,Walter Murphy,1
+Alunni del Sole,Lucio Dalla,1
+Alunni del Sole,Francesco De Gregori,1
+Loredana Bertè,Renato Carosone,1
+Loredana Bertè,Rita Pavone,1
+Loredana Bertè,Gianna Nannini,1
+Loredana Bertè,Quartetto Cetra,1
+Loredana Bertè,Nada,1
+Loredana Bertè,Domenico Modugno,2
+Loredana Bertè,Pino Daniele,3
+Loredana Bertè,Riccardo Cocciante,2
+Loredana Bertè,Fabrizio De André,3
+Loredana Bertè,Lucio Battisti,3
+Loredana Bertè,Gianni Morandi,2
+Loredana Bertè,Actarus,1
+Loredana Bertè,Walter Murphy,1
+Loredana Bertè,Lucio Dalla,2
+Loredana Bertè,Francesco De Gregori,1
+Loredana Bertè,Pooh,1
+Loredana Bertè,Pierangelo Bertoli,1
+Loredana Bertè,Julio Iglesias,1
+Loredana Bertè,Gino Paoli,2
+Loredana Bertè,Gianluca Grignani,1
+Loredana Bertè,Aretha Franklin,1
+Loredana Bertè,Milva,1
+Loredana Bertè,Raffaella Carrà,1
+Loredana Bertè,Paul McCartney,1
+Loredana Bertè,Jovanotti,1
+Loredana Bertè,Frank Sinatra,1
+Loredana Bertè,Irene Cara,1
+Loredana Bertè,Elton John,1
+Loredana Bertè,Alan Sorrenti,1
+Loredana Bertè,Alex Baroni,1
+Loredana Bertè,Britney Spears,1
+Loredana Bertè,The Ronettes,1
+Loredana Bertè,Jimmy Fontana,1
+Loredana Bertè,Ofenbach feat. Norma Jean Martine,1
+Loredana Bertè,Neffa,1
+Loredana Bertè,Sottotono,1
+Loredana Bertè,Franco Califano,1
+Loredana Bertè,"[Riccardo Cocciante, Loredana Bertè]",1
+Loredana Bertè,Sal Da Vinci,1
+Loredana Bertè,Tricarico,1
+Loredana Bertè,Simon & Garfunkel,1
+Loredana Bertè,Righeira,1
+Loredana Bertè,Cesare Cremonini,1
+Loredana Bertè,Alicia Keys,1
+Loredana Bertè,Marco Masini,1
+Loredana Bertè,Francesco Renga,1
+Loredana Bertè,A Great Big World feat. Christina Aguilera,1
+Loredana Bertè,Adele,1
+Loredana Bertè,"[Neffa, Sottotono]",1
+Loredana Bertè,Franco Battiato,1
+Renato Carosone,Rita Pavone,1
+Renato Carosone,Gianna Nannini,1
+Renato Carosone,Quartetto Cetra,1
+Renato Carosone,Nada,1
+Renato Carosone,Domenico Modugno,1
+Renato Carosone,Pino Daniele,1
+Renato Carosone,Riccardo Cocciante,1
+Renato Carosone,Fabrizio De André,1
+Renato Carosone,Lucio Battisti,1
+Renato Carosone,Gianni Morandi,1
+Renato Carosone,Actarus,1
+Renato Carosone,Walter Murphy,1
+Renato Carosone,Lucio Dalla,1
+Renato Carosone,Francesco De Gregori,1
+Rita Pavone,Gianna Nannini,1
+Rita Pavone,Quartetto Cetra,1
+Rita Pavone,Nada,1
+Rita Pavone,Domenico Modugno,1
+Rita Pavone,Pino Daniele,1
+Rita Pavone,Riccardo Cocciante,1
+Rita Pavone,Fabrizio De André,1
+Rita Pavone,Lucio Battisti,1
+Rita Pavone,Gianni Morandi,1
+Rita Pavone,Actarus,1
+Rita Pavone,Walter Murphy,1
+Rita Pavone,Lucio Dalla,1
+Rita Pavone,Francesco De Gregori,1
+Gianna Nannini,Quartetto Cetra,1
+Gianna Nannini,Nada,1
+Gianna Nannini,Domenico Modugno,1
+Gianna Nannini,Pino Daniele,1
+Gianna Nannini,Riccardo Cocciante,3
+Gianna Nannini,Fabrizio De André,4
+Gianna Nannini,Lucio Battisti,2
+Gianna Nannini,Gianni Morandi,1
+Gianna Nannini,Actarus,1
+Gianna Nannini,Walter Murphy,1
+Gianna Nannini,Lucio Dalla,3
+Gianna Nannini,Francesco De Gregori,1
+Gianna Nannini,Nesli,1
+Gianna Nannini,Eros Ramazzotti,1
+Gianna Nannini,Ricchi e Poveri,2
+Gianna Nannini,Gianluca Grignani,2
+Gianna Nannini,Zucchero Fornaciari,2
+Gianna Nannini,Afterhours,1
+Gianna Nannini,"[Edoardo, Eugenio Bennato]",1
+Gianna Nannini,The Beatles,1
+Gianna Nannini,"[P. Vallesi, Cugini di Campagna]",1
+Gianna Nannini,Daniele Silvestri,1
+Gianna Nannini,Lorella Cuccarini,1
+Gianna Nannini,Le Vibrazioni,1
+Gianna Nannini,"[S. Cristicchi, Biagio Antonacci]",1
+Gianna Nannini,Lùnapop,1
+Gianna Nannini,Baustelle,1
+Gianna Nannini,Alex Britti,1
+Gianna Nannini,Edoardo Bennato,1
+Gianna Nannini,Gigi D'Agostino,1
+Gianna Nannini,The Guess Who,1
+Gianna Nannini,Anna Oxa,1
+Gianna Nannini,Michele Zarrillo,2
+Gianna Nannini,Franco Battiato,1
+Gianna Nannini,"[Elisa, Giorgia]",1
+Gianna Nannini,Paola & Chiara,1
+Gianna Nannini,Articolo 31,1
+Gianna Nannini,Leonard Cohen,1
+Gianna Nannini,"[Guè, Marracash]",1
+Gianna Nannini,Queen,1
+Gianna Nannini,Antonello Venditti,1
+Gianna Nannini,Sud Sound System,1
+Gianna Nannini,Dargen D'Amico,1
+Gianna Nannini,Sangiovanni,1
+Gianna Nannini,Christina Aguilera et al.,1
+Gianna Nannini,Eurythmics,1
+Gianna Nannini,Roberto Vecchioni,1
+Gianna Nannini,Toto Cutugno,1
+Gianna Nannini,Pino D'Angiò,1
+Gianna Nannini,"[Ermal Meta, Fabrizio Moro]",1
+Gianna Nannini,"[Alessandra Amoroso, Boomdabash]",1
+Gianna Nannini,Fabrizio Moro,2
+Gianna Nannini,Ivana Spagna,1
+Gianna Nannini,Francesco Renga,1
+Gianna Nannini,Nek,1
+Gianna Nannini,Ghali,1
+Gianna Nannini,Luchè,1
+Gianna Nannini,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Gianna Nannini,"[Mannoia, Gabbani]",1
+Gianna Nannini,"[Gemelli DiVersi, Mr. Rain]",1
+Gianna Nannini,Donatella Rettore,1
+Gianna Nannini,Tiziano Ferro,1
+Gianna Nannini,Eiffel 65,1
+Gianna Nannini,Umberto Tozzi,1
+Gianna Nannini,Mango,1
+Gianna Nannini,Nik Kershaw,1
+Gianna Nannini,Fiorella Mannoia,1
+Gianna Nannini,Pupo,1
+Gianna Nannini,Jvke,1
+Gianna Nannini,Tullio De Piscopo,1
+Gianna Nannini,Mitzi Green,1
+Gianna Nannini,Ray Charles,1
+Gianna Nannini,Las Ketchup,1
+Gianna Nannini,Carmen Consoli,1
+Gianna Nannini,David Bowie,1
+Gianna Nannini,Samuele Bersani,1
+Gianna Nannini,Andrea Bocelli,1
+Gianna Nannini,"[Ornella Vanoni, Gino Paoli]",1
+Gianna Nannini,Cristina D'Avena,1
+Gianna Nannini,"[Gianni Morandi, Lucio Dalla]",1
+Gianna Nannini,"[Mina, Alberto Lupo]",1
+Gianna Nannini,Jimmy Fontana,1
+Quartetto Cetra,Nada,1
+Quartetto Cetra,Domenico Modugno,1
+Quartetto Cetra,Pino Daniele,1
+Quartetto Cetra,Riccardo Cocciante,1
+Quartetto Cetra,Fabrizio De André,1
+Quartetto Cetra,Lucio Battisti,1
+Quartetto Cetra,Gianni Morandi,1
+Quartetto Cetra,Actarus,1
+Quartetto Cetra,Walter Murphy,1
+Quartetto Cetra,Lucio Dalla,1
+Quartetto Cetra,Francesco De Gregori,1
+Nada,Domenico Modugno,1
+Nada,Pino Daniele,1
+Nada,Riccardo Cocciante,1
+Nada,Fabrizio De André,1
+Nada,Lucio Battisti,1
+Nada,Gianni Morandi,1
+Nada,Actarus,1
+Nada,Walter Murphy,1
+Nada,Lucio Dalla,1
+Nada,Francesco De Gregori,1
+Domenico Modugno,Pino Daniele,2
+Domenico Modugno,Riccardo Cocciante,3
+Domenico Modugno,Fabrizio De André,2
+Domenico Modugno,Lucio Battisti,2
+Domenico Modugno,Gianni Morandi,1
+Domenico Modugno,Actarus,1
+Domenico Modugno,Walter Murphy,1
+Domenico Modugno,Lucio Dalla,2
+Domenico Modugno,Francesco De Gregori,2
+Domenico Modugno,Nomadi,1
+Domenico Modugno,Don Backy,1
+Domenico Modugno,Giorgio Faletti,1
+Domenico Modugno,Miguel Bosé,1
+Domenico Modugno,Nino Ferrer,1
+Domenico Modugno,Franco Battiato,2
+Domenico Modugno,Edoardo Bennato,1
+Domenico Modugno,Zucchero Fornaciari,1
+Domenico Modugno,Anna Oxa,1
+Domenico Modugno,Ofenbach feat. Norma Jean Martine,1
+Domenico Modugno,Neffa,1
+Domenico Modugno,Sottotono,1
+Domenico Modugno,Gino Paoli,1
+Domenico Modugno,Franco Califano,1
+Domenico Modugno,"[Riccardo Cocciante, Loredana Bertè]",1
+Domenico Modugno,Sal Da Vinci,1
+Domenico Modugno,Tricarico,1
+Domenico Modugno,Simon & Garfunkel,1
+Domenico Modugno,Righeira,1
+Domenico Modugno,Cesare Cremonini,1
+Domenico Modugno,Alicia Keys,1
+Domenico Modugno,Marco Masini,1
+Domenico Modugno,Francesco Renga,1
+Domenico Modugno,A Great Big World feat. Christina Aguilera,1
+Domenico Modugno,Adele,1
+Domenico Modugno,"[Neffa, Sottotono]",1
+Pino Daniele,Riccardo Cocciante,2
+Pino Daniele,Fabrizio De André,3
+Pino Daniele,Lucio Battisti,4
+Pino Daniele,Gianni Morandi,2
+Pino Daniele,Actarus,1
+Pino Daniele,Walter Murphy,1
+Pino Daniele,Lucio Dalla,3
+Pino Daniele,Francesco De Gregori,1
+Pino Daniele,Nesli,1
+Pino Daniele,Jalisse,1
+Pino Daniele,Neffa,2
+Pino Daniele,Stadio,1
+Pino Daniele,Dori Ghezzi,1
+Pino Daniele,Zucchero Fornaciari,1
+Pino Daniele,C.S.I.,1
+Pino Daniele,Calcutta,1
+Pino Daniele,Jovanotti,2
+Pino Daniele,Afterhours,1
+Pino Daniele,Raoul Casadei,1
+Pino Daniele,"[Al Bano, Romina Power]",1
+Pino Daniele,"[Aleandro Baldi, Francesca Alotta]",1
+Pino Daniele,CCCP - Fedeli alla linea,1
+Pino Daniele,Daniele Silvestri,1
+Pino Daniele,Samuele Bersani,1
+Pino Daniele,Rino Gaetano,1
+Pino Daniele,Francesco Guccini,1
+Pino Daniele,Donatella Rettore,1
+Pino Daniele,Franco Battiato,2
+Pino Daniele,Gabriella Ferri,1
+Pino Daniele,Neri per Caso,1
+Pino Daniele,883,1
+Pino Daniele,Pooh,1
+Pino Daniele,Pierangelo Bertoli,1
+Pino Daniele,Julio Iglesias,1
+Pino Daniele,Gino Paoli,2
+Pino Daniele,Gianluca Grignani,1
+Pino Daniele,Aretha Franklin,1
+Pino Daniele,Milva,1
+Pino Daniele,Raffaella Carrà,1
+Pino Daniele,Paul McCartney,1
+Pino Daniele,Frank Sinatra,1
+Pino Daniele,Irene Cara,1
+Pino Daniele,Elton John,1
+Pino Daniele,Alan Sorrenti,1
+Pino Daniele,Alex Baroni,1
+Pino Daniele,Britney Spears,1
+Pino Daniele,The Ronettes,1
+Pino Daniele,Jimmy Fontana,1
+Pino Daniele,Ofenbach feat. Norma Jean Martine,1
+Pino Daniele,Sottotono,1
+Pino Daniele,Franco Califano,1
+Pino Daniele,"[Riccardo Cocciante, Loredana Bertè]",1
+Pino Daniele,Sal Da Vinci,1
+Pino Daniele,Tricarico,1
+Pino Daniele,Simon & Garfunkel,1
+Pino Daniele,Righeira,1
+Pino Daniele,Cesare Cremonini,1
+Pino Daniele,Alicia Keys,1
+Pino Daniele,Marco Masini,1
+Pino Daniele,Francesco Renga,1
+Pino Daniele,A Great Big World feat. Christina Aguilera,1
+Pino Daniele,Adele,1
+Pino Daniele,"[Neffa, Sottotono]",1
+Riccardo Cocciante,Fabrizio De André,4
+Riccardo Cocciante,Lucio Battisti,3
+Riccardo Cocciante,Gianni Morandi,1
+Riccardo Cocciante,Actarus,1
+Riccardo Cocciante,Walter Murphy,1
+Riccardo Cocciante,Lucio Dalla,4
+Riccardo Cocciante,Francesco De Gregori,2
+Riccardo Cocciante,Nomadi,1
+Riccardo Cocciante,Don Backy,1
+Riccardo Cocciante,Giorgio Faletti,1
+Riccardo Cocciante,Miguel Bosé,1
+Riccardo Cocciante,Nino Ferrer,1
+Riccardo Cocciante,Franco Battiato,2
+Riccardo Cocciante,Edoardo Bennato,1
+Riccardo Cocciante,Zucchero Fornaciari,2
+Riccardo Cocciante,Anna Oxa,1
+Riccardo Cocciante,Leonard Cohen,1
+Riccardo Cocciante,"[Guè, Marracash]",1
+Riccardo Cocciante,Ricchi e Poveri,1
+Riccardo Cocciante,Queen,1
+Riccardo Cocciante,Antonello Venditti,1
+Riccardo Cocciante,Sud Sound System,1
+Riccardo Cocciante,Dargen D'Amico,1
+Riccardo Cocciante,Sangiovanni,1
+Riccardo Cocciante,Christina Aguilera et al.,1
+Riccardo Cocciante,Eurythmics,1
+Riccardo Cocciante,Roberto Vecchioni,1
+Riccardo Cocciante,Toto Cutugno,1
+Riccardo Cocciante,Pino D'Angiò,1
+Riccardo Cocciante,"[Ermal Meta, Fabrizio Moro]",1
+Riccardo Cocciante,"[Alessandra Amoroso, Boomdabash]",1
+Riccardo Cocciante,Fabrizio Moro,2
+Riccardo Cocciante,Ivana Spagna,1
+Riccardo Cocciante,Francesco Renga,2
+Riccardo Cocciante,Nek,1
+Riccardo Cocciante,Ghali,1
+Riccardo Cocciante,Luchè,1
+Riccardo Cocciante,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Riccardo Cocciante,"[Mannoia, Gabbani]",1
+Riccardo Cocciante,"[Gemelli DiVersi, Mr. Rain]",1
+Riccardo Cocciante,Donatella Rettore,1
+Riccardo Cocciante,Tiziano Ferro,1
+Riccardo Cocciante,Eiffel 65,1
+Riccardo Cocciante,Umberto Tozzi,1
+Riccardo Cocciante,Mango,1
+Riccardo Cocciante,Ofenbach feat. Norma Jean Martine,1
+Riccardo Cocciante,Neffa,1
+Riccardo Cocciante,Sottotono,1
+Riccardo Cocciante,Gino Paoli,1
+Riccardo Cocciante,Franco Califano,1
+Riccardo Cocciante,"[Riccardo Cocciante, Loredana Bertè]",1
+Riccardo Cocciante,Sal Da Vinci,1
+Riccardo Cocciante,Tricarico,1
+Riccardo Cocciante,Simon & Garfunkel,1
+Riccardo Cocciante,Righeira,1
+Riccardo Cocciante,Cesare Cremonini,1
+Riccardo Cocciante,Alicia Keys,1
+Riccardo Cocciante,Marco Masini,1
+Riccardo Cocciante,A Great Big World feat. Christina Aguilera,1
+Riccardo Cocciante,Adele,1
+Riccardo Cocciante,"[Neffa, Sottotono]",1
+Riccardo Cocciante,Gianluca Grignani,1
+Riccardo Cocciante,Nik Kershaw,1
+Riccardo Cocciante,Fiorella Mannoia,1
+Riccardo Cocciante,Pupo,1
+Riccardo Cocciante,Jvke,1
+Riccardo Cocciante,Tullio De Piscopo,1
+Riccardo Cocciante,Mitzi Green,1
+Riccardo Cocciante,Ray Charles,1
+Riccardo Cocciante,Las Ketchup,1
+Riccardo Cocciante,Carmen Consoli,1
+Riccardo Cocciante,David Bowie,1
+Riccardo Cocciante,Samuele Bersani,1
+Riccardo Cocciante,Andrea Bocelli,1
+Riccardo Cocciante,"[Ornella Vanoni, Gino Paoli]",1
+Riccardo Cocciante,Michele Zarrillo,1
+Riccardo Cocciante,Cristina D'Avena,1
+Riccardo Cocciante,"[Gianni Morandi, Lucio Dalla]",1
+Riccardo Cocciante,"[Mina, Alberto Lupo]",1
+Riccardo Cocciante,Jimmy Fontana,1
+Fabrizio De André,Lucio Battisti,4
+Fabrizio De André,Gianni Morandi,2
+Fabrizio De André,Actarus,1
+Fabrizio De André,Walter Murphy,1
+Fabrizio De André,Lucio Dalla,4
+Fabrizio De André,Francesco De Gregori,1
+Fabrizio De André,Pooh,1
+Fabrizio De André,Pierangelo Bertoli,1
+Fabrizio De André,Julio Iglesias,1
+Fabrizio De André,Gino Paoli,2
+Fabrizio De André,Gianluca Grignani,3
+Fabrizio De André,Aretha Franklin,1
+Fabrizio De André,Milva,1
+Fabrizio De André,Raffaella Carrà,1
+Fabrizio De André,Paul McCartney,1
+Fabrizio De André,Jovanotti,1
+Fabrizio De André,Frank Sinatra,1
+Fabrizio De André,Irene Cara,1
+Fabrizio De André,Elton John,1
+Fabrizio De André,Alan Sorrenti,1
+Fabrizio De André,Alex Baroni,1
+Fabrizio De André,Britney Spears,1
+Fabrizio De André,The Ronettes,1
+Fabrizio De André,Jimmy Fontana,2
+Fabrizio De André,Nesli,1
+Fabrizio De André,Eros Ramazzotti,1
+Fabrizio De André,Ricchi e Poveri,2
+Fabrizio De André,Zucchero Fornaciari,2
+Fabrizio De André,Afterhours,1
+Fabrizio De André,"[Edoardo, Eugenio Bennato]",1
+Fabrizio De André,The Beatles,1
+Fabrizio De André,"[P. Vallesi, Cugini di Campagna]",1
+Fabrizio De André,Daniele Silvestri,1
+Fabrizio De André,Lorella Cuccarini,1
+Fabrizio De André,Le Vibrazioni,1
+Fabrizio De André,"[S. Cristicchi, Biagio Antonacci]",1
+Fabrizio De André,Lùnapop,1
+Fabrizio De André,Baustelle,1
+Fabrizio De André,Alex Britti,1
+Fabrizio De André,Edoardo Bennato,1
+Fabrizio De André,Gigi D'Agostino,1
+Fabrizio De André,The Guess Who,1
+Fabrizio De André,Anna Oxa,1
+Fabrizio De André,Michele Zarrillo,2
+Fabrizio De André,Franco Battiato,2
+Fabrizio De André,"[Elisa, Giorgia]",1
+Fabrizio De André,Paola & Chiara,1
+Fabrizio De André,Articolo 31,1
+Fabrizio De André,Leonard Cohen,1
+Fabrizio De André,"[Guè, Marracash]",1
+Fabrizio De André,Queen,1
+Fabrizio De André,Antonello Venditti,1
+Fabrizio De André,Sud Sound System,1
+Fabrizio De André,Dargen D'Amico,1
+Fabrizio De André,Sangiovanni,1
+Fabrizio De André,Christina Aguilera et al.,1
+Fabrizio De André,Eurythmics,1
+Fabrizio De André,Roberto Vecchioni,1
+Fabrizio De André,Toto Cutugno,1
+Fabrizio De André,Pino D'Angiò,1
+Fabrizio De André,"[Ermal Meta, Fabrizio Moro]",1
+Fabrizio De André,"[Alessandra Amoroso, Boomdabash]",1
+Fabrizio De André,Fabrizio Moro,2
+Fabrizio De André,Ivana Spagna,1
+Fabrizio De André,Francesco Renga,2
+Fabrizio De André,Nek,1
+Fabrizio De André,Ghali,1
+Fabrizio De André,Luchè,1
+Fabrizio De André,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Fabrizio De André,"[Mannoia, Gabbani]",1
+Fabrizio De André,"[Gemelli DiVersi, Mr. Rain]",1
+Fabrizio De André,Donatella Rettore,1
+Fabrizio De André,Tiziano Ferro,1
+Fabrizio De André,Eiffel 65,1
+Fabrizio De André,Umberto Tozzi,1
+Fabrizio De André,Mango,1
+Fabrizio De André,Ofenbach feat. Norma Jean Martine,1
+Fabrizio De André,Neffa,1
+Fabrizio De André,Sottotono,1
+Fabrizio De André,Franco Califano,1
+Fabrizio De André,"[Riccardo Cocciante, Loredana Bertè]",1
+Fabrizio De André,Sal Da Vinci,1
+Fabrizio De André,Tricarico,1
+Fabrizio De André,Simon & Garfunkel,1
+Fabrizio De André,Righeira,1
+Fabrizio De André,Cesare Cremonini,1
+Fabrizio De André,Alicia Keys,1
+Fabrizio De André,Marco Masini,1
+Fabrizio De André,A Great Big World feat. Christina Aguilera,1
+Fabrizio De André,Adele,1
+Fabrizio De André,"[Neffa, Sottotono]",1
+Fabrizio De André,Nik Kershaw,1
+Fabrizio De André,Fiorella Mannoia,1
+Fabrizio De André,Pupo,1
+Fabrizio De André,Jvke,1
+Fabrizio De André,Tullio De Piscopo,1
+Fabrizio De André,Mitzi Green,1
+Fabrizio De André,Ray Charles,1
+Fabrizio De André,Las Ketchup,1
+Fabrizio De André,Carmen Consoli,1
+Fabrizio De André,David Bowie,1
+Fabrizio De André,Samuele Bersani,1
+Fabrizio De André,Andrea Bocelli,1
+Fabrizio De André,"[Ornella Vanoni, Gino Paoli]",1
+Fabrizio De André,Cristina D'Avena,1
+Fabrizio De André,"[Gianni Morandi, Lucio Dalla]",1
+Fabrizio De André,"[Mina, Alberto Lupo]",1
+Lucio Battisti,Gianni Morandi,2
+Lucio Battisti,Actarus,1
+Lucio Battisti,Walter Murphy,1
+Lucio Battisti,Lucio Dalla,4
+Lucio Battisti,Francesco De Gregori,1
+Lucio Battisti,Nesli,1
+Lucio Battisti,Jalisse,1
+Lucio Battisti,Neffa,2
+Lucio Battisti,Stadio,1
+Lucio Battisti,Dori Ghezzi,1
+Lucio Battisti,Zucchero Fornaciari,1
+Lucio Battisti,C.S.I.,1
+Lucio Battisti,Calcutta,1
+Lucio Battisti,Jovanotti,2
+Lucio Battisti,Afterhours,1
+Lucio Battisti,Raoul Casadei,1
+Lucio Battisti,"[Al Bano, Romina Power]",1
+Lucio Battisti,"[Aleandro Baldi, Francesca Alotta]",1
+Lucio Battisti,CCCP - Fedeli alla linea,1
+Lucio Battisti,Daniele Silvestri,1
+Lucio Battisti,Samuele Bersani,1
+Lucio Battisti,Rino Gaetano,1
+Lucio Battisti,Francesco Guccini,1
+Lucio Battisti,Donatella Rettore,2
+Lucio Battisti,Franco Battiato,2
+Lucio Battisti,Gabriella Ferri,1
+Lucio Battisti,Neri per Caso,1
+Lucio Battisti,883,1
+Lucio Battisti,Pooh,1
+Lucio Battisti,Pierangelo Bertoli,1
+Lucio Battisti,Julio Iglesias,1
+Lucio Battisti,Gino Paoli,2
+Lucio Battisti,Gianluca Grignani,1
+Lucio Battisti,Aretha Franklin,1
+Lucio Battisti,Milva,1
+Lucio Battisti,Raffaella Carrà,1
+Lucio Battisti,Paul McCartney,1
+Lucio Battisti,Frank Sinatra,1
+Lucio Battisti,Irene Cara,1
+Lucio Battisti,Elton John,1
+Lucio Battisti,Alan Sorrenti,1
+Lucio Battisti,Alex Baroni,1
+Lucio Battisti,Britney Spears,1
+Lucio Battisti,The Ronettes,1
+Lucio Battisti,Jimmy Fontana,1
+Lucio Battisti,Leonard Cohen,1
+Lucio Battisti,"[Guè, Marracash]",1
+Lucio Battisti,Ricchi e Poveri,1
+Lucio Battisti,Queen,1
+Lucio Battisti,Antonello Venditti,1
+Lucio Battisti,Sud Sound System,1
+Lucio Battisti,Dargen D'Amico,1
+Lucio Battisti,Sangiovanni,1
+Lucio Battisti,Christina Aguilera et al.,1
+Lucio Battisti,Eurythmics,1
+Lucio Battisti,Roberto Vecchioni,1
+Lucio Battisti,Toto Cutugno,1
+Lucio Battisti,Pino D'Angiò,1
+Lucio Battisti,"[Ermal Meta, Fabrizio Moro]",1
+Lucio Battisti,"[Alessandra Amoroso, Boomdabash]",1
+Lucio Battisti,Fabrizio Moro,1
+Lucio Battisti,Ivana Spagna,1
+Lucio Battisti,Francesco Renga,2
+Lucio Battisti,Nek,1
+Lucio Battisti,Ghali,1
+Lucio Battisti,Luchè,1
+Lucio Battisti,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Lucio Battisti,"[Mannoia, Gabbani]",1
+Lucio Battisti,"[Gemelli DiVersi, Mr. Rain]",1
+Lucio Battisti,Tiziano Ferro,1
+Lucio Battisti,Eiffel 65,1
+Lucio Battisti,Umberto Tozzi,1
+Lucio Battisti,Mango,1
+Lucio Battisti,Ofenbach feat. Norma Jean Martine,1
+Lucio Battisti,Sottotono,1
+Lucio Battisti,Franco Califano,1
+Lucio Battisti,"[Riccardo Cocciante, Loredana Bertè]",1
+Lucio Battisti,Sal Da Vinci,1
+Lucio Battisti,Tricarico,1
+Lucio Battisti,Simon & Garfunkel,1
+Lucio Battisti,Righeira,1
+Lucio Battisti,Cesare Cremonini,1
+Lucio Battisti,Alicia Keys,1
+Lucio Battisti,Marco Masini,1
+Lucio Battisti,A Great Big World feat. Christina Aguilera,1
+Lucio Battisti,Adele,1
+Lucio Battisti,"[Neffa, Sottotono]",1
+Gianni Morandi,Actarus,1
+Gianni Morandi,Walter Murphy,1
+Gianni Morandi,Lucio Dalla,1
+Gianni Morandi,Francesco De Gregori,1
+Gianni Morandi,Pooh,1
+Gianni Morandi,Pierangelo Bertoli,1
+Gianni Morandi,Julio Iglesias,1
+Gianni Morandi,Gino Paoli,1
+Gianni Morandi,Gianluca Grignani,1
+Gianni Morandi,Aretha Franklin,1
+Gianni Morandi,Milva,1
+Gianni Morandi,Raffaella Carrà,1
+Gianni Morandi,Paul McCartney,1
+Gianni Morandi,Jovanotti,1
+Gianni Morandi,Frank Sinatra,1
+Gianni Morandi,Irene Cara,1
+Gianni Morandi,Elton John,1
+Gianni Morandi,Alan Sorrenti,1
+Gianni Morandi,Alex Baroni,1
+Gianni Morandi,Britney Spears,1
+Gianni Morandi,The Ronettes,1
+Gianni Morandi,Jimmy Fontana,1
+Actarus,Walter Murphy,1
+Actarus,Lucio Dalla,1
+Actarus,Francesco De Gregori,1
+Walter Murphy,Lucio Dalla,1
+Walter Murphy,Francesco De Gregori,1
+Lucio Dalla,Francesco De Gregori,1
+Lucio Dalla,Amedeo Minghi,1
+Lucio Dalla,Eros Ramazzotti,1
+Lucio Dalla,Ricchi e Poveri,2
+Lucio Dalla,"[Fausto Cigliano, Gene Pitney]",1
+Lucio Dalla,Little Tony,1
+Lucio Dalla,Renato Zero,1
+Lucio Dalla,Fausto Leali,1
+Lucio Dalla,Mia Martini,1
+Lucio Dalla,Simone Cristicchi,1
+Lucio Dalla,Nilla Pizzi,1
+Lucio Dalla,Enzo Jannacci,1
+Lucio Dalla,Achille Lauro,1
+Lucio Dalla,Claudia Mori,1
+Lucio Dalla,Max Gazzè,1
+Lucio Dalla,Daniele Silvestri,2
+Lucio Dalla,Toto Cutugno,2
+Lucio Dalla,Tozzi-Morandi-Ruggeri,1
+Lucio Dalla,Rino Gaetano,2
+Lucio Dalla,Anna Oxa,1
+Lucio Dalla,Elisa,1
+Lucio Dalla,Noemi,1
+Lucio Dalla,"[Tony Del Monaco, Dionne Warwick]",1
+Lucio Dalla,Nesli,1
+Lucio Dalla,Jalisse,1
+Lucio Dalla,Neffa,2
+Lucio Dalla,Stadio,1
+Lucio Dalla,Dori Ghezzi,1
+Lucio Dalla,Zucchero Fornaciari,2
+Lucio Dalla,C.S.I.,1
+Lucio Dalla,Calcutta,1
+Lucio Dalla,Jovanotti,1
+Lucio Dalla,Afterhours,1
+Lucio Dalla,Raoul Casadei,1
+Lucio Dalla,"[Al Bano, Romina Power]",1
+Lucio Dalla,"[Aleandro Baldi, Francesca Alotta]",1
+Lucio Dalla,CCCP - Fedeli alla linea,1
+Lucio Dalla,Samuele Bersani,2
+Lucio Dalla,Francesco Guccini,1
+Lucio Dalla,Donatella Rettore,2
+Lucio Dalla,Franco Battiato,2
+Lucio Dalla,Gabriella Ferri,1
+Lucio Dalla,Neri per Caso,1
+Lucio Dalla,883,1
+Lucio Dalla,Leonard Cohen,1
+Lucio Dalla,"[Guè, Marracash]",1
+Lucio Dalla,Queen,1
+Lucio Dalla,Antonello Venditti,1
+Lucio Dalla,Sud Sound System,1
+Lucio Dalla,Dargen D'Amico,1
+Lucio Dalla,Sangiovanni,1
+Lucio Dalla,Christina Aguilera et al.,1
+Lucio Dalla,Eurythmics,1
+Lucio Dalla,Roberto Vecchioni,1
+Lucio Dalla,Pino D'Angiò,1
+Lucio Dalla,"[Ermal Meta, Fabrizio Moro]",1
+Lucio Dalla,"[Alessandra Amoroso, Boomdabash]",1
+Lucio Dalla,Fabrizio Moro,2
+Lucio Dalla,Ivana Spagna,1
+Lucio Dalla,Francesco Renga,2
+Lucio Dalla,Nek,1
+Lucio Dalla,Ghali,1
+Lucio Dalla,Luchè,1
+Lucio Dalla,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Lucio Dalla,"[Mannoia, Gabbani]",1
+Lucio Dalla,"[Gemelli DiVersi, Mr. Rain]",1
+Lucio Dalla,Tiziano Ferro,1
+Lucio Dalla,Eiffel 65,1
+Lucio Dalla,Umberto Tozzi,1
+Lucio Dalla,Mango,1
+Lucio Dalla,Ofenbach feat. Norma Jean Martine,1
+Lucio Dalla,Sottotono,1
+Lucio Dalla,Gino Paoli,1
+Lucio Dalla,Franco Califano,1
+Lucio Dalla,"[Riccardo Cocciante, Loredana Bertè]",1
+Lucio Dalla,Sal Da Vinci,1
+Lucio Dalla,Tricarico,1
+Lucio Dalla,Simon & Garfunkel,1
+Lucio Dalla,Righeira,1
+Lucio Dalla,Cesare Cremonini,1
+Lucio Dalla,Alicia Keys,1
+Lucio Dalla,Marco Masini,1
+Lucio Dalla,A Great Big World feat. Christina Aguilera,1
+Lucio Dalla,Adele,1
+Lucio Dalla,"[Neffa, Sottotono]",1
+Lucio Dalla,Gianluca Grignani,1
+Lucio Dalla,Nik Kershaw,1
+Lucio Dalla,Fiorella Mannoia,1
+Lucio Dalla,Pupo,1
+Lucio Dalla,Jvke,1
+Lucio Dalla,Tullio De Piscopo,1
+Lucio Dalla,Mitzi Green,1
+Lucio Dalla,Ray Charles,1
+Lucio Dalla,Las Ketchup,1
+Lucio Dalla,Carmen Consoli,1
+Lucio Dalla,David Bowie,1
+Lucio Dalla,Andrea Bocelli,1
+Lucio Dalla,"[Ornella Vanoni, Gino Paoli]",1
+Lucio Dalla,Michele Zarrillo,1
+Lucio Dalla,Cristina D'Avena,1
+Lucio Dalla,"[Gianni Morandi, Lucio Dalla]",1
+Lucio Dalla,"[Mina, Alberto Lupo]",1
+Lucio Dalla,Jimmy Fontana,1
+Francesco De Gregori,Nomadi,1
+Francesco De Gregori,Don Backy,1
+Francesco De Gregori,Giorgio Faletti,1
+Francesco De Gregori,Miguel Bosé,1
+Francesco De Gregori,Nino Ferrer,1
+Francesco De Gregori,Franco Battiato,1
+Francesco De Gregori,Edoardo Bennato,1
+Francesco De Gregori,Zucchero Fornaciari,1
+Francesco De Gregori,Anna Oxa,1
+Don Backy,Nomadi,1
+Don Backy,Giorgio Faletti,1
+Don Backy,Miguel Bosé,1
+Don Backy,Nino Ferrer,1
+Don Backy,Franco Battiato,1
+Don Backy,Edoardo Bennato,1
+Don Backy,Zucchero Fornaciari,1
+Don Backy,Anna Oxa,1
+Nomadi,Giorgio Faletti,1
+Nomadi,Miguel Bosé,1
+Nomadi,Nino Ferrer,1
+Nomadi,Franco Battiato,1
+Nomadi,Edoardo Bennato,1
+Nomadi,Zucchero Fornaciari,1
+Nomadi,Anna Oxa,1
+Giorgio Faletti,Miguel Bosé,1
+Giorgio Faletti,Nino Ferrer,1
+Giorgio Faletti,Franco Battiato,1
+Giorgio Faletti,Edoardo Bennato,1
+Giorgio Faletti,Zucchero Fornaciari,1
+Giorgio Faletti,Anna Oxa,1
+Miguel Bosé,Nino Ferrer,1
+Miguel Bosé,Franco Battiato,1
+Miguel Bosé,Edoardo Bennato,1
+Miguel Bosé,Zucchero Fornaciari,1
+Miguel Bosé,Anna Oxa,1
+Nino Ferrer,Franco Battiato,1
+Nino Ferrer,Edoardo Bennato,1
+Nino Ferrer,Zucchero Fornaciari,1
+Nino Ferrer,Anna Oxa,1
+Franco Battiato,Edoardo Bennato,2
+Franco Battiato,Zucchero Fornaciari,3
+Franco Battiato,Anna Oxa,2
+Franco Battiato,Nesli,2
+Franco Battiato,Jalisse,1
+Franco Battiato,Neffa,2
+Franco Battiato,Stadio,1
+Franco Battiato,Dori Ghezzi,1
+Franco Battiato,C.S.I.,1
+Franco Battiato,Calcutta,1
+Franco Battiato,Jovanotti,1
+Franco Battiato,Afterhours,2
+Franco Battiato,Raoul Casadei,1
+Franco Battiato,"[Al Bano, Romina Power]",1
+Franco Battiato,"[Aleandro Baldi, Francesca Alotta]",1
+Franco Battiato,CCCP - Fedeli alla linea,1
+Franco Battiato,Daniele Silvestri,2
+Franco Battiato,Samuele Bersani,1
+Franco Battiato,Rino Gaetano,1
+Franco Battiato,Francesco Guccini,1
+Franco Battiato,Donatella Rettore,1
+Franco Battiato,Gabriella Ferri,1
+Franco Battiato,Neri per Caso,1
+Franco Battiato,883,1
+Franco Battiato,Eros Ramazzotti,1
+Franco Battiato,Ricchi e Poveri,1
+Franco Battiato,Gianluca Grignani,1
+Franco Battiato,"[Edoardo, Eugenio Bennato]",1
+Franco Battiato,The Beatles,1
+Franco Battiato,"[P. Vallesi, Cugini di Campagna]",1
+Franco Battiato,Lorella Cuccarini,1
+Franco Battiato,Le Vibrazioni,1
+Franco Battiato,"[S. Cristicchi, Biagio Antonacci]",1
+Franco Battiato,Lùnapop,1
+Franco Battiato,Baustelle,1
+Franco Battiato,Alex Britti,1
+Franco Battiato,Gigi D'Agostino,1
+Franco Battiato,The Guess Who,1
+Franco Battiato,Michele Zarrillo,1
+Franco Battiato,"[Elisa, Giorgia]",1
+Franco Battiato,Paola & Chiara,1
+Franco Battiato,Articolo 31,1
+Franco Battiato,Ofenbach feat. Norma Jean Martine,1
+Franco Battiato,Sottotono,1
+Franco Battiato,Gino Paoli,1
+Franco Battiato,Franco Califano,1
+Franco Battiato,"[Riccardo Cocciante, Loredana Bertè]",1
+Franco Battiato,Sal Da Vinci,1
+Franco Battiato,Tricarico,1
+Franco Battiato,Simon & Garfunkel,1
+Franco Battiato,Righeira,1
+Franco Battiato,Cesare Cremonini,1
+Franco Battiato,Alicia Keys,1
+Franco Battiato,Marco Masini,1
+Franco Battiato,Francesco Renga,1
+Franco Battiato,A Great Big World feat. Christina Aguilera,1
+Franco Battiato,Adele,1
+Franco Battiato,"[Neffa, Sottotono]",1
+Edoardo Bennato,Zucchero Fornaciari,2
+Edoardo Bennato,Anna Oxa,2
+Edoardo Bennato,Nesli,1
+Edoardo Bennato,Eros Ramazzotti,1
+Edoardo Bennato,Ricchi e Poveri,1
+Edoardo Bennato,Gianluca Grignani,1
+Edoardo Bennato,Afterhours,1
+Edoardo Bennato,"[Edoardo, Eugenio Bennato]",1
+Edoardo Bennato,The Beatles,1
+Edoardo Bennato,"[P. Vallesi, Cugini di Campagna]",1
+Edoardo Bennato,Daniele Silvestri,1
+Edoardo Bennato,Lorella Cuccarini,1
+Edoardo Bennato,Le Vibrazioni,1
+Edoardo Bennato,"[S. Cristicchi, Biagio Antonacci]",1
+Edoardo Bennato,Lùnapop,1
+Edoardo Bennato,Baustelle,1
+Edoardo Bennato,Alex Britti,1
+Edoardo Bennato,Gigi D'Agostino,1
+Edoardo Bennato,The Guess Who,1
+Edoardo Bennato,Michele Zarrillo,1
+Edoardo Bennato,"[Elisa, Giorgia]",1
+Edoardo Bennato,Paola & Chiara,1
+Edoardo Bennato,Articolo 31,1
+Zucchero Fornaciari,Anna Oxa,2
+Zucchero Fornaciari,Nesli,2
+Zucchero Fornaciari,Jalisse,1
+Zucchero Fornaciari,Neffa,1
+Zucchero Fornaciari,Stadio,1
+Zucchero Fornaciari,Dori Ghezzi,1
+Zucchero Fornaciari,C.S.I.,1
+Zucchero Fornaciari,Calcutta,1
+Zucchero Fornaciari,Jovanotti,1
+Zucchero Fornaciari,Afterhours,2
+Zucchero Fornaciari,Raoul Casadei,1
+Zucchero Fornaciari,"[Al Bano, Romina Power]",1
+Zucchero Fornaciari,"[Aleandro Baldi, Francesca Alotta]",1
+Zucchero Fornaciari,CCCP - Fedeli alla linea,1
+Zucchero Fornaciari,Daniele Silvestri,2
+Zucchero Fornaciari,Samuele Bersani,2
+Zucchero Fornaciari,Rino Gaetano,1
+Zucchero Fornaciari,Francesco Guccini,1
+Zucchero Fornaciari,Donatella Rettore,1
+Zucchero Fornaciari,Gabriella Ferri,1
+Zucchero Fornaciari,Neri per Caso,1
+Zucchero Fornaciari,883,1
+Zucchero Fornaciari,Eros Ramazzotti,1
+Zucchero Fornaciari,Ricchi e Poveri,1
+Zucchero Fornaciari,Gianluca Grignani,2
+Zucchero Fornaciari,"[Edoardo, Eugenio Bennato]",1
+Zucchero Fornaciari,The Beatles,1
+Zucchero Fornaciari,"[P. Vallesi, Cugini di Campagna]",1
+Zucchero Fornaciari,Lorella Cuccarini,1
+Zucchero Fornaciari,Le Vibrazioni,1
+Zucchero Fornaciari,"[S. Cristicchi, Biagio Antonacci]",1
+Zucchero Fornaciari,Lùnapop,1
+Zucchero Fornaciari,Baustelle,1
+Zucchero Fornaciari,Alex Britti,1
+Zucchero Fornaciari,Gigi D'Agostino,1
+Zucchero Fornaciari,The Guess Who,1
+Zucchero Fornaciari,Michele Zarrillo,2
+Zucchero Fornaciari,"[Elisa, Giorgia]",1
+Zucchero Fornaciari,Paola & Chiara,1
+Zucchero Fornaciari,Articolo 31,1
+Zucchero Fornaciari,Nik Kershaw,1
+Zucchero Fornaciari,Fiorella Mannoia,1
+Zucchero Fornaciari,Pupo,1
+Zucchero Fornaciari,Jvke,1
+Zucchero Fornaciari,Tullio De Piscopo,1
+Zucchero Fornaciari,Mitzi Green,1
+Zucchero Fornaciari,Ray Charles,1
+Zucchero Fornaciari,Las Ketchup,1
+Zucchero Fornaciari,Carmen Consoli,1
+Zucchero Fornaciari,David Bowie,1
+Zucchero Fornaciari,Fabrizio Moro,1
+Zucchero Fornaciari,Andrea Bocelli,1
+Zucchero Fornaciari,"[Ornella Vanoni, Gino Paoli]",1
+Zucchero Fornaciari,Cristina D'Avena,1
+Zucchero Fornaciari,"[Gianni Morandi, Lucio Dalla]",1
+Zucchero Fornaciari,"[Mina, Alberto Lupo]",1
+Zucchero Fornaciari,Jimmy Fontana,1
+Anna Oxa,Amedeo Minghi,1
+Anna Oxa,Eros Ramazzotti,2
+Anna Oxa,Ricchi e Poveri,2
+Anna Oxa,"[Fausto Cigliano, Gene Pitney]",1
+Anna Oxa,Little Tony,1
+Anna Oxa,Renato Zero,1
+Anna Oxa,Fausto Leali,1
+Anna Oxa,Mia Martini,1
+Anna Oxa,Simone Cristicchi,1
+Anna Oxa,Nilla Pizzi,1
+Anna Oxa,Enzo Jannacci,1
+Anna Oxa,Achille Lauro,1
+Anna Oxa,Claudia Mori,1
+Anna Oxa,Max Gazzè,1
+Anna Oxa,Daniele Silvestri,2
+Anna Oxa,Toto Cutugno,1
+Anna Oxa,Tozzi-Morandi-Ruggeri,1
+Anna Oxa,Rino Gaetano,1
+Anna Oxa,Elisa,1
+Anna Oxa,Noemi,1
+Anna Oxa,"[Tony Del Monaco, Dionne Warwick]",1
+Anna Oxa,Nesli,1
+Anna Oxa,Gianluca Grignani,1
+Anna Oxa,Afterhours,1
+Anna Oxa,"[Edoardo, Eugenio Bennato]",1
+Anna Oxa,The Beatles,1
+Anna Oxa,"[P. Vallesi, Cugini di Campagna]",1
+Anna Oxa,Lorella Cuccarini,1
+Anna Oxa,Le Vibrazioni,1
+Anna Oxa,"[S. Cristicchi, Biagio Antonacci]",1
+Anna Oxa,Lùnapop,1
+Anna Oxa,Baustelle,1
+Anna Oxa,Alex Britti,1
+Anna Oxa,Gigi D'Agostino,1
+Anna Oxa,The Guess Who,1
+Anna Oxa,Michele Zarrillo,1
+Anna Oxa,"[Elisa, Giorgia]",1
+Anna Oxa,Paola & Chiara,1
+Anna Oxa,Articolo 31,1
+Amedeo Minghi,Eros Ramazzotti,1
+Amedeo Minghi,Ricchi e Poveri,1
+Amedeo Minghi,"[Fausto Cigliano, Gene Pitney]",1
+Amedeo Minghi,Little Tony,1
+Amedeo Minghi,Renato Zero,1
+Amedeo Minghi,Fausto Leali,1
+Amedeo Minghi,Mia Martini,1
+Amedeo Minghi,Simone Cristicchi,1
+Amedeo Minghi,Nilla Pizzi,1
+Amedeo Minghi,Enzo Jannacci,1
+Amedeo Minghi,Achille Lauro,1
+Amedeo Minghi,Claudia Mori,1
+Amedeo Minghi,Max Gazzè,1
+Amedeo Minghi,Daniele Silvestri,1
+Amedeo Minghi,Toto Cutugno,1
+Amedeo Minghi,Tozzi-Morandi-Ruggeri,1
+Amedeo Minghi,Rino Gaetano,1
+Amedeo Minghi,Elisa,1
+Amedeo Minghi,Noemi,1
+Amedeo Minghi,"[Tony Del Monaco, Dionne Warwick]",1
+Eros Ramazzotti,Ricchi e Poveri,2
+Eros Ramazzotti,"[Fausto Cigliano, Gene Pitney]",1
+Eros Ramazzotti,Little Tony,1
+Eros Ramazzotti,Renato Zero,1
+Eros Ramazzotti,Fausto Leali,1
+Eros Ramazzotti,Mia Martini,1
+Eros Ramazzotti,Simone Cristicchi,1
+Eros Ramazzotti,Nilla Pizzi,1
+Eros Ramazzotti,Enzo Jannacci,1
+Eros Ramazzotti,Achille Lauro,1
+Eros Ramazzotti,Claudia Mori,1
+Eros Ramazzotti,Max Gazzè,1
+Eros Ramazzotti,Daniele Silvestri,2
+Eros Ramazzotti,Toto Cutugno,1
+Eros Ramazzotti,Tozzi-Morandi-Ruggeri,1
+Eros Ramazzotti,Rino Gaetano,1
+Eros Ramazzotti,Elisa,1
+Eros Ramazzotti,Noemi,1
+Eros Ramazzotti,"[Tony Del Monaco, Dionne Warwick]",1
+Eros Ramazzotti,Nesli,1
+Eros Ramazzotti,Gianluca Grignani,1
+Eros Ramazzotti,Afterhours,1
+Eros Ramazzotti,"[Edoardo, Eugenio Bennato]",1
+Eros Ramazzotti,The Beatles,1
+Eros Ramazzotti,"[P. Vallesi, Cugini di Campagna]",1
+Eros Ramazzotti,Lorella Cuccarini,1
+Eros Ramazzotti,Le Vibrazioni,1
+Eros Ramazzotti,"[S. Cristicchi, Biagio Antonacci]",1
+Eros Ramazzotti,Lùnapop,1
+Eros Ramazzotti,Baustelle,1
+Eros Ramazzotti,Alex Britti,1
+Eros Ramazzotti,Gigi D'Agostino,1
+Eros Ramazzotti,The Guess Who,1
+Eros Ramazzotti,Michele Zarrillo,1
+Eros Ramazzotti,"[Elisa, Giorgia]",1
+Eros Ramazzotti,Paola & Chiara,1
+Eros Ramazzotti,Articolo 31,1
+Ricchi e Poveri,"[Fausto Cigliano, Gene Pitney]",1
+Ricchi e Poveri,Little Tony,1
+Ricchi e Poveri,Renato Zero,1
+Ricchi e Poveri,Fausto Leali,1
+Ricchi e Poveri,Mia Martini,1
+Ricchi e Poveri,Simone Cristicchi,1
+Ricchi e Poveri,Nilla Pizzi,1
+Ricchi e Poveri,Enzo Jannacci,1
+Ricchi e Poveri,Achille Lauro,1
+Ricchi e Poveri,Claudia Mori,1
+Ricchi e Poveri,Max Gazzè,1
+Ricchi e Poveri,Daniele Silvestri,2
+Ricchi e Poveri,Toto Cutugno,2
+Ricchi e Poveri,Tozzi-Morandi-Ruggeri,1
+Ricchi e Poveri,Rino Gaetano,1
+Ricchi e Poveri,Elisa,1
+Ricchi e Poveri,Noemi,1
+Ricchi e Poveri,"[Tony Del Monaco, Dionne Warwick]",1
+Ricchi e Poveri,Nesli,1
+Ricchi e Poveri,Gianluca Grignani,1
+Ricchi e Poveri,Afterhours,1
+Ricchi e Poveri,"[Edoardo, Eugenio Bennato]",1
+Ricchi e Poveri,The Beatles,1
+Ricchi e Poveri,"[P. Vallesi, Cugini di Campagna]",1
+Ricchi e Poveri,Lorella Cuccarini,1
+Ricchi e Poveri,Le Vibrazioni,1
+Ricchi e Poveri,"[S. Cristicchi, Biagio Antonacci]",1
+Ricchi e Poveri,Lùnapop,1
+Ricchi e Poveri,Baustelle,1
+Ricchi e Poveri,Alex Britti,1
+Ricchi e Poveri,Gigi D'Agostino,1
+Ricchi e Poveri,The Guess Who,1
+Ricchi e Poveri,Michele Zarrillo,1
+Ricchi e Poveri,"[Elisa, Giorgia]",1
+Ricchi e Poveri,Paola & Chiara,1
+Ricchi e Poveri,Articolo 31,1
+Ricchi e Poveri,Leonard Cohen,1
+Ricchi e Poveri,"[Guè, Marracash]",1
+Ricchi e Poveri,Queen,1
+Ricchi e Poveri,Antonello Venditti,1
+Ricchi e Poveri,Sud Sound System,1
+Ricchi e Poveri,Dargen D'Amico,1
+Ricchi e Poveri,Sangiovanni,1
+Ricchi e Poveri,Christina Aguilera et al.,1
+Ricchi e Poveri,Eurythmics,1
+Ricchi e Poveri,Roberto Vecchioni,1
+Ricchi e Poveri,Pino D'Angiò,1
+Ricchi e Poveri,"[Ermal Meta, Fabrizio Moro]",1
+Ricchi e Poveri,"[Alessandra Amoroso, Boomdabash]",1
+Ricchi e Poveri,Fabrizio Moro,1
+Ricchi e Poveri,Ivana Spagna,1
+Ricchi e Poveri,Francesco Renga,1
+Ricchi e Poveri,Nek,1
+Ricchi e Poveri,Ghali,1
+Ricchi e Poveri,Luchè,1
+Ricchi e Poveri,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Ricchi e Poveri,"[Mannoia, Gabbani]",1
+Ricchi e Poveri,"[Gemelli DiVersi, Mr. Rain]",1
+Ricchi e Poveri,Donatella Rettore,1
+Ricchi e Poveri,Tiziano Ferro,1
+Ricchi e Poveri,Eiffel 65,1
+Ricchi e Poveri,Umberto Tozzi,1
+Ricchi e Poveri,Mango,1
+"[Fausto Cigliano, Gene Pitney]",Little Tony,1
+"[Fausto Cigliano, Gene Pitney]",Renato Zero,1
+"[Fausto Cigliano, Gene Pitney]",Fausto Leali,1
+"[Fausto Cigliano, Gene Pitney]",Mia Martini,1
+"[Fausto Cigliano, Gene Pitney]",Simone Cristicchi,1
+"[Fausto Cigliano, Gene Pitney]",Nilla Pizzi,1
+"[Fausto Cigliano, Gene Pitney]",Enzo Jannacci,1
+"[Fausto Cigliano, Gene Pitney]",Achille Lauro,1
+"[Fausto Cigliano, Gene Pitney]",Claudia Mori,1
+"[Fausto Cigliano, Gene Pitney]",Max Gazzè,1
+"[Fausto Cigliano, Gene Pitney]",Daniele Silvestri,1
+"[Fausto Cigliano, Gene Pitney]",Toto Cutugno,1
+"[Fausto Cigliano, Gene Pitney]",Tozzi-Morandi-Ruggeri,1
+"[Fausto Cigliano, Gene Pitney]",Rino Gaetano,1
+"[Fausto Cigliano, Gene Pitney]",Elisa,1
+"[Fausto Cigliano, Gene Pitney]",Noemi,1
+"[Fausto Cigliano, Gene Pitney]","[Tony Del Monaco, Dionne Warwick]",1
+Little Tony,Renato Zero,1
+Little Tony,Fausto Leali,1
+Little Tony,Mia Martini,1
+Little Tony,Simone Cristicchi,1
+Little Tony,Nilla Pizzi,1
+Little Tony,Enzo Jannacci,1
+Little Tony,Achille Lauro,1
+Little Tony,Claudia Mori,1
+Little Tony,Max Gazzè,1
+Little Tony,Daniele Silvestri,1
+Little Tony,Toto Cutugno,1
+Little Tony,Tozzi-Morandi-Ruggeri,1
+Little Tony,Rino Gaetano,1
+Little Tony,Elisa,1
+Little Tony,Noemi,1
+Little Tony,"[Tony Del Monaco, Dionne Warwick]",1
+Renato Zero,Fausto Leali,1
+Renato Zero,Mia Martini,1
+Renato Zero,Simone Cristicchi,1
+Renato Zero,Nilla Pizzi,1
+Renato Zero,Enzo Jannacci,1
+Renato Zero,Achille Lauro,1
+Renato Zero,Claudia Mori,1
+Renato Zero,Max Gazzè,1
+Renato Zero,Daniele Silvestri,1
+Renato Zero,Toto Cutugno,1
+Renato Zero,Tozzi-Morandi-Ruggeri,1
+Renato Zero,Rino Gaetano,1
+Renato Zero,Elisa,1
+Renato Zero,Noemi,1
+Renato Zero,"[Tony Del Monaco, Dionne Warwick]",1
+Fausto Leali,Mia Martini,1
+Fausto Leali,Simone Cristicchi,1
+Fausto Leali,Nilla Pizzi,1
+Fausto Leali,Enzo Jannacci,1
+Fausto Leali,Achille Lauro,1
+Fausto Leali,Claudia Mori,1
+Fausto Leali,Max Gazzè,1
+Fausto Leali,Daniele Silvestri,1
+Fausto Leali,Toto Cutugno,1
+Fausto Leali,Tozzi-Morandi-Ruggeri,1
+Fausto Leali,Rino Gaetano,1
+Fausto Leali,Elisa,1
+Fausto Leali,Noemi,1
+Fausto Leali,"[Tony Del Monaco, Dionne Warwick]",1
+Mia Martini,Simone Cristicchi,1
+Mia Martini,Nilla Pizzi,1
+Mia Martini,Enzo Jannacci,1
+Mia Martini,Achille Lauro,1
+Mia Martini,Claudia Mori,1
+Mia Martini,Max Gazzè,1
+Mia Martini,Daniele Silvestri,1
+Mia Martini,Toto Cutugno,1
+Mia Martini,Tozzi-Morandi-Ruggeri,1
+Mia Martini,Rino Gaetano,1
+Mia Martini,Elisa,1
+Mia Martini,Noemi,1
+Mia Martini,"[Tony Del Monaco, Dionne Warwick]",1
+Simone Cristicchi,Nilla Pizzi,1
+Simone Cristicchi,Enzo Jannacci,1
+Simone Cristicchi,Achille Lauro,1
+Simone Cristicchi,Claudia Mori,1
+Simone Cristicchi,Max Gazzè,1
+Simone Cristicchi,Daniele Silvestri,1
+Simone Cristicchi,Toto Cutugno,1
+Simone Cristicchi,Tozzi-Morandi-Ruggeri,1
+Simone Cristicchi,Rino Gaetano,1
+Simone Cristicchi,Elisa,1
+Simone Cristicchi,Noemi,1
+Simone Cristicchi,"[Tony Del Monaco, Dionne Warwick]",1
+Nilla Pizzi,Enzo Jannacci,1
+Nilla Pizzi,Achille Lauro,1
+Nilla Pizzi,Claudia Mori,1
+Nilla Pizzi,Max Gazzè,1
+Nilla Pizzi,Daniele Silvestri,1
+Nilla Pizzi,Toto Cutugno,1
+Nilla Pizzi,Tozzi-Morandi-Ruggeri,1
+Nilla Pizzi,Rino Gaetano,1
+Nilla Pizzi,Elisa,1
+Nilla Pizzi,Noemi,1
+Nilla Pizzi,"[Tony Del Monaco, Dionne Warwick]",1
+Enzo Jannacci,Achille Lauro,1
+Enzo Jannacci,Claudia Mori,1
+Enzo Jannacci,Max Gazzè,1
+Enzo Jannacci,Daniele Silvestri,1
+Enzo Jannacci,Toto Cutugno,1
+Enzo Jannacci,Tozzi-Morandi-Ruggeri,1
+Enzo Jannacci,Rino Gaetano,1
+Enzo Jannacci,Elisa,1
+Enzo Jannacci,Noemi,1
+Enzo Jannacci,"[Tony Del Monaco, Dionne Warwick]",1
+Achille Lauro,Claudia Mori,1
+Achille Lauro,Max Gazzè,1
+Achille Lauro,Daniele Silvestri,1
+Achille Lauro,Toto Cutugno,1
+Achille Lauro,Tozzi-Morandi-Ruggeri,1
+Achille Lauro,Rino Gaetano,1
+Achille Lauro,Elisa,1
+Achille Lauro,Noemi,1
+Achille Lauro,"[Tony Del Monaco, Dionne Warwick]",1
+Claudia Mori,Max Gazzè,1
+Claudia Mori,Daniele Silvestri,1
+Claudia Mori,Toto Cutugno,1
+Claudia Mori,Tozzi-Morandi-Ruggeri,1
+Claudia Mori,Rino Gaetano,1
+Claudia Mori,Elisa,1
+Claudia Mori,Noemi,1
+Claudia Mori,"[Tony Del Monaco, Dionne Warwick]",1
+Max Gazzè,Daniele Silvestri,1
+Max Gazzè,Toto Cutugno,1
+Max Gazzè,Tozzi-Morandi-Ruggeri,1
+Max Gazzè,Rino Gaetano,1
+Max Gazzè,Elisa,1
+Max Gazzè,Noemi,1
+Max Gazzè,"[Tony Del Monaco, Dionne Warwick]",1
+Daniele Silvestri,Toto Cutugno,1
+Daniele Silvestri,Tozzi-Morandi-Ruggeri,1
+Daniele Silvestri,Rino Gaetano,2
+Daniele Silvestri,Elisa,1
+Daniele Silvestri,Noemi,1
+Daniele Silvestri,"[Tony Del Monaco, Dionne Warwick]",1
+Daniele Silvestri,Nesli,2
+Daniele Silvestri,Jalisse,1
+Daniele Silvestri,Neffa,1
+Daniele Silvestri,Stadio,1
+Daniele Silvestri,Dori Ghezzi,1
+Daniele Silvestri,C.S.I.,1
+Daniele Silvestri,Calcutta,1
+Daniele Silvestri,Jovanotti,1
+Daniele Silvestri,Afterhours,2
+Daniele Silvestri,Raoul Casadei,1
+Daniele Silvestri,"[Al Bano, Romina Power]",1
+Daniele Silvestri,"[Aleandro Baldi, Francesca Alotta]",1
+Daniele Silvestri,CCCP - Fedeli alla linea,1
+Daniele Silvestri,Samuele Bersani,1
+Daniele Silvestri,Francesco Guccini,1
+Daniele Silvestri,Donatella Rettore,1
+Daniele Silvestri,Gabriella Ferri,1
+Daniele Silvestri,Neri per Caso,1
+Daniele Silvestri,883,1
+Daniele Silvestri,Gianluca Grignani,1
+Daniele Silvestri,"[Edoardo, Eugenio Bennato]",1
+Daniele Silvestri,The Beatles,1
+Daniele Silvestri,"[P. Vallesi, Cugini di Campagna]",1
+Daniele Silvestri,Lorella Cuccarini,1
+Daniele Silvestri,Le Vibrazioni,1
+Daniele Silvestri,"[S. Cristicchi, Biagio Antonacci]",1
+Daniele Silvestri,Lùnapop,1
+Daniele Silvestri,Baustelle,1
+Daniele Silvestri,Alex Britti,1
+Daniele Silvestri,Gigi D'Agostino,1
+Daniele Silvestri,The Guess Who,1
+Daniele Silvestri,Michele Zarrillo,1
+Daniele Silvestri,"[Elisa, Giorgia]",1
+Daniele Silvestri,Paola & Chiara,1
+Daniele Silvestri,Articolo 31,1
+Toto Cutugno,Tozzi-Morandi-Ruggeri,1
+Toto Cutugno,Rino Gaetano,1
+Toto Cutugno,Elisa,1
+Toto Cutugno,Noemi,1
+Toto Cutugno,"[Tony Del Monaco, Dionne Warwick]",1
+Toto Cutugno,Leonard Cohen,1
+Toto Cutugno,"[Guè, Marracash]",1
+Toto Cutugno,Queen,1
+Toto Cutugno,Antonello Venditti,1
+Toto Cutugno,Sud Sound System,1
+Toto Cutugno,Dargen D'Amico,1
+Toto Cutugno,Sangiovanni,1
+Toto Cutugno,Christina Aguilera et al.,1
+Toto Cutugno,Eurythmics,1
+Toto Cutugno,Roberto Vecchioni,1
+Toto Cutugno,Pino D'Angiò,1
+Toto Cutugno,"[Ermal Meta, Fabrizio Moro]",1
+Toto Cutugno,"[Alessandra Amoroso, Boomdabash]",1
+Toto Cutugno,Fabrizio Moro,1
+Toto Cutugno,Ivana Spagna,1
+Toto Cutugno,Francesco Renga,1
+Toto Cutugno,Nek,1
+Toto Cutugno,Ghali,1
+Toto Cutugno,Luchè,1
+Toto Cutugno,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Toto Cutugno,"[Mannoia, Gabbani]",1
+Toto Cutugno,"[Gemelli DiVersi, Mr. Rain]",1
+Toto Cutugno,Donatella Rettore,1
+Toto Cutugno,Tiziano Ferro,1
+Toto Cutugno,Eiffel 65,1
+Toto Cutugno,Umberto Tozzi,1
+Toto Cutugno,Mango,1
+Tozzi-Morandi-Ruggeri,Rino Gaetano,1
+Tozzi-Morandi-Ruggeri,Elisa,1
+Tozzi-Morandi-Ruggeri,Noemi,1
+Tozzi-Morandi-Ruggeri,"[Tony Del Monaco, Dionne Warwick]",1
+Rino Gaetano,Elisa,1
+Rino Gaetano,Noemi,1
+Rino Gaetano,"[Tony Del Monaco, Dionne Warwick]",1
+Rino Gaetano,Nesli,1
+Rino Gaetano,Jalisse,1
+Rino Gaetano,Neffa,1
+Rino Gaetano,Stadio,1
+Rino Gaetano,Dori Ghezzi,1
+Rino Gaetano,C.S.I.,1
+Rino Gaetano,Calcutta,1
+Rino Gaetano,Jovanotti,1
+Rino Gaetano,Afterhours,1
+Rino Gaetano,Raoul Casadei,1
+Rino Gaetano,"[Al Bano, Romina Power]",1
+Rino Gaetano,"[Aleandro Baldi, Francesca Alotta]",1
+Rino Gaetano,CCCP - Fedeli alla linea,1
+Rino Gaetano,Samuele Bersani,1
+Rino Gaetano,Francesco Guccini,1
+Rino Gaetano,Donatella Rettore,1
+Rino Gaetano,Gabriella Ferri,1
+Rino Gaetano,Neri per Caso,1
+Rino Gaetano,883,1
+Elisa,Noemi,1
+Elisa,"[Tony Del Monaco, Dionne Warwick]",1
+Noemi,"[Tony Del Monaco, Dionne Warwick]",1
+Jalisse,Nesli,1
+Jalisse,Neffa,1
+Jalisse,Stadio,1
+Jalisse,Dori Ghezzi,1
+Jalisse,C.S.I.,1
+Jalisse,Calcutta,1
+Jalisse,Jovanotti,1
+Jalisse,Afterhours,1
+Jalisse,Raoul Casadei,1
+Jalisse,"[Al Bano, Romina Power]",1
+Jalisse,"[Aleandro Baldi, Francesca Alotta]",1
+Jalisse,CCCP - Fedeli alla linea,1
+Jalisse,Samuele Bersani,1
+Jalisse,Francesco Guccini,1
+Jalisse,Donatella Rettore,1
+Jalisse,Gabriella Ferri,1
+Jalisse,Neri per Caso,1
+Jalisse,883,1
+Nesli,Neffa,1
+Nesli,Stadio,1
+Nesli,Dori Ghezzi,1
+Nesli,C.S.I.,1
+Nesli,Calcutta,1
+Nesli,Jovanotti,1
+Nesli,Afterhours,2
+Nesli,Raoul Casadei,1
+Nesli,"[Al Bano, Romina Power]",1
+Nesli,"[Aleandro Baldi, Francesca Alotta]",1
+Nesli,CCCP - Fedeli alla linea,1
+Nesli,Samuele Bersani,1
+Nesli,Francesco Guccini,1
+Nesli,Donatella Rettore,1
+Nesli,Gabriella Ferri,1
+Nesli,Neri per Caso,1
+Nesli,883,1
+Nesli,Gianluca Grignani,1
+Nesli,"[Edoardo, Eugenio Bennato]",1
+Nesli,The Beatles,1
+Nesli,"[P. Vallesi, Cugini di Campagna]",1
+Nesli,Lorella Cuccarini,1
+Nesli,Le Vibrazioni,1
+Nesli,"[S. Cristicchi, Biagio Antonacci]",1
+Nesli,Lùnapop,1
+Nesli,Baustelle,1
+Nesli,Alex Britti,1
+Nesli,Gigi D'Agostino,1
+Nesli,The Guess Who,1
+Nesli,Michele Zarrillo,1
+Nesli,"[Elisa, Giorgia]",1
+Nesli,Paola & Chiara,1
+Nesli,Articolo 31,1
+Neffa,Stadio,1
+Neffa,Dori Ghezzi,1
+Neffa,C.S.I.,1
+Neffa,Calcutta,1
+Neffa,Jovanotti,1
+Neffa,Afterhours,1
+Neffa,Raoul Casadei,1
+Neffa,"[Al Bano, Romina Power]",1
+Neffa,"[Aleandro Baldi, Francesca Alotta]",1
+Neffa,CCCP - Fedeli alla linea,1
+Neffa,Samuele Bersani,1
+Neffa,Francesco Guccini,1
+Neffa,Donatella Rettore,1
+Neffa,Gabriella Ferri,1
+Neffa,Neri per Caso,1
+Neffa,883,1
+Neffa,Ofenbach feat. Norma Jean Martine,1
+Neffa,Sottotono,1
+Neffa,Gino Paoli,1
+Neffa,Franco Califano,1
+Neffa,"[Riccardo Cocciante, Loredana Bertè]",1
+Neffa,Sal Da Vinci,1
+Neffa,Tricarico,1
+Neffa,Simon & Garfunkel,1
+Neffa,Righeira,1
+Neffa,Cesare Cremonini,1
+Neffa,Alicia Keys,1
+Neffa,Marco Masini,1
+Neffa,Francesco Renga,1
+Neffa,A Great Big World feat. Christina Aguilera,1
+Neffa,Adele,1
+Neffa,"[Neffa, Sottotono]",1
+Stadio,Dori Ghezzi,1
+Stadio,C.S.I.,1
+Stadio,Calcutta,1
+Stadio,Jovanotti,1
+Stadio,Afterhours,1
+Stadio,Raoul Casadei,1
+Stadio,"[Al Bano, Romina Power]",1
+Stadio,"[Aleandro Baldi, Francesca Alotta]",1
+Stadio,CCCP - Fedeli alla linea,1
+Stadio,Samuele Bersani,1
+Stadio,Francesco Guccini,1
+Stadio,Donatella Rettore,1
+Stadio,Gabriella Ferri,1
+Stadio,Neri per Caso,1
+Stadio,883,1
+Dori Ghezzi,C.S.I.,1
+Dori Ghezzi,Calcutta,1
+Dori Ghezzi,Jovanotti,1
+Dori Ghezzi,Afterhours,1
+Dori Ghezzi,Raoul Casadei,1
+Dori Ghezzi,"[Al Bano, Romina Power]",1
+Dori Ghezzi,"[Aleandro Baldi, Francesca Alotta]",1
+Dori Ghezzi,CCCP - Fedeli alla linea,1
+Dori Ghezzi,Samuele Bersani,1
+Dori Ghezzi,Francesco Guccini,1
+Dori Ghezzi,Donatella Rettore,1
+Dori Ghezzi,Gabriella Ferri,1
+Dori Ghezzi,Neri per Caso,1
+Dori Ghezzi,883,1
+C.S.I.,Calcutta,1
+C.S.I.,Jovanotti,1
+C.S.I.,Afterhours,1
+C.S.I.,Raoul Casadei,1
+C.S.I.,"[Al Bano, Romina Power]",1
+C.S.I.,"[Aleandro Baldi, Francesca Alotta]",1
+C.S.I.,CCCP - Fedeli alla linea,1
+C.S.I.,Samuele Bersani,1
+C.S.I.,Francesco Guccini,1
+C.S.I.,Donatella Rettore,1
+C.S.I.,Gabriella Ferri,1
+C.S.I.,Neri per Caso,1
+C.S.I.,883,1
+Calcutta,Jovanotti,1
+Calcutta,Afterhours,1
+Calcutta,Raoul Casadei,1
+Calcutta,"[Al Bano, Romina Power]",1
+Calcutta,"[Aleandro Baldi, Francesca Alotta]",1
+Calcutta,CCCP - Fedeli alla linea,1
+Calcutta,Samuele Bersani,1
+Calcutta,Francesco Guccini,1
+Calcutta,Donatella Rettore,1
+Calcutta,Gabriella Ferri,1
+Calcutta,Neri per Caso,1
+Calcutta,883,1
+Jovanotti,Afterhours,1
+Jovanotti,Raoul Casadei,1
+Jovanotti,"[Al Bano, Romina Power]",1
+Jovanotti,"[Aleandro Baldi, Francesca Alotta]",1
+Jovanotti,CCCP - Fedeli alla linea,1
+Jovanotti,Samuele Bersani,1
+Jovanotti,Francesco Guccini,1
+Jovanotti,Donatella Rettore,1
+Jovanotti,Gabriella Ferri,1
+Jovanotti,Neri per Caso,1
+Jovanotti,883,1
+Jovanotti,Pooh,1
+Jovanotti,Pierangelo Bertoli,1
+Jovanotti,Julio Iglesias,1
+Jovanotti,Gino Paoli,1
+Jovanotti,Gianluca Grignani,1
+Jovanotti,Aretha Franklin,1
+Jovanotti,Milva,1
+Jovanotti,Raffaella Carrà,1
+Jovanotti,Paul McCartney,1
+Jovanotti,Frank Sinatra,1
+Jovanotti,Irene Cara,1
+Jovanotti,Elton John,1
+Jovanotti,Alan Sorrenti,1
+Jovanotti,Alex Baroni,1
+Jovanotti,Britney Spears,1
+Jovanotti,The Ronettes,1
+Jovanotti,Jimmy Fontana,1
+Afterhours,Raoul Casadei,1
+Afterhours,"[Al Bano, Romina Power]",1
+Afterhours,"[Aleandro Baldi, Francesca Alotta]",1
+Afterhours,CCCP - Fedeli alla linea,1
+Afterhours,Samuele Bersani,1
+Afterhours,Francesco Guccini,1
+Afterhours,Donatella Rettore,1
+Afterhours,Gabriella Ferri,1
+Afterhours,Neri per Caso,1
+Afterhours,883,1
+Afterhours,Gianluca Grignani,1
+Afterhours,"[Edoardo, Eugenio Bennato]",1
+Afterhours,The Beatles,1
+Afterhours,"[P. Vallesi, Cugini di Campagna]",1
+Afterhours,Lorella Cuccarini,1
+Afterhours,Le Vibrazioni,1
+Afterhours,"[S. Cristicchi, Biagio Antonacci]",1
+Afterhours,Lùnapop,1
+Afterhours,Baustelle,1
+Afterhours,Alex Britti,1
+Afterhours,Gigi D'Agostino,1
+Afterhours,The Guess Who,1
+Afterhours,Michele Zarrillo,1
+Afterhours,"[Elisa, Giorgia]",1
+Afterhours,Paola & Chiara,1
+Afterhours,Articolo 31,1
+Raoul Casadei,"[Al Bano, Romina Power]",1
+Raoul Casadei,"[Aleandro Baldi, Francesca Alotta]",1
+Raoul Casadei,CCCP - Fedeli alla linea,1
+Raoul Casadei,Samuele Bersani,1
+Raoul Casadei,Francesco Guccini,1
+Raoul Casadei,Donatella Rettore,1
+Raoul Casadei,Gabriella Ferri,1
+Raoul Casadei,Neri per Caso,1
+Raoul Casadei,883,1
+"[Al Bano, Romina Power]","[Aleandro Baldi, Francesca Alotta]",1
+"[Al Bano, Romina Power]",CCCP - Fedeli alla linea,1
+"[Al Bano, Romina Power]",Samuele Bersani,1
+"[Al Bano, Romina Power]",Francesco Guccini,1
+"[Al Bano, Romina Power]",Donatella Rettore,1
+"[Al Bano, Romina Power]",Gabriella Ferri,1
+"[Al Bano, Romina Power]",Neri per Caso,1
+"[Al Bano, Romina Power]",883,1
+"[Aleandro Baldi, Francesca Alotta]",CCCP - Fedeli alla linea,1
+"[Aleandro Baldi, Francesca Alotta]",Samuele Bersani,1
+"[Aleandro Baldi, Francesca Alotta]",Francesco Guccini,1
+"[Aleandro Baldi, Francesca Alotta]",Donatella Rettore,1
+"[Aleandro Baldi, Francesca Alotta]",Gabriella Ferri,1
+"[Aleandro Baldi, Francesca Alotta]",Neri per Caso,1
+"[Aleandro Baldi, Francesca Alotta]",883,1
+CCCP - Fedeli alla linea,Samuele Bersani,1
+CCCP - Fedeli alla linea,Francesco Guccini,1
+CCCP - Fedeli alla linea,Donatella Rettore,1
+CCCP - Fedeli alla linea,Gabriella Ferri,1
+CCCP - Fedeli alla linea,Neri per Caso,1
+CCCP - Fedeli alla linea,883,1
+Samuele Bersani,Francesco Guccini,1
+Samuele Bersani,Donatella Rettore,1
+Samuele Bersani,Gabriella Ferri,1
+Samuele Bersani,Neri per Caso,1
+Samuele Bersani,883,1
+Samuele Bersani,Gianluca Grignani,1
+Samuele Bersani,Nik Kershaw,1
+Samuele Bersani,Fiorella Mannoia,1
+Samuele Bersani,Pupo,1
+Samuele Bersani,Jvke,1
+Samuele Bersani,Tullio De Piscopo,1
+Samuele Bersani,Mitzi Green,1
+Samuele Bersani,Ray Charles,1
+Samuele Bersani,Las Ketchup,1
+Samuele Bersani,Carmen Consoli,1
+Samuele Bersani,David Bowie,1
+Samuele Bersani,Fabrizio Moro,1
+Samuele Bersani,Andrea Bocelli,1
+Samuele Bersani,"[Ornella Vanoni, Gino Paoli]",1
+Samuele Bersani,Michele Zarrillo,1
+Samuele Bersani,Cristina D'Avena,1
+Samuele Bersani,"[Gianni Morandi, Lucio Dalla]",1
+Samuele Bersani,"[Mina, Alberto Lupo]",1
+Samuele Bersani,Jimmy Fontana,1
+Francesco Guccini,Donatella Rettore,1
+Francesco Guccini,Gabriella Ferri,1
+Francesco Guccini,Neri per Caso,1
+Francesco Guccini,883,1
+Donatella Rettore,Gabriella Ferri,1
+Donatella Rettore,Neri per Caso,1
+Donatella Rettore,883,1
+Donatella Rettore,Leonard Cohen,1
+Donatella Rettore,"[Guè, Marracash]",1
+Donatella Rettore,Queen,1
+Donatella Rettore,Antonello Venditti,1
+Donatella Rettore,Sud Sound System,1
+Donatella Rettore,Dargen D'Amico,1
+Donatella Rettore,Sangiovanni,1
+Donatella Rettore,Christina Aguilera et al.,1
+Donatella Rettore,Eurythmics,1
+Donatella Rettore,Roberto Vecchioni,1
+Donatella Rettore,Pino D'Angiò,1
+Donatella Rettore,"[Ermal Meta, Fabrizio Moro]",1
+Donatella Rettore,"[Alessandra Amoroso, Boomdabash]",1
+Donatella Rettore,Fabrizio Moro,1
+Donatella Rettore,Ivana Spagna,1
+Donatella Rettore,Francesco Renga,1
+Donatella Rettore,Nek,1
+Donatella Rettore,Ghali,1
+Donatella Rettore,Luchè,1
+Donatella Rettore,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Donatella Rettore,"[Mannoia, Gabbani]",1
+Donatella Rettore,"[Gemelli DiVersi, Mr. Rain]",1
+Donatella Rettore,Tiziano Ferro,1
+Donatella Rettore,Eiffel 65,1
+Donatella Rettore,Umberto Tozzi,1
+Donatella Rettore,Mango,1
+Gabriella Ferri,Neri per Caso,1
+Gabriella Ferri,883,1
+Neri per Caso,883,1
+Pooh,Pierangelo Bertoli,1
+Pooh,Julio Iglesias,1
+Pooh,Gino Paoli,1
+Pooh,Gianluca Grignani,1
+Pooh,Aretha Franklin,1
+Pooh,Milva,1
+Pooh,Raffaella Carrà,1
+Pooh,Paul McCartney,1
+Pooh,Frank Sinatra,1
+Pooh,Irene Cara,1
+Pooh,Elton John,1
+Pooh,Alan Sorrenti,1
+Pooh,Alex Baroni,1
+Pooh,Britney Spears,1
+Pooh,The Ronettes,1
+Pooh,Jimmy Fontana,1
+Pierangelo Bertoli,Julio Iglesias,1
+Pierangelo Bertoli,Gino Paoli,1
+Pierangelo Bertoli,Gianluca Grignani,1
+Pierangelo Bertoli,Aretha Franklin,1
+Pierangelo Bertoli,Milva,1
+Pierangelo Bertoli,Raffaella Carrà,1
+Pierangelo Bertoli,Paul McCartney,1
+Pierangelo Bertoli,Frank Sinatra,1
+Pierangelo Bertoli,Irene Cara,1
+Pierangelo Bertoli,Elton John,1
+Pierangelo Bertoli,Alan Sorrenti,1
+Pierangelo Bertoli,Alex Baroni,1
+Pierangelo Bertoli,Britney Spears,1
+Pierangelo Bertoli,The Ronettes,1
+Pierangelo Bertoli,Jimmy Fontana,1
+Julio Iglesias,Gino Paoli,1
+Julio Iglesias,Gianluca Grignani,1
+Julio Iglesias,Aretha Franklin,1
+Julio Iglesias,Milva,1
+Julio Iglesias,Raffaella Carrà,1
+Julio Iglesias,Paul McCartney,1
+Julio Iglesias,Frank Sinatra,1
+Julio Iglesias,Irene Cara,1
+Julio Iglesias,Elton John,1
+Julio Iglesias,Alan Sorrenti,1
+Julio Iglesias,Alex Baroni,1
+Julio Iglesias,Britney Spears,1
+Julio Iglesias,The Ronettes,1
+Julio Iglesias,Jimmy Fontana,1
+Gino Paoli,Gianluca Grignani,1
+Gino Paoli,Aretha Franklin,1
+Gino Paoli,Milva,1
+Gino Paoli,Raffaella Carrà,1
+Gino Paoli,Paul McCartney,1
+Gino Paoli,Frank Sinatra,1
+Gino Paoli,Irene Cara,1
+Gino Paoli,Elton John,1
+Gino Paoli,Alan Sorrenti,1
+Gino Paoli,Alex Baroni,1
+Gino Paoli,Britney Spears,1
+Gino Paoli,The Ronettes,1
+Gino Paoli,Jimmy Fontana,1
+Gino Paoli,Ofenbach feat. Norma Jean Martine,1
+Gino Paoli,Sottotono,1
+Gino Paoli,Franco Califano,1
+Gino Paoli,"[Riccardo Cocciante, Loredana Bertè]",1
+Gino Paoli,Sal Da Vinci,1
+Gino Paoli,Tricarico,1
+Gino Paoli,Simon & Garfunkel,1
+Gino Paoli,Righeira,1
+Gino Paoli,Cesare Cremonini,1
+Gino Paoli,Alicia Keys,1
+Gino Paoli,Marco Masini,1
+Gino Paoli,Francesco Renga,1
+Gino Paoli,A Great Big World feat. Christina Aguilera,1
+Gino Paoli,Adele,1
+Gino Paoli,"[Neffa, Sottotono]",1
+Gianluca Grignani,Aretha Franklin,1
+Gianluca Grignani,Milva,1
+Gianluca Grignani,Raffaella Carrà,1
+Gianluca Grignani,Paul McCartney,1
+Gianluca Grignani,Frank Sinatra,1
+Gianluca Grignani,Irene Cara,1
+Gianluca Grignani,Elton John,1
+Gianluca Grignani,Alan Sorrenti,1
+Gianluca Grignani,Alex Baroni,1
+Gianluca Grignani,Britney Spears,1
+Gianluca Grignani,The Ronettes,1
+Gianluca Grignani,Jimmy Fontana,2
+Gianluca Grignani,"[Edoardo, Eugenio Bennato]",1
+Gianluca Grignani,The Beatles,1
+Gianluca Grignani,"[P. Vallesi, Cugini di Campagna]",1
+Gianluca Grignani,Lorella Cuccarini,1
+Gianluca Grignani,Le Vibrazioni,1
+Gianluca Grignani,"[S. Cristicchi, Biagio Antonacci]",1
+Gianluca Grignani,Lùnapop,1
+Gianluca Grignani,Baustelle,1
+Gianluca Grignani,Alex Britti,1
+Gianluca Grignani,Gigi D'Agostino,1
+Gianluca Grignani,The Guess Who,1
+Gianluca Grignani,Michele Zarrillo,2
+Gianluca Grignani,"[Elisa, Giorgia]",1
+Gianluca Grignani,Paola & Chiara,1
+Gianluca Grignani,Articolo 31,1
+Gianluca Grignani,Nik Kershaw,1
+Gianluca Grignani,Fiorella Mannoia,1
+Gianluca Grignani,Pupo,1
+Gianluca Grignani,Jvke,1
+Gianluca Grignani,Tullio De Piscopo,1
+Gianluca Grignani,Mitzi Green,1
+Gianluca Grignani,Ray Charles,1
+Gianluca Grignani,Las Ketchup,1
+Gianluca Grignani,Carmen Consoli,1
+Gianluca Grignani,David Bowie,1
+Gianluca Grignani,Fabrizio Moro,1
+Gianluca Grignani,Andrea Bocelli,1
+Gianluca Grignani,"[Ornella Vanoni, Gino Paoli]",1
+Gianluca Grignani,Cristina D'Avena,1
+Gianluca Grignani,"[Gianni Morandi, Lucio Dalla]",1
+Gianluca Grignani,"[Mina, Alberto Lupo]",1
+Aretha Franklin,Milva,1
+Aretha Franklin,Raffaella Carrà,1
+Aretha Franklin,Paul McCartney,1
+Aretha Franklin,Frank Sinatra,1
+Aretha Franklin,Irene Cara,1
+Aretha Franklin,Elton John,1
+Aretha Franklin,Alan Sorrenti,1
+Aretha Franklin,Alex Baroni,1
+Aretha Franklin,Britney Spears,1
+Aretha Franklin,The Ronettes,1
+Aretha Franklin,Jimmy Fontana,1
+Milva,Raffaella Carrà,1
+Milva,Paul McCartney,1
+Milva,Frank Sinatra,1
+Milva,Irene Cara,1
+Milva,Elton John,1
+Milva,Alan Sorrenti,1
+Milva,Alex Baroni,1
+Milva,Britney Spears,1
+Milva,The Ronettes,1
+Milva,Jimmy Fontana,1
+Raffaella Carrà,Paul McCartney,1
+Raffaella Carrà,Frank Sinatra,1
+Raffaella Carrà,Irene Cara,1
+Raffaella Carrà,Elton John,1
+Raffaella Carrà,Alan Sorrenti,1
+Raffaella Carrà,Alex Baroni,1
+Raffaella Carrà,Britney Spears,1
+Raffaella Carrà,The Ronettes,1
+Raffaella Carrà,Jimmy Fontana,1
+Paul McCartney,Frank Sinatra,1
+Paul McCartney,Irene Cara,1
+Paul McCartney,Elton John,1
+Paul McCartney,Alan Sorrenti,1
+Paul McCartney,Alex Baroni,1
+Paul McCartney,Britney Spears,1
+Paul McCartney,The Ronettes,1
+Paul McCartney,Jimmy Fontana,1
+Frank Sinatra,Irene Cara,1
+Frank Sinatra,Elton John,1
+Frank Sinatra,Alan Sorrenti,1
+Frank Sinatra,Alex Baroni,1
+Frank Sinatra,Britney Spears,1
+Frank Sinatra,The Ronettes,1
+Frank Sinatra,Jimmy Fontana,1
+Irene Cara,Elton John,1
+Irene Cara,Alan Sorrenti,1
+Irene Cara,Alex Baroni,1
+Irene Cara,Britney Spears,1
+Irene Cara,The Ronettes,1
+Irene Cara,Jimmy Fontana,1
+Elton John,Alan Sorrenti,1
+Elton John,Alex Baroni,1
+Elton John,Britney Spears,1
+Elton John,The Ronettes,1
+Elton John,Jimmy Fontana,1
+Alan Sorrenti,Alex Baroni,1
+Alan Sorrenti,Britney Spears,1
+Alan Sorrenti,The Ronettes,1
+Alan Sorrenti,Jimmy Fontana,1
+Alex Baroni,Britney Spears,1
+Alex Baroni,The Ronettes,1
+Alex Baroni,Jimmy Fontana,1
+Britney Spears,The Ronettes,1
+Britney Spears,Jimmy Fontana,1
+The Ronettes,Jimmy Fontana,1
+Jimmy Fontana,Nik Kershaw,1
+Jimmy Fontana,Fiorella Mannoia,1
+Jimmy Fontana,Pupo,1
+Jimmy Fontana,Jvke,1
+Jimmy Fontana,Tullio De Piscopo,1
+Jimmy Fontana,Mitzi Green,1
+Jimmy Fontana,Ray Charles,1
+Jimmy Fontana,Las Ketchup,1
+Jimmy Fontana,Carmen Consoli,1
+Jimmy Fontana,David Bowie,1
+Jimmy Fontana,Fabrizio Moro,1
+Jimmy Fontana,Andrea Bocelli,1
+Jimmy Fontana,"[Ornella Vanoni, Gino Paoli]",1
+Jimmy Fontana,Michele Zarrillo,1
+Jimmy Fontana,Cristina D'Avena,1
+Jimmy Fontana,"[Gianni Morandi, Lucio Dalla]",1
+Jimmy Fontana,"[Mina, Alberto Lupo]",1
+"[Edoardo, Eugenio Bennato]",The Beatles,1
+"[Edoardo, Eugenio Bennato]","[P. Vallesi, Cugini di Campagna]",1
+"[Edoardo, Eugenio Bennato]",Lorella Cuccarini,1
+"[Edoardo, Eugenio Bennato]",Le Vibrazioni,1
+"[Edoardo, Eugenio Bennato]","[S. Cristicchi, Biagio Antonacci]",1
+"[Edoardo, Eugenio Bennato]",Lùnapop,1
+"[Edoardo, Eugenio Bennato]",Baustelle,1
+"[Edoardo, Eugenio Bennato]",Alex Britti,1
+"[Edoardo, Eugenio Bennato]",Gigi D'Agostino,1
+"[Edoardo, Eugenio Bennato]",The Guess Who,1
+"[Edoardo, Eugenio Bennato]",Michele Zarrillo,1
+"[Edoardo, Eugenio Bennato]","[Elisa, Giorgia]",1
+"[Edoardo, Eugenio Bennato]",Paola & Chiara,1
+"[Edoardo, Eugenio Bennato]",Articolo 31,1
+The Beatles,"[P. Vallesi, Cugini di Campagna]",1
+The Beatles,Lorella Cuccarini,1
+The Beatles,Le Vibrazioni,1
+The Beatles,"[S. Cristicchi, Biagio Antonacci]",1
+The Beatles,Lùnapop,1
+The Beatles,Baustelle,1
+The Beatles,Alex Britti,1
+The Beatles,Gigi D'Agostino,1
+The Beatles,The Guess Who,1
+The Beatles,Michele Zarrillo,1
+The Beatles,"[Elisa, Giorgia]",1
+The Beatles,Paola & Chiara,1
+The Beatles,Articolo 31,1
+"[P. Vallesi, Cugini di Campagna]",Lorella Cuccarini,1
+"[P. Vallesi, Cugini di Campagna]",Le Vibrazioni,1
+"[P. Vallesi, Cugini di Campagna]","[S. Cristicchi, Biagio Antonacci]",1
+"[P. Vallesi, Cugini di Campagna]",Lùnapop,1
+"[P. Vallesi, Cugini di Campagna]",Baustelle,1
+"[P. Vallesi, Cugini di Campagna]",Alex Britti,1
+"[P. Vallesi, Cugini di Campagna]",Gigi D'Agostino,1
+"[P. Vallesi, Cugini di Campagna]",The Guess Who,1
+"[P. Vallesi, Cugini di Campagna]",Michele Zarrillo,1
+"[P. Vallesi, Cugini di Campagna]","[Elisa, Giorgia]",1
+"[P. Vallesi, Cugini di Campagna]",Paola & Chiara,1
+"[P. Vallesi, Cugini di Campagna]",Articolo 31,1
+Lorella Cuccarini,Le Vibrazioni,1
+Lorella Cuccarini,"[S. Cristicchi, Biagio Antonacci]",1
+Lorella Cuccarini,Lùnapop,1
+Lorella Cuccarini,Baustelle,1
+Lorella Cuccarini,Alex Britti,1
+Lorella Cuccarini,Gigi D'Agostino,1
+Lorella Cuccarini,The Guess Who,1
+Lorella Cuccarini,Michele Zarrillo,1
+Lorella Cuccarini,"[Elisa, Giorgia]",1
+Lorella Cuccarini,Paola & Chiara,1
+Lorella Cuccarini,Articolo 31,1
+Le Vibrazioni,"[S. Cristicchi, Biagio Antonacci]",1
+Le Vibrazioni,Lùnapop,1
+Le Vibrazioni,Baustelle,1
+Le Vibrazioni,Alex Britti,1
+Le Vibrazioni,Gigi D'Agostino,1
+Le Vibrazioni,The Guess Who,1
+Le Vibrazioni,Michele Zarrillo,1
+Le Vibrazioni,"[Elisa, Giorgia]",1
+Le Vibrazioni,Paola & Chiara,1
+Le Vibrazioni,Articolo 31,1
+"[S. Cristicchi, Biagio Antonacci]",Lùnapop,1
+"[S. Cristicchi, Biagio Antonacci]",Baustelle,1
+"[S. Cristicchi, Biagio Antonacci]",Alex Britti,1
+"[S. Cristicchi, Biagio Antonacci]",Gigi D'Agostino,1
+"[S. Cristicchi, Biagio Antonacci]",The Guess Who,1
+"[S. Cristicchi, Biagio Antonacci]",Michele Zarrillo,1
+"[S. Cristicchi, Biagio Antonacci]","[Elisa, Giorgia]",1
+"[S. Cristicchi, Biagio Antonacci]",Paola & Chiara,1
+"[S. Cristicchi, Biagio Antonacci]",Articolo 31,1
+Lùnapop,Baustelle,1
+Lùnapop,Alex Britti,1
+Lùnapop,Gigi D'Agostino,1
+Lùnapop,The Guess Who,1
+Lùnapop,Michele Zarrillo,1
+Lùnapop,"[Elisa, Giorgia]",1
+Lùnapop,Paola & Chiara,1
+Lùnapop,Articolo 31,1
+Baustelle,Alex Britti,1
+Baustelle,Gigi D'Agostino,1
+Baustelle,The Guess Who,1
+Baustelle,Michele Zarrillo,1
+Baustelle,"[Elisa, Giorgia]",1
+Baustelle,Paola & Chiara,1
+Baustelle,Articolo 31,1
+Alex Britti,Gigi D'Agostino,1
+Alex Britti,The Guess Who,1
+Alex Britti,Michele Zarrillo,1
+Alex Britti,"[Elisa, Giorgia]",1
+Alex Britti,Paola & Chiara,1
+Alex Britti,Articolo 31,1
+Gigi D'Agostino,The Guess Who,1
+Gigi D'Agostino,Michele Zarrillo,1
+Gigi D'Agostino,"[Elisa, Giorgia]",1
+Gigi D'Agostino,Paola & Chiara,1
+Gigi D'Agostino,Articolo 31,1
+The Guess Who,Michele Zarrillo,1
+The Guess Who,"[Elisa, Giorgia]",1
+The Guess Who,Paola & Chiara,1
+The Guess Who,Articolo 31,1
+Michele Zarrillo,"[Elisa, Giorgia]",1
+Michele Zarrillo,Paola & Chiara,1
+Michele Zarrillo,Articolo 31,1
+Michele Zarrillo,Nik Kershaw,1
+Michele Zarrillo,Fiorella Mannoia,1
+Michele Zarrillo,Pupo,1
+Michele Zarrillo,Jvke,1
+Michele Zarrillo,Tullio De Piscopo,1
+Michele Zarrillo,Mitzi Green,1
+Michele Zarrillo,Ray Charles,1
+Michele Zarrillo,Las Ketchup,1
+Michele Zarrillo,Carmen Consoli,1
+Michele Zarrillo,David Bowie,1
+Michele Zarrillo,Fabrizio Moro,1
+Michele Zarrillo,Andrea Bocelli,1
+Michele Zarrillo,"[Ornella Vanoni, Gino Paoli]",1
+Michele Zarrillo,Cristina D'Avena,1
+Michele Zarrillo,"[Gianni Morandi, Lucio Dalla]",1
+Michele Zarrillo,"[Mina, Alberto Lupo]",1
+"[Elisa, Giorgia]",Paola & Chiara,1
+"[Elisa, Giorgia]",Articolo 31,1
+Paola & Chiara,Articolo 31,1
+Leonard Cohen,"[Guè, Marracash]",1
+Leonard Cohen,Queen,1
+Leonard Cohen,Antonello Venditti,1
+Leonard Cohen,Sud Sound System,1
+Leonard Cohen,Dargen D'Amico,1
+Leonard Cohen,Sangiovanni,1
+Leonard Cohen,Christina Aguilera et al.,1
+Leonard Cohen,Eurythmics,1
+Leonard Cohen,Roberto Vecchioni,1
+Leonard Cohen,Pino D'Angiò,1
+Leonard Cohen,"[Ermal Meta, Fabrizio Moro]",1
+Leonard Cohen,"[Alessandra Amoroso, Boomdabash]",1
+Leonard Cohen,Fabrizio Moro,1
+Leonard Cohen,Ivana Spagna,1
+Leonard Cohen,Francesco Renga,1
+Leonard Cohen,Nek,1
+Leonard Cohen,Ghali,1
+Leonard Cohen,Luchè,1
+Leonard Cohen,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Leonard Cohen,"[Mannoia, Gabbani]",1
+Leonard Cohen,"[Gemelli DiVersi, Mr. Rain]",1
+Leonard Cohen,Tiziano Ferro,1
+Leonard Cohen,Eiffel 65,1
+Leonard Cohen,Umberto Tozzi,1
+Leonard Cohen,Mango,1
+"[Guè, Marracash]",Queen,1
+"[Guè, Marracash]",Antonello Venditti,1
+"[Guè, Marracash]",Sud Sound System,1
+"[Guè, Marracash]",Dargen D'Amico,1
+"[Guè, Marracash]",Sangiovanni,1
+"[Guè, Marracash]",Christina Aguilera et al.,1
+"[Guè, Marracash]",Eurythmics,1
+"[Guè, Marracash]",Roberto Vecchioni,1
+"[Guè, Marracash]",Pino D'Angiò,1
+"[Guè, Marracash]","[Ermal Meta, Fabrizio Moro]",1
+"[Guè, Marracash]","[Alessandra Amoroso, Boomdabash]",1
+"[Guè, Marracash]",Fabrizio Moro,1
+"[Guè, Marracash]",Ivana Spagna,1
+"[Guè, Marracash]",Francesco Renga,1
+"[Guè, Marracash]",Nek,1
+"[Guè, Marracash]",Ghali,1
+"[Guè, Marracash]",Luchè,1
+"[Guè, Marracash]","[Geolier feat. Lazza, Takagi & Ketra]",1
+"[Guè, Marracash]","[Mannoia, Gabbani]",1
+"[Guè, Marracash]","[Gemelli DiVersi, Mr. Rain]",1
+"[Guè, Marracash]",Tiziano Ferro,1
+"[Guè, Marracash]",Eiffel 65,1
+"[Guè, Marracash]",Umberto Tozzi,1
+"[Guè, Marracash]",Mango,1
+Queen,Antonello Venditti,1
+Queen,Sud Sound System,1
+Queen,Dargen D'Amico,1
+Queen,Sangiovanni,1
+Queen,Christina Aguilera et al.,1
+Queen,Eurythmics,1
+Queen,Roberto Vecchioni,1
+Queen,Pino D'Angiò,1
+Queen,"[Ermal Meta, Fabrizio Moro]",1
+Queen,"[Alessandra Amoroso, Boomdabash]",1
+Queen,Fabrizio Moro,1
+Queen,Ivana Spagna,1
+Queen,Francesco Renga,1
+Queen,Nek,1
+Queen,Ghali,1
+Queen,Luchè,1
+Queen,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Queen,"[Mannoia, Gabbani]",1
+Queen,"[Gemelli DiVersi, Mr. Rain]",1
+Queen,Tiziano Ferro,1
+Queen,Eiffel 65,1
+Queen,Umberto Tozzi,1
+Queen,Mango,1
+Antonello Venditti,Sud Sound System,1
+Antonello Venditti,Dargen D'Amico,1
+Antonello Venditti,Sangiovanni,1
+Antonello Venditti,Christina Aguilera et al.,1
+Antonello Venditti,Eurythmics,1
+Antonello Venditti,Roberto Vecchioni,1
+Antonello Venditti,Pino D'Angiò,1
+Antonello Venditti,"[Ermal Meta, Fabrizio Moro]",1
+Antonello Venditti,"[Alessandra Amoroso, Boomdabash]",1
+Antonello Venditti,Fabrizio Moro,1
+Antonello Venditti,Ivana Spagna,1
+Antonello Venditti,Francesco Renga,1
+Antonello Venditti,Nek,1
+Antonello Venditti,Ghali,1
+Antonello Venditti,Luchè,1
+Antonello Venditti,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Antonello Venditti,"[Mannoia, Gabbani]",1
+Antonello Venditti,"[Gemelli DiVersi, Mr. Rain]",1
+Antonello Venditti,Tiziano Ferro,1
+Antonello Venditti,Eiffel 65,1
+Antonello Venditti,Umberto Tozzi,1
+Antonello Venditti,Mango,1
+Sud Sound System,Dargen D'Amico,1
+Sud Sound System,Sangiovanni,1
+Sud Sound System,Christina Aguilera et al.,1
+Sud Sound System,Eurythmics,1
+Sud Sound System,Roberto Vecchioni,1
+Sud Sound System,Pino D'Angiò,1
+Sud Sound System,"[Ermal Meta, Fabrizio Moro]",1
+Sud Sound System,"[Alessandra Amoroso, Boomdabash]",1
+Sud Sound System,Fabrizio Moro,1
+Sud Sound System,Ivana Spagna,1
+Sud Sound System,Francesco Renga,1
+Sud Sound System,Nek,1
+Sud Sound System,Ghali,1
+Sud Sound System,Luchè,1
+Sud Sound System,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Sud Sound System,"[Mannoia, Gabbani]",1
+Sud Sound System,"[Gemelli DiVersi, Mr. Rain]",1
+Sud Sound System,Tiziano Ferro,1
+Sud Sound System,Eiffel 65,1
+Sud Sound System,Umberto Tozzi,1
+Sud Sound System,Mango,1
+Dargen D'Amico,Sangiovanni,1
+Dargen D'Amico,Christina Aguilera et al.,1
+Dargen D'Amico,Eurythmics,1
+Dargen D'Amico,Roberto Vecchioni,1
+Dargen D'Amico,Pino D'Angiò,1
+Dargen D'Amico,"[Ermal Meta, Fabrizio Moro]",1
+Dargen D'Amico,"[Alessandra Amoroso, Boomdabash]",1
+Dargen D'Amico,Fabrizio Moro,1
+Dargen D'Amico,Ivana Spagna,1
+Dargen D'Amico,Francesco Renga,1
+Dargen D'Amico,Nek,1
+Dargen D'Amico,Ghali,1
+Dargen D'Amico,Luchè,1
+Dargen D'Amico,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Dargen D'Amico,"[Mannoia, Gabbani]",1
+Dargen D'Amico,"[Gemelli DiVersi, Mr. Rain]",1
+Dargen D'Amico,Tiziano Ferro,1
+Dargen D'Amico,Eiffel 65,1
+Dargen D'Amico,Umberto Tozzi,1
+Dargen D'Amico,Mango,1
+Sangiovanni,Christina Aguilera et al.,1
+Sangiovanni,Eurythmics,1
+Sangiovanni,Roberto Vecchioni,1
+Sangiovanni,Pino D'Angiò,1
+Sangiovanni,"[Ermal Meta, Fabrizio Moro]",1
+Sangiovanni,"[Alessandra Amoroso, Boomdabash]",1
+Sangiovanni,Fabrizio Moro,1
+Sangiovanni,Ivana Spagna,1
+Sangiovanni,Francesco Renga,1
+Sangiovanni,Nek,1
+Sangiovanni,Ghali,1
+Sangiovanni,Luchè,1
+Sangiovanni,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Sangiovanni,"[Mannoia, Gabbani]",1
+Sangiovanni,"[Gemelli DiVersi, Mr. Rain]",1
+Sangiovanni,Tiziano Ferro,1
+Sangiovanni,Eiffel 65,1
+Sangiovanni,Umberto Tozzi,1
+Sangiovanni,Mango,1
+Christina Aguilera et al.,Eurythmics,1
+Christina Aguilera et al.,Roberto Vecchioni,1
+Christina Aguilera et al.,Pino D'Angiò,1
+Christina Aguilera et al.,"[Ermal Meta, Fabrizio Moro]",1
+Christina Aguilera et al.,"[Alessandra Amoroso, Boomdabash]",1
+Christina Aguilera et al.,Fabrizio Moro,1
+Christina Aguilera et al.,Ivana Spagna,1
+Christina Aguilera et al.,Francesco Renga,1
+Christina Aguilera et al.,Nek,1
+Christina Aguilera et al.,Ghali,1
+Christina Aguilera et al.,Luchè,1
+Christina Aguilera et al.,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Christina Aguilera et al.,"[Mannoia, Gabbani]",1
+Christina Aguilera et al.,"[Gemelli DiVersi, Mr. Rain]",1
+Christina Aguilera et al.,Tiziano Ferro,1
+Christina Aguilera et al.,Eiffel 65,1
+Christina Aguilera et al.,Umberto Tozzi,1
+Christina Aguilera et al.,Mango,1
+Eurythmics,Roberto Vecchioni,1
+Eurythmics,Pino D'Angiò,1
+Eurythmics,"[Ermal Meta, Fabrizio Moro]",1
+Eurythmics,"[Alessandra Amoroso, Boomdabash]",1
+Eurythmics,Fabrizio Moro,1
+Eurythmics,Ivana Spagna,1
+Eurythmics,Francesco Renga,1
+Eurythmics,Nek,1
+Eurythmics,Ghali,1
+Eurythmics,Luchè,1
+Eurythmics,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Eurythmics,"[Mannoia, Gabbani]",1
+Eurythmics,"[Gemelli DiVersi, Mr. Rain]",1
+Eurythmics,Tiziano Ferro,1
+Eurythmics,Eiffel 65,1
+Eurythmics,Umberto Tozzi,1
+Eurythmics,Mango,1
+Roberto Vecchioni,Pino D'Angiò,1
+Roberto Vecchioni,"[Ermal Meta, Fabrizio Moro]",1
+Roberto Vecchioni,"[Alessandra Amoroso, Boomdabash]",1
+Roberto Vecchioni,Fabrizio Moro,1
+Roberto Vecchioni,Ivana Spagna,1
+Roberto Vecchioni,Francesco Renga,1
+Roberto Vecchioni,Nek,1
+Roberto Vecchioni,Ghali,1
+Roberto Vecchioni,Luchè,1
+Roberto Vecchioni,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Roberto Vecchioni,"[Mannoia, Gabbani]",1
+Roberto Vecchioni,"[Gemelli DiVersi, Mr. Rain]",1
+Roberto Vecchioni,Tiziano Ferro,1
+Roberto Vecchioni,Eiffel 65,1
+Roberto Vecchioni,Umberto Tozzi,1
+Roberto Vecchioni,Mango,1
+Pino D'Angiò,"[Ermal Meta, Fabrizio Moro]",1
+Pino D'Angiò,"[Alessandra Amoroso, Boomdabash]",1
+Pino D'Angiò,Fabrizio Moro,1
+Pino D'Angiò,Ivana Spagna,1
+Pino D'Angiò,Francesco Renga,1
+Pino D'Angiò,Nek,1
+Pino D'Angiò,Ghali,1
+Pino D'Angiò,Luchè,1
+Pino D'Angiò,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Pino D'Angiò,"[Mannoia, Gabbani]",1
+Pino D'Angiò,"[Gemelli DiVersi, Mr. Rain]",1
+Pino D'Angiò,Tiziano Ferro,1
+Pino D'Angiò,Eiffel 65,1
+Pino D'Angiò,Umberto Tozzi,1
+Pino D'Angiò,Mango,1
+"[Ermal Meta, Fabrizio Moro]","[Alessandra Amoroso, Boomdabash]",1
+"[Ermal Meta, Fabrizio Moro]",Fabrizio Moro,1
+"[Ermal Meta, Fabrizio Moro]",Ivana Spagna,1
+"[Ermal Meta, Fabrizio Moro]",Francesco Renga,1
+"[Ermal Meta, Fabrizio Moro]",Nek,1
+"[Ermal Meta, Fabrizio Moro]",Ghali,1
+"[Ermal Meta, Fabrizio Moro]",Luchè,1
+"[Ermal Meta, Fabrizio Moro]","[Geolier feat. Lazza, Takagi & Ketra]",1
+"[Ermal Meta, Fabrizio Moro]","[Mannoia, Gabbani]",1
+"[Ermal Meta, Fabrizio Moro]","[Gemelli DiVersi, Mr. Rain]",1
+"[Ermal Meta, Fabrizio Moro]",Tiziano Ferro,1
+"[Ermal Meta, Fabrizio Moro]",Eiffel 65,1
+"[Ermal Meta, Fabrizio Moro]",Umberto Tozzi,1
+"[Ermal Meta, Fabrizio Moro]",Mango,1
+"[Alessandra Amoroso, Boomdabash]",Fabrizio Moro,1
+"[Alessandra Amoroso, Boomdabash]",Ivana Spagna,1
+"[Alessandra Amoroso, Boomdabash]",Francesco Renga,1
+"[Alessandra Amoroso, Boomdabash]",Nek,1
+"[Alessandra Amoroso, Boomdabash]",Ghali,1
+"[Alessandra Amoroso, Boomdabash]",Luchè,1
+"[Alessandra Amoroso, Boomdabash]","[Geolier feat. Lazza, Takagi & Ketra]",1
+"[Alessandra Amoroso, Boomdabash]","[Mannoia, Gabbani]",1
+"[Alessandra Amoroso, Boomdabash]","[Gemelli DiVersi, Mr. Rain]",1
+"[Alessandra Amoroso, Boomdabash]",Tiziano Ferro,1
+"[Alessandra Amoroso, Boomdabash]",Eiffel 65,1
+"[Alessandra Amoroso, Boomdabash]",Umberto Tozzi,1
+"[Alessandra Amoroso, Boomdabash]",Mango,1
+Fabrizio Moro,Ivana Spagna,1
+Fabrizio Moro,Francesco Renga,1
+Fabrizio Moro,Nek,1
+Fabrizio Moro,Ghali,1
+Fabrizio Moro,Luchè,1
+Fabrizio Moro,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Fabrizio Moro,"[Mannoia, Gabbani]",1
+Fabrizio Moro,"[Gemelli DiVersi, Mr. Rain]",1
+Fabrizio Moro,Tiziano Ferro,1
+Fabrizio Moro,Eiffel 65,1
+Fabrizio Moro,Umberto Tozzi,1
+Fabrizio Moro,Mango,1
+Fabrizio Moro,Nik Kershaw,1
+Fabrizio Moro,Fiorella Mannoia,1
+Fabrizio Moro,Pupo,1
+Fabrizio Moro,Jvke,1
+Fabrizio Moro,Tullio De Piscopo,1
+Fabrizio Moro,Mitzi Green,1
+Fabrizio Moro,Ray Charles,1
+Fabrizio Moro,Las Ketchup,1
+Fabrizio Moro,Carmen Consoli,1
+Fabrizio Moro,David Bowie,1
+Fabrizio Moro,Andrea Bocelli,1
+Fabrizio Moro,"[Ornella Vanoni, Gino Paoli]",1
+Fabrizio Moro,Cristina D'Avena,1
+Fabrizio Moro,"[Gianni Morandi, Lucio Dalla]",1
+Fabrizio Moro,"[Mina, Alberto Lupo]",1
+Ivana Spagna,Francesco Renga,1
+Ivana Spagna,Nek,1
+Ivana Spagna,Ghali,1
+Ivana Spagna,Luchè,1
+Ivana Spagna,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Ivana Spagna,"[Mannoia, Gabbani]",1
+Ivana Spagna,"[Gemelli DiVersi, Mr. Rain]",1
+Ivana Spagna,Tiziano Ferro,1
+Ivana Spagna,Eiffel 65,1
+Ivana Spagna,Umberto Tozzi,1
+Ivana Spagna,Mango,1
+Francesco Renga,Nek,1
+Francesco Renga,Ghali,1
+Francesco Renga,Luchè,1
+Francesco Renga,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Francesco Renga,"[Mannoia, Gabbani]",1
+Francesco Renga,"[Gemelli DiVersi, Mr. Rain]",1
+Francesco Renga,Tiziano Ferro,1
+Francesco Renga,Eiffel 65,1
+Francesco Renga,Umberto Tozzi,1
+Francesco Renga,Mango,1
+Francesco Renga,Ofenbach feat. Norma Jean Martine,1
+Francesco Renga,Sottotono,1
+Francesco Renga,Franco Califano,1
+Francesco Renga,"[Riccardo Cocciante, Loredana Bertè]",1
+Francesco Renga,Sal Da Vinci,1
+Francesco Renga,Tricarico,1
+Francesco Renga,Simon & Garfunkel,1
+Francesco Renga,Righeira,1
+Francesco Renga,Cesare Cremonini,1
+Francesco Renga,Alicia Keys,1
+Francesco Renga,Marco Masini,1
+Francesco Renga,A Great Big World feat. Christina Aguilera,1
+Francesco Renga,Adele,1
+Francesco Renga,"[Neffa, Sottotono]",1
+Nek,Ghali,1
+Nek,Luchè,1
+Nek,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Nek,"[Mannoia, Gabbani]",1
+Nek,"[Gemelli DiVersi, Mr. Rain]",1
+Nek,Tiziano Ferro,1
+Nek,Eiffel 65,1
+Nek,Umberto Tozzi,1
+Nek,Mango,1
+Ghali,Luchè,1
+Ghali,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Ghali,"[Mannoia, Gabbani]",1
+Ghali,"[Gemelli DiVersi, Mr. Rain]",1
+Ghali,Tiziano Ferro,1
+Ghali,Eiffel 65,1
+Ghali,Umberto Tozzi,1
+Ghali,Mango,1
+Luchè,"[Geolier feat. Lazza, Takagi & Ketra]",1
+Luchè,"[Mannoia, Gabbani]",1
+Luchè,"[Gemelli DiVersi, Mr. Rain]",1
+Luchè,Tiziano Ferro,1
+Luchè,Eiffel 65,1
+Luchè,Umberto Tozzi,1
+Luchè,Mango,1
+"[Geolier feat. Lazza, Takagi & Ketra]","[Mannoia, Gabbani]",1
+"[Geolier feat. Lazza, Takagi & Ketra]","[Gemelli DiVersi, Mr. Rain]",1
+"[Geolier feat. Lazza, Takagi & Ketra]",Tiziano Ferro,1
+"[Geolier feat. Lazza, Takagi & Ketra]",Eiffel 65,1
+"[Geolier feat. Lazza, Takagi & Ketra]",Umberto Tozzi,1
+"[Geolier feat. Lazza, Takagi & Ketra]",Mango,1
+"[Mannoia, Gabbani]","[Gemelli DiVersi, Mr. Rain]",1
+"[Mannoia, Gabbani]",Tiziano Ferro,1
+"[Mannoia, Gabbani]",Eiffel 65,1
+"[Mannoia, Gabbani]",Umberto Tozzi,1
+"[Mannoia, Gabbani]",Mango,1
+"[Gemelli DiVersi, Mr. Rain]",Tiziano Ferro,1
+"[Gemelli DiVersi, Mr. Rain]",Eiffel 65,1
+"[Gemelli DiVersi, Mr. Rain]",Umberto Tozzi,1
+"[Gemelli DiVersi, Mr. Rain]",Mango,1
+Tiziano Ferro,Eiffel 65,1
+Tiziano Ferro,Umberto Tozzi,1
+Tiziano Ferro,Mango,1
+Eiffel 65,Umberto Tozzi,1
+Eiffel 65,Mango,1
+Umberto Tozzi,Mango,1
+Ofenbach feat. Norma Jean Martine,Sottotono,1
+Ofenbach feat. Norma Jean Martine,Franco Califano,1
+Ofenbach feat. Norma Jean Martine,"[Riccardo Cocciante, Loredana Bertè]",1
+Ofenbach feat. Norma Jean Martine,Sal Da Vinci,1
+Ofenbach feat. Norma Jean Martine,Tricarico,1
+Ofenbach feat. Norma Jean Martine,Simon & Garfunkel,1
+Ofenbach feat. Norma Jean Martine,Righeira,1
+Ofenbach feat. Norma Jean Martine,Cesare Cremonini,1
+Ofenbach feat. Norma Jean Martine,Alicia Keys,1
+Ofenbach feat. Norma Jean Martine,Marco Masini,1
+Ofenbach feat. Norma Jean Martine,A Great Big World feat. Christina Aguilera,1
+Ofenbach feat. Norma Jean Martine,Adele,1
+Ofenbach feat. Norma Jean Martine,"[Neffa, Sottotono]",1
+Sottotono,Franco Califano,1
+Sottotono,"[Riccardo Cocciante, Loredana Bertè]",1
+Sottotono,Sal Da Vinci,1
+Sottotono,Tricarico,1
+Sottotono,Simon & Garfunkel,1
+Sottotono,Righeira,1
+Sottotono,Cesare Cremonini,1
+Sottotono,Alicia Keys,1
+Sottotono,Marco Masini,1
+Sottotono,A Great Big World feat. Christina Aguilera,1
+Sottotono,Adele,1
+Sottotono,"[Neffa, Sottotono]",1
+Franco Califano,"[Riccardo Cocciante, Loredana Bertè]",1
+Franco Califano,Sal Da Vinci,1
+Franco Califano,Tricarico,1
+Franco Califano,Simon & Garfunkel,1
+Franco Califano,Righeira,1
+Franco Califano,Cesare Cremonini,1
+Franco Califano,Alicia Keys,1
+Franco Califano,Marco Masini,1
+Franco Califano,A Great Big World feat. Christina Aguilera,1
+Franco Califano,Adele,1
+Franco Califano,"[Neffa, Sottotono]",1
+"[Riccardo Cocciante, Loredana Bertè]",Sal Da Vinci,1
+"[Riccardo Cocciante, Loredana Bertè]",Tricarico,1
+"[Riccardo Cocciante, Loredana Bertè]",Simon & Garfunkel,1
+"[Riccardo Cocciante, Loredana Bertè]",Righeira,1
+"[Riccardo Cocciante, Loredana Bertè]",Cesare Cremonini,1
+"[Riccardo Cocciante, Loredana Bertè]",Alicia Keys,1
+"[Riccardo Cocciante, Loredana Bertè]",Marco Masini,1
+"[Riccardo Cocciante, Loredana Bertè]",A Great Big World feat. Christina Aguilera,1
+"[Riccardo Cocciante, Loredana Bertè]",Adele,1
+"[Riccardo Cocciante, Loredana Bertè]","[Neffa, Sottotono]",1
+Sal Da Vinci,Tricarico,1
+Sal Da Vinci,Simon & Garfunkel,1
+Sal Da Vinci,Righeira,1
+Sal Da Vinci,Cesare Cremonini,1
+Sal Da Vinci,Alicia Keys,1
+Sal Da Vinci,Marco Masini,1
+Sal Da Vinci,A Great Big World feat. Christina Aguilera,1
+Sal Da Vinci,Adele,1
+Sal Da Vinci,"[Neffa, Sottotono]",1
+Tricarico,Simon & Garfunkel,1
+Tricarico,Righeira,1
+Tricarico,Cesare Cremonini,1
+Tricarico,Alicia Keys,1
+Tricarico,Marco Masini,1
+Tricarico,A Great Big World feat. Christina Aguilera,1
+Tricarico,Adele,1
+Tricarico,"[Neffa, Sottotono]",1
+Simon & Garfunkel,Righeira,1
+Simon & Garfunkel,Cesare Cremonini,1
+Simon & Garfunkel,Alicia Keys,1
+Simon & Garfunkel,Marco Masini,1
+Simon & Garfunkel,A Great Big World feat. Christina Aguilera,1
+Simon & Garfunkel,Adele,1
+Simon & Garfunkel,"[Neffa, Sottotono]",1
+Righeira,Cesare Cremonini,1
+Righeira,Alicia Keys,1
+Righeira,Marco Masini,1
+Righeira,A Great Big World feat. Christina Aguilera,1
+Righeira,Adele,1
+Righeira,"[Neffa, Sottotono]",1
+Cesare Cremonini,Alicia Keys,1
+Cesare Cremonini,Marco Masini,1
+Cesare Cremonini,A Great Big World feat. Christina Aguilera,1
+Cesare Cremonini,Adele,1
+Cesare Cremonini,"[Neffa, Sottotono]",1
+Alicia Keys,Marco Masini,1
+Alicia Keys,A Great Big World feat. Christina Aguilera,1
+Alicia Keys,Adele,1
+Alicia Keys,"[Neffa, Sottotono]",1
+Marco Masini,A Great Big World feat. Christina Aguilera,1
+Marco Masini,Adele,1
+Marco Masini,"[Neffa, Sottotono]",1
+A Great Big World feat. Christina Aguilera,Adele,1
+A Great Big World feat. Christina Aguilera,"[Neffa, Sottotono]",1
+Adele,"[Neffa, Sottotono]",1
+Nik Kershaw,Fiorella Mannoia,1
+Nik Kershaw,Pupo,1
+Nik Kershaw,Jvke,1
+Nik Kershaw,Tullio De Piscopo,1
+Nik Kershaw,Mitzi Green,1
+Nik Kershaw,Ray Charles,1
+Nik Kershaw,Las Ketchup,1
+Nik Kershaw,Carmen Consoli,1
+Nik Kershaw,David Bowie,1
+Nik Kershaw,Andrea Bocelli,1
+Nik Kershaw,"[Ornella Vanoni, Gino Paoli]",1
+Nik Kershaw,Cristina D'Avena,1
+Nik Kershaw,"[Gianni Morandi, Lucio Dalla]",1
+Nik Kershaw,"[Mina, Alberto Lupo]",1
+Fiorella Mannoia,Pupo,1
+Fiorella Mannoia,Jvke,1
+Fiorella Mannoia,Tullio De Piscopo,1
+Fiorella Mannoia,Mitzi Green,1
+Fiorella Mannoia,Ray Charles,1
+Fiorella Mannoia,Las Ketchup,1
+Fiorella Mannoia,Carmen Consoli,1
+Fiorella Mannoia,David Bowie,1
+Fiorella Mannoia,Andrea Bocelli,1
+Fiorella Mannoia,"[Ornella Vanoni, Gino Paoli]",1
+Fiorella Mannoia,Cristina D'Avena,1
+Fiorella Mannoia,"[Gianni Morandi, Lucio Dalla]",1
+Fiorella Mannoia,"[Mina, Alberto Lupo]",1
+Pupo,Jvke,1
+Pupo,Tullio De Piscopo,1
+Pupo,Mitzi Green,1
+Pupo,Ray Charles,1
+Pupo,Las Ketchup,1
+Pupo,Carmen Consoli,1
+Pupo,David Bowie,1
+Pupo,Andrea Bocelli,1
+Pupo,"[Ornella Vanoni, Gino Paoli]",1
+Pupo,Cristina D'Avena,1
+Pupo,"[Gianni Morandi, Lucio Dalla]",1
+Pupo,"[Mina, Alberto Lupo]",1
+Jvke,Tullio De Piscopo,1
+Jvke,Mitzi Green,1
+Jvke,Ray Charles,1
+Jvke,Las Ketchup,1
+Jvke,Carmen Consoli,1
+Jvke,David Bowie,1
+Jvke,Andrea Bocelli,1
+Jvke,"[Ornella Vanoni, Gino Paoli]",1
+Jvke,Cristina D'Avena,1
+Jvke,"[Gianni Morandi, Lucio Dalla]",1
+Jvke,"[Mina, Alberto Lupo]",1
+Tullio De Piscopo,Mitzi Green,1
+Tullio De Piscopo,Ray Charles,1
+Tullio De Piscopo,Las Ketchup,1
+Tullio De Piscopo,Carmen Consoli,1
+Tullio De Piscopo,David Bowie,1
+Tullio De Piscopo,Andrea Bocelli,1
+Tullio De Piscopo,"[Ornella Vanoni, Gino Paoli]",1
+Tullio De Piscopo,Cristina D'Avena,1
+Tullio De Piscopo,"[Gianni Morandi, Lucio Dalla]",1
+Tullio De Piscopo,"[Mina, Alberto Lupo]",1
+Mitzi Green,Ray Charles,1
+Mitzi Green,Las Ketchup,1
+Mitzi Green,Carmen Consoli,1
+Mitzi Green,David Bowie,1
+Mitzi Green,Andrea Bocelli,1
+Mitzi Green,"[Ornella Vanoni, Gino Paoli]",1
+Mitzi Green,Cristina D'Avena,1
+Mitzi Green,"[Gianni Morandi, Lucio Dalla]",1
+Mitzi Green,"[Mina, Alberto Lupo]",1
+Ray Charles,Las Ketchup,1
+Ray Charles,Carmen Consoli,1
+Ray Charles,David Bowie,1
+Ray Charles,Andrea Bocelli,1
+Ray Charles,"[Ornella Vanoni, Gino Paoli]",1
+Ray Charles,Cristina D'Avena,1
+Ray Charles,"[Gianni Morandi, Lucio Dalla]",1
+Ray Charles,"[Mina, Alberto Lupo]",1
+Las Ketchup,Carmen Consoli,1
+Las Ketchup,David Bowie,1
+Las Ketchup,Andrea Bocelli,1
+Las Ketchup,"[Ornella Vanoni, Gino Paoli]",1
+Las Ketchup,Cristina D'Avena,1
+Las Ketchup,"[Gianni Morandi, Lucio Dalla]",1
+Las Ketchup,"[Mina, Alberto Lupo]",1
+Carmen Consoli,David Bowie,1
+Carmen Consoli,Andrea Bocelli,1
+Carmen Consoli,"[Ornella Vanoni, Gino Paoli]",1
+Carmen Consoli,Cristina D'Avena,1
+Carmen Consoli,"[Gianni Morandi, Lucio Dalla]",1
+Carmen Consoli,"[Mina, Alberto Lupo]",1
+David Bowie,Andrea Bocelli,1
+David Bowie,"[Ornella Vanoni, Gino Paoli]",1
+David Bowie,Cristina D'Avena,1
+David Bowie,"[Gianni Morandi, Lucio Dalla]",1
+David Bowie,"[Mina, Alberto Lupo]",1
+Andrea Bocelli,"[Ornella Vanoni, Gino Paoli]",1
+Andrea Bocelli,Cristina D'Avena,1
+Andrea Bocelli,"[Gianni Morandi, Lucio Dalla]",1
+Andrea Bocelli,"[Mina, Alberto Lupo]",1
+"[Ornella Vanoni, Gino Paoli]",Cristina D'Avena,1
+"[Ornella Vanoni, Gino Paoli]","[Gianni Morandi, Lucio Dalla]",1
+"[Ornella Vanoni, Gino Paoli]","[Mina, Alberto Lupo]",1
+Cristina D'Avena,"[Gianni Morandi, Lucio Dalla]",1
+Cristina D'Avena,"[Mina, Alberto Lupo]",1
+"[Gianni Morandi, Lucio Dalla]","[Mina, Alberto Lupo]",1

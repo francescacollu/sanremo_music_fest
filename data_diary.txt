@@ -1,1 +1,6 @@
-Interesting discoveries:
+Gender angle:
+- Sankey diagram
+- Over the years, the share of female artists covered by performers has always been under 30%, with the exception of 2020 edition, when men performers covered more women artists
+- From P(original | performer): Female performers: P(original F | performer F) = 0.513, so about 51% female originals, 49% male. So female performers are roughly equally likely to cover female and male artists.
+Male performers: P(original F | performer M) = 0.108, so about 11% female originals, 89% male. So male performers lean very strongly toward covering male artists. So we can say that among F/M-only covers, female performers are close to 50–50 on covering women vs men, while male performers heavily favor covering men.
+One extra nuance: the baseline share of female originals in this set is 22.5%. So female performers are actually above that (51.3%), i.e. they cover women more than the overall mix would suggest, but the main contrast is still that male performers are far more skewed toward male originals (10.8% female) than female performers are toward female originals (51.3%). So “female performers ≈ balanced, male performers lean strongly to their own gender” is an accurate summary.

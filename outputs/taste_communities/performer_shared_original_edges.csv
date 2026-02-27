@@ -1,0 +1,251 @@
+node_a,node_b,weight
+Raf,Nina Zilli,1
+Dargen D'Amico,Patty Pravo,1
+Dargen D'Amico,Irene Grandi,1
+Patty Pravo,Irene Grandi,2
+Patty Pravo,Annalisa,1
+Patty Pravo,Lara Fabian,1
+Patty Pravo,Michele Bravi,1
+Patty Pravo,Francesco Renga,1
+Patty Pravo,Gaia,1
+Patty Pravo,"[Mahmood, Blanco]",1
+Patty Pravo,Joan Thiele,1
+Irene Grandi,Annalisa,1
+Irene Grandi,Lara Fabian,1
+Irene Grandi,Michele Bravi,1
+Irene Grandi,Francesco Renga,1
+Irene Grandi,Gaia,1
+Diodato,Colapesce Dimartino,1
+Diodato,Francesco Gabbani,1
+Diodato,Marcella Bella,1
+Diodato,Al Bano,1
+Diodato,Madame,2
+Diodato,Moreno,1
+Diodato,Clementino,1
+Diodato,Bresh,1
+Diodato,Giovanni Truppi,1
+Diodato,Nayt,1
+Diodato,Olly,1
+Colapesce Dimartino,Francesco Gabbani,1
+Colapesce Dimartino,Marcella Bella,1
+Colapesce Dimartino,Al Bano,1
+Colapesce Dimartino,Madame,1
+Colapesce Dimartino,Moreno,1
+Colapesce Dimartino,Simone Cristicchi,1
+Colapesce Dimartino,Michele Bravi,1
+Colapesce Dimartino,Ariete,1
+Francesco Gabbani,Marcella Bella,1
+Francesco Gabbani,Al Bano,1
+Francesco Gabbani,Madame,1
+Francesco Gabbani,Moreno,1
+Francesco Gabbani,Ghali,1
+Marcella Bella,Al Bano,1
+Marcella Bella,Madame,1
+Marcella Bella,Moreno,1
+Al Bano,Madame,1
+Al Bano,Moreno,1
+Madame,Moreno,1
+Madame,Clementino,1
+Madame,Bresh,1
+Madame,Giovanni Truppi,1
+Madame,Nayt,1
+Madame,Olly,1
+Lucio Corsi,Anna Tatangelo,1
+Lucio Corsi,Ermal Meta,1
+Lucio Corsi,Bluvertigo,1
+Anna Tatangelo,Ermal Meta,1
+Anna Tatangelo,Bluvertigo,1
+Ermal Meta,Bluvertigo,1
+Ermal Meta,Brunori Sas,1
+Ermal Meta,Tosca,1
+Ermal Meta,Stadio,1
+Ermal Meta,Tommaso Paradiso,1
+Ermal Meta,Mahmood,1
+Ermal Meta,Tredici Pietro,1
+J-Ax,"[Biggio, Mandelli]",1
+"[Ditonellapiaga, Rettore]",Chiara,1
+"[Ditonellapiaga, Rettore]",Pinguini Tattici Nucleari,1
+"[Ditonellapiaga, Rettore]",Malika Ayane,1
+Chiara,Pinguini Tattici Nucleari,1
+Chiara,Malika Ayane,1
+Chiara,Samurai Jay,1
+Chiara,Ghemon,1
+Chiara,Shari,1
+Pinguini Tattici Nucleari,Malika Ayane,1
+Pinguini Tattici Nucleari,Riki,1
+Pinguini Tattici Nucleari,Aiello,1
+Pinguini Tattici Nucleari,Coma Cose,1
+Pinguini Tattici Nucleari,Ricchi e Poveri,1
+Pinguini Tattici Nucleari,"[Francesca Michielin, Fedez]",1
+Pinguini Tattici Nucleari,Colla Zio,1
+Malika Ayane,Nek,1
+Malika Ayane,Fulminacci,1
+Malika Ayane,Lodovica Comello,1
+Malika Ayane,Junior Cally,1
+Malika Ayane,Rkomi,1
+Malika Ayane,Levante,1
+Nek,Fulminacci,1
+Nek,Lodovica Comello,1
+Fulminacci,Lodovica Comello,1
+Fulminacci,Random,1
+Fulminacci,Gianni Morandi,1
+Orietta Berti,"[Bugo, Morgan]",1
+Orietta Berti,Dear Jack,1
+"[Bugo, Morgan]",Dear Jack,1
+Bianca Atzei,Loredana Bertè,1
+Bianca Atzei,"[Highsnob, Hu]",1
+Bianca Atzei,Chiello,1
+Bianca Atzei,Gaia,1
+Bianca Atzei,Gianluca Grignani,1
+Loredana Bertè,"[Highsnob, Hu]",1
+Loredana Bertè,Chiello,1
+Loredana Bertè,Gaia,1
+Loredana Bertè,Gianluca Grignani,1
+"[Highsnob, Hu]",Chiello,1
+"[Highsnob, Hu]",Gaia,1
+"[Highsnob, Hu]",Gianluca Grignani,1
+Chiello,Gaia,1
+Chiello,Gianluca Grignani,1
+Gaia,Gianluca Grignani,1
+Gaia,Annalisa,1
+Gaia,Lara Fabian,1
+Gaia,Michele Bravi,1
+Gaia,Francesco Renga,1
+Gianluca Grignani,Irama,1
+Gianluca Grignani,Luchè,1
+Annalisa,Marco Masini,1
+Annalisa,Lara Fabian,1
+Annalisa,Michele Bravi,1
+Annalisa,Francesco Renga,1
+Annalisa,Rose Villain,1
+Annalisa,Levante,1
+Annalisa,Rosa Chemical,1
+Annalisa,"[Fedez, Masini]",1
+Lara Fabian,Michele Bravi,1
+Lara Fabian,Francesco Renga,1
+Michele Bravi,Francesco Renga,1
+Michele Bravi,Francesca Michielin,1
+Michele Bravi,Valerio Scanu,1
+Michele Bravi,Giusy Ferreri,1
+Michele Bravi,Rose Villain,1
+Michele Bravi,Coma Cose,1
+Michele Bravi,Negramaro,1
+Michele Bravi,Ghemon,1
+Michele Bravi,Bugo,1
+Michele Bravi,Simone Cristicchi,1
+Michele Bravi,Ariete,1
+Junior Cally,Rkomi,1
+Junior Cally,Levante,1
+Rkomi,Levante,1
+Levante,Rose Villain,1
+Levante,Rosa Chemical,1
+Levante,"[Fedez, Masini]",1
+Noemi,"[Elodie, Achille Lauro]",1
+Noemi,Achille Lauro,1
+Noemi,"[Shablo con Guè Joshua, Tormento]",1
+"[Elodie, Achille Lauro]",Achille Lauro,1
+"[Elodie, Achille Lauro]",Irama,1
+"[Elodie, Achille Lauro]",Leo Gassmann,1
+"[Elodie, Achille Lauro]",Alessio Bernabei,1
+"[Elodie, Achille Lauro]",Elodie,1
+Achille Lauro,Giordana Angi,1
+"[Giovanni Caccamo, Deborah Iurato]",Massimo Ranieri,1
+"[Giovanni Caccamo, Deborah Iurato]",Rocco Hunt,1
+"[Giovanni Caccamo, Deborah Iurato]",Arisa,1
+Massimo Ranieri,Rocco Hunt,1
+Massimo Ranieri,Arisa,1
+Rocco Hunt,Arisa,1
+Rocco Hunt,Neffa,1
+Irama,Leo Gassmann,1
+Irama,Alessio Bernabei,1
+Irama,Elodie,1
+Irama,Luchè,1
+Leo Gassmann,Alessio Bernabei,2
+Leo Gassmann,Elodie,1
+Alessio Bernabei,Elodie,1
+Elodie,Ultimo,1
+Clementino,Bresh,1
+Clementino,Giovanni Truppi,1
+Clementino,Nayt,1
+Clementino,Olly,1
+Bresh,Giovanni Truppi,1
+Bresh,Nayt,1
+Bresh,Olly,1
+Giovanni Truppi,Nayt,1
+Giovanni Truppi,Olly,1
+Nayt,Olly,1
+Francesca Michielin,Valerio Scanu,1
+Francesca Michielin,Giusy Ferreri,1
+Francesca Michielin,Rose Villain,1
+Francesca Michielin,Coma Cose,1
+Francesca Michielin,Negramaro,1
+Francesca Michielin,Ghemon,1
+Francesca Michielin,Bugo,1
+Valerio Scanu,Giusy Ferreri,1
+Valerio Scanu,Rose Villain,1
+Valerio Scanu,Coma Cose,1
+Valerio Scanu,Negramaro,1
+Valerio Scanu,Ghemon,1
+Valerio Scanu,Bugo,1
+Giusy Ferreri,Rose Villain,1
+Giusy Ferreri,Coma Cose,1
+Giusy Ferreri,Negramaro,1
+Giusy Ferreri,Ghemon,1
+Giusy Ferreri,Bugo,1
+Rose Villain,Coma Cose,1
+Rose Villain,Negramaro,1
+Rose Villain,Ghemon,1
+Rose Villain,Bugo,1
+Rose Villain,Rosa Chemical,1
+Rose Villain,"[Fedez, Masini]",1
+Coma Cose,Negramaro,1
+Coma Cose,Ghemon,1
+Coma Cose,Bugo,1
+Coma Cose,Ricchi e Poveri,1
+Negramaro,Ghemon,1
+Negramaro,Bugo,1
+Ghemon,Bugo,1
+Ghemon,Samurai Jay,1
+Ghemon,Shari,1
+Tredici Pietro,Irene Fornaciari,1
+Tredici Pietro,Gianni Morandi,1
+Tredici Pietro,Brunori Sas,1
+Tredici Pietro,Tosca,1
+Tredici Pietro,Stadio,1
+Tredici Pietro,Tommaso Paradiso,1
+Tredici Pietro,Mahmood,1
+Irene Fornaciari,Gianni Morandi,1
+Gianni Morandi,Random,1
+Lorenzo Fragola,Fabrizio Moro,1
+Lorenzo Fragola,Fiorella Mannoia,1
+Fabrizio Moro,Fiorella Mannoia,1
+Rosa Chemical,"[Fedez, Masini]",1
+Brunori Sas,Tosca,1
+Brunori Sas,Stadio,1
+Brunori Sas,Tommaso Paradiso,1
+Brunori Sas,Mahmood,1
+Tosca,Stadio,1
+Tosca,Tommaso Paradiso,1
+Tosca,Mahmood,1
+Stadio,Tommaso Paradiso,1
+Stadio,Mahmood,1
+Tommaso Paradiso,Mahmood,1
+Samurai Jay,Shari,1
+Le Vibrazioni,Paola Turci,1
+Le Vibrazioni,Anna Oxa,1
+Paola Turci,Anna Oxa,1
+Simone Cristicchi,Ariete,1
+Rancore,Giorgia,1
+Fasma,Lazza,1
+Enrico Nigiotti,Willie Peyote,1
+Willie Peyote,"[Noemi, Tony Effe]",1
+La Rappresentante di Lista,La Sad,1
+Lo Stato Sociale,Gianmaria,1
+"[Mahmood, Blanco]",Joan Thiele,1
+Will,Sal Da Vinci,1
+"[Francesca Michielin, Fedez]",Colla Zio,1
+Il Tre,Maninni,1
+Il Tre,Eddie Brock,1
+Maninni,Eddie Brock,1
+Modà,Renga Nek,1
+"[Maria Antonietta, Colombre]",Ana Mena,1
